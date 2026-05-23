@@ -1,0 +1,7892 @@
+{
+  "Bagnolet - Gallieni": [
+    {
+      "station": "Porte de Bagnolet",
+      "line": "3",
+      "time": 2,
+      "fromLat": 48.864784,
+      "fromLon": 2.417501,
+      "toLat": 48.864746,
+      "toLon": 2.409391
+    }
+  ],
+  "Porte de Bagnolet": [
+    {
+      "station": "Bagnolet - Gallieni",
+      "line": "3",
+      "time": 2,
+      "fromLat": 48.864746,
+      "fromLon": 2.409391,
+      "toLat": 48.864784,
+      "toLon": 2.417501
+    },
+    {
+      "station": "Gambetta",
+      "line": "3",
+      "time": 1.3,
+      "fromLat": 48.864746,
+      "fromLon": 2.409391,
+      "toLat": 48.865009,
+      "toLon": 2.397706
+    },
+    {
+      "station": "Gallieni",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.86454,
+      "fromLon": 2.408754,
+      "toLat": 48.865398,
+      "toLon": 2.415921
+    }
+  ],
+  "Gambetta": [
+    {
+      "station": "Porte de Bagnolet",
+      "line": "3",
+      "time": 1.3,
+      "fromLat": 48.865009,
+      "fromLon": 2.397706,
+      "toLat": 48.864746,
+      "toLon": 2.409391
+    },
+    {
+      "station": "Pelleport",
+      "line": "3bis",
+      "time": 1.3,
+      "fromLat": 48.865032,
+      "fromLon": 2.398537,
+      "toLat": 48.86842,
+      "toLon": 2.401606
+    },
+    {
+      "station": "Père Lachaise",
+      "line": "3",
+      "time": 1.5,
+      "fromLat": 48.864971,
+      "fromLon": 2.397359,
+      "toLat": 48.863041,
+      "toLon": 2.386231
+    }
+  ],
+  "Les Courtilles": [
+    {
+      "station": "Les Agnettes",
+      "line": "13",
+      "time": 6,
+      "fromLat": 48.931137,
+      "fromLon": 2.283532,
+      "toLat": 48.923061,
+      "toLon": 2.286045
+    }
+  ],
+  "Les Agnettes": [
+    {
+      "station": "Les Courtilles",
+      "line": "13",
+      "time": 6,
+      "fromLat": 48.923061,
+      "fromLon": 2.286045,
+      "toLat": 48.931137,
+      "toLon": 2.283532
+    },
+    {
+      "station": "Asnières - Gabriel Péri",
+      "line": "13",
+      "time": 7,
+      "fromLat": 48.923061,
+      "fromLon": 2.286045,
+      "toLat": 48.916519,
+      "toLon": 2.294609
+    },
+    {
+      "station": "Gabriel Péri - Métro",
+      "line": "13",
+      "time": 7,
+      "fromLat": 48.923252,
+      "fromLon": 2.286438,
+      "toLat": 48.916134,
+      "toLon": 2.295064
+    },
+    {
+      "station": "Gabriel Péri",
+      "line": "13",
+      "time": 1.6,
+      "fromLat": 48.923061,
+      "fromLon": 2.286359,
+      "toLat": 48.916615,
+      "toLon": 2.29443
+    },
+    {
+      "station": "Asnières - Gennevilliers - Les Courtilles",
+      "line": "13",
+      "time": 1.3,
+      "fromLat": 48.923061,
+      "fromLon": 2.286359,
+      "toLat": 48.930763,
+      "toLon": 2.28422
+    }
+  ],
+  "Asnières - Gabriel Péri": [
+    {
+      "station": "Les Agnettes",
+      "line": "13",
+      "time": 7,
+      "fromLat": 48.916519,
+      "fromLon": 2.294609,
+      "toLat": 48.923061,
+      "toLon": 2.286045
+    },
+    {
+      "station": "Mairie de Clichy",
+      "line": "13",
+      "time": 2,
+      "fromLat": 48.916519,
+      "fromLon": 2.294609,
+      "toLat": 48.902546,
+      "toLon": 2.30406
+    }
+  ],
+  "Mairie de Clichy": [
+    {
+      "station": "Asnières - Gabriel Péri",
+      "line": "13",
+      "time": 2,
+      "fromLat": 48.902546,
+      "fromLon": 2.30406,
+      "toLat": 48.916519,
+      "toLon": 2.294609
+    },
+    {
+      "station": "Porte de Clichy",
+      "line": "13",
+      "time": 1.6,
+      "fromLat": 48.902546,
+      "fromLon": 2.30406,
+      "toLat": 48.89452,
+      "toLon": 2.312829
+    },
+    {
+      "station": "Gabriel Péri",
+      "line": "13",
+      "time": 2.3,
+      "fromLat": 48.903973,
+      "fromLon": 2.305351,
+      "toLat": 48.916615,
+      "toLon": 2.29443
+    }
+  ],
+  "Porte de Clichy": [
+    {
+      "station": "Mairie de Clichy",
+      "line": "13",
+      "time": 1.6,
+      "fromLat": 48.89452,
+      "fromLon": 2.312829,
+      "toLat": 48.902546,
+      "toLon": 2.30406
+    },
+    {
+      "station": "Saint-Ouen",
+      "line": "14",
+      "time": 1.7,
+      "fromLat": 48.894287,
+      "fromLon": 2.313432,
+      "toLat": 48.905212,
+      "toLon": 2.32266
+    },
+    {
+      "station": "Pont Cardinet",
+      "line": "14",
+      "time": 1,
+      "fromLat": 48.894287,
+      "fromLon": 2.313432,
+      "toLat": 48.888103,
+      "toLon": 2.315191
+    },
+    {
+      "station": "Brochant",
+      "line": "13",
+      "time": 1.3,
+      "fromLat": 48.894451,
+      "fromLon": 2.31358,
+      "toLat": 48.890621,
+      "toLon": 2.32019
+    }
+  ],
+  "Paris - Porte de Clichy": [
+    {
+      "station": "Clichy - Mairie de Clichy",
+      "line": "13",
+      "time": 7,
+      "fromLat": 48.894623,
+      "fromLon": 2.313564,
+      "toLat": 48.903141,
+      "toLon": 2.306276
+    }
+  ],
+  "Clichy - Mairie de Clichy": [
+    {
+      "station": "Paris - Porte de Clichy",
+      "line": "13",
+      "time": 7,
+      "fromLat": 48.903141,
+      "fromLon": 2.306276,
+      "toLat": 48.894623,
+      "toLon": 2.313564
+    },
+    {
+      "station": "Gabriel Péri - Métro",
+      "line": "13",
+      "time": 2,
+      "fromLat": 48.903141,
+      "fromLon": 2.306276,
+      "toLat": 48.916134,
+      "toLon": 2.295064
+    }
+  ],
+  "Gabriel Péri - Métro": [
+    {
+      "station": "Clichy - Mairie de Clichy",
+      "line": "13",
+      "time": 2,
+      "fromLat": 48.916134,
+      "fromLon": 2.295064,
+      "toLat": 48.903141,
+      "toLon": 2.306276
+    },
+    {
+      "station": "Les Agnettes",
+      "line": "13",
+      "time": 7,
+      "fromLat": 48.916134,
+      "fromLon": 2.295064,
+      "toLat": 48.923252,
+      "toLon": 2.286438
+    }
+  ],
+  "Louis Blanc": [
+    {
+      "station": "Jaurès",
+      "line": "7bis",
+      "time": 1,
+      "fromLat": 48.881207,
+      "fromLon": 2.364425,
+      "toLat": 48.882343,
+      "toLon": 2.370452
+    },
+    {
+      "station": "Stalingrad",
+      "line": "7",
+      "time": 1.3,
+      "fromLat": 48.881241,
+      "fromLon": 2.364356,
+      "toLat": 48.884373,
+      "toLon": 2.368899
+    },
+    {
+      "station": "Château Landon",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.881241,
+      "fromLon": 2.364356,
+      "toLat": 48.878452,
+      "toLon": 2.362045
+    }
+  ],
+  "Jaurès": [
+    {
+      "station": "Louis Blanc",
+      "line": "7bis",
+      "time": 1,
+      "fromLat": 48.882343,
+      "fromLon": 2.370452,
+      "toLat": 48.881207,
+      "toLon": 2.364425
+    },
+    {
+      "station": "Bolivar",
+      "line": "7bis",
+      "time": 1,
+      "fromLat": 48.882343,
+      "fromLon": 2.370452,
+      "toLat": 48.880791,
+      "toLon": 2.374125
+    },
+    {
+      "station": "Stalingrad",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.881596,
+      "fromLon": 2.370154,
+      "toLat": 48.884243,
+      "toLon": 2.365752
+    },
+    {
+      "station": "Colonel Fabien",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.881596,
+      "fromLon": 2.370154,
+      "toLat": 48.877651,
+      "toLon": 2.370468
+    },
+    {
+      "station": "Laumière",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.883114,
+      "fromLon": 2.371383,
+      "toLat": 48.885201,
+      "toLon": 2.379312
+    },
+    {
+      "station": "Stalingrad",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.883114,
+      "fromLon": 2.371383,
+      "toLat": 48.884144,
+      "toLon": 2.367348
+    }
+  ],
+  "Bolivar": [
+    {
+      "station": "Jaurès",
+      "line": "7bis",
+      "time": 1,
+      "fromLat": 48.880791,
+      "fromLon": 2.374125,
+      "toLat": 48.882343,
+      "toLon": 2.370452
+    },
+    {
+      "station": "Buttes Chaumont",
+      "line": "7bis",
+      "time": 1,
+      "fromLat": 48.880791,
+      "fromLon": 2.374125,
+      "toLat": 48.878422,
+      "toLon": 2.381633
+    }
+  ],
+  "Buttes Chaumont": [
+    {
+      "station": "Bolivar",
+      "line": "7bis",
+      "time": 1,
+      "fromLat": 48.878422,
+      "fromLon": 2.381633,
+      "toLat": 48.880791,
+      "toLon": 2.374125
+    },
+    {
+      "station": "Botzaris",
+      "line": "7bis",
+      "time": 1,
+      "fromLat": 48.878422,
+      "fromLon": 2.381633,
+      "toLat": 48.879436,
+      "toLon": 2.388908
+    }
+  ],
+  "Botzaris": [
+    {
+      "station": "Buttes Chaumont",
+      "line": "7bis",
+      "time": 1,
+      "fromLat": 48.879436,
+      "fromLon": 2.388908,
+      "toLat": 48.878422,
+      "toLon": 2.381633
+    },
+    {
+      "station": "Place des Fêtes",
+      "line": "7bis",
+      "time": 1,
+      "fromLat": 48.879436,
+      "fromLon": 2.388908,
+      "toLat": 48.876938,
+      "toLon": 2.39296
+    },
+    {
+      "station": "Danube",
+      "line": "7bis",
+      "time": 1,
+      "fromLat": 48.879536,
+      "fromLon": 2.388901,
+      "toLat": 48.88195,
+      "toLon": 2.393229
+    }
+  ],
+  "Place des Fêtes": [
+    {
+      "station": "Botzaris",
+      "line": "7bis",
+      "time": 1,
+      "fromLat": 48.876938,
+      "fromLon": 2.39296,
+      "toLat": 48.879436,
+      "toLon": 2.388908
+    },
+    {
+      "station": "Pré-Saint-Gervais",
+      "line": "7bis",
+      "time": 1.7,
+      "fromLat": 48.876938,
+      "fromLon": 2.39296,
+      "toLat": 48.880161,
+      "toLon": 2.398581
+    },
+    {
+      "station": "Jourdain",
+      "line": "11",
+      "time": 1.3,
+      "fromLat": 48.876724,
+      "fromLon": 2.393139,
+      "toLat": 48.875248,
+      "toLon": 2.389325
+    },
+    {
+      "station": "Télégraphe",
+      "line": "11",
+      "time": 1,
+      "fromLat": 48.876724,
+      "fromLon": 2.393139,
+      "toLat": 48.875519,
+      "toLon": 2.398675
+    }
+  ],
+  "Pré-Saint-Gervais": [
+    {
+      "station": "Place des Fêtes",
+      "line": "7bis",
+      "time": 1.7,
+      "fromLat": 48.880161,
+      "fromLon": 2.398581,
+      "toLat": 48.876938,
+      "toLon": 2.39296
+    },
+    {
+      "station": "Danube",
+      "line": "7bis",
+      "time": 1.3,
+      "fromLat": 48.880161,
+      "fromLon": 2.398581,
+      "toLat": 48.88195,
+      "toLon": 2.393229
+    }
+  ],
+  "Danube": [
+    {
+      "station": "Pré-Saint-Gervais",
+      "line": "7bis",
+      "time": 1.3,
+      "fromLat": 48.88195,
+      "fromLon": 2.393229,
+      "toLat": 48.880161,
+      "toLon": 2.398581
+    },
+    {
+      "station": "Botzaris",
+      "line": "7bis",
+      "time": 1,
+      "fromLat": 48.88195,
+      "fromLon": 2.393229,
+      "toLat": 48.879536,
+      "toLon": 2.388901
+    }
+  ],
+  "Pelleport": [
+    {
+      "station": "Gambetta",
+      "line": "3bis",
+      "time": 1.3,
+      "fromLat": 48.86842,
+      "fromLon": 2.401606,
+      "toLat": 48.865032,
+      "toLon": 2.398537
+    },
+    {
+      "station": "Saint-Fargeau",
+      "line": "3bis",
+      "time": 1,
+      "fromLat": 48.86842,
+      "fromLon": 2.401606,
+      "toLat": 48.871845,
+      "toLon": 2.404498
+    }
+  ],
+  "Saint-Fargeau": [
+    {
+      "station": "Pelleport",
+      "line": "3bis",
+      "time": 1,
+      "fromLat": 48.871845,
+      "fromLon": 2.404498,
+      "toLat": 48.86842,
+      "toLon": 2.401606
+    },
+    {
+      "station": "Porte des Lilas",
+      "line": "3bis",
+      "time": 1,
+      "fromLat": 48.871845,
+      "fromLon": 2.404498,
+      "toLat": 48.876568,
+      "toLon": 2.407062
+    }
+  ],
+  "Porte des Lilas": [
+    {
+      "station": "Saint-Fargeau",
+      "line": "3bis",
+      "time": 1,
+      "fromLat": 48.876568,
+      "fromLon": 2.407062,
+      "toLat": 48.871845,
+      "toLon": 2.404498
+    },
+    {
+      "station": "Télégraphe",
+      "line": "11",
+      "time": 1,
+      "fromLat": 48.877232,
+      "fromLon": 2.406523,
+      "toLat": 48.875519,
+      "toLon": 2.398675
+    },
+    {
+      "station": "Mairie des Lilas",
+      "line": "11",
+      "time": 1,
+      "fromLat": 48.877232,
+      "fromLon": 2.406523,
+      "toLat": 48.879658,
+      "toLon": 2.41635
+    }
+  ],
+  "Mairie d'Aubervilliers": [
+    {
+      "station": "Aimé Césaire",
+      "line": "12",
+      "time": 1.3,
+      "fromLat": 48.913738,
+      "fromLon": 2.380783,
+      "toLat": 48.908382,
+      "toLon": 2.378036
+    }
+  ],
+  "Aimé Césaire": [
+    {
+      "station": "Mairie d'Aubervilliers",
+      "line": "12",
+      "time": 1.3,
+      "fromLat": 48.908382,
+      "fromLon": 2.378036,
+      "toLat": 48.913738,
+      "toLon": 2.380783
+    },
+    {
+      "station": "Front Populaire",
+      "line": "12",
+      "time": 1.6,
+      "fromLat": 48.908382,
+      "fromLon": 2.378036,
+      "toLat": 48.906761,
+      "toLon": 2.365777
+    }
+  ],
+  "Front Populaire": [
+    {
+      "station": "Aimé Césaire",
+      "line": "12",
+      "time": 1.6,
+      "fromLat": 48.906761,
+      "fromLon": 2.365777,
+      "toLat": 48.908382,
+      "toLon": 2.378036
+    },
+    {
+      "station": "Porte de la Chapelle",
+      "line": "12",
+      "time": 2.3,
+      "fromLat": 48.906761,
+      "fromLon": 2.365777,
+      "toLat": 48.897411,
+      "toLon": 2.359104
+    }
+  ],
+  "Porte de la Chapelle": [
+    {
+      "station": "Front Populaire",
+      "line": "12",
+      "time": 2.3,
+      "fromLat": 48.897411,
+      "fromLon": 2.359104,
+      "toLat": 48.906761,
+      "toLon": 2.365777
+    },
+    {
+      "station": "Marx Dormoy",
+      "line": "12",
+      "time": 1.4,
+      "fromLat": 48.897411,
+      "fromLon": 2.359104,
+      "toLat": 48.890579,
+      "toLon": 2.359808
+    }
+  ],
+  "Marx Dormoy": [
+    {
+      "station": "Porte de la Chapelle",
+      "line": "12",
+      "time": 1.4,
+      "fromLat": 48.890579,
+      "fromLon": 2.359808,
+      "toLat": 48.897411,
+      "toLon": 2.359104
+    },
+    {
+      "station": "Marcadet - Poissonniers",
+      "line": "12",
+      "time": 1.5,
+      "fromLat": 48.890579,
+      "fromLon": 2.359808,
+      "toLat": 48.891548,
+      "toLon": 2.350025
+    }
+  ],
+  "Marcadet - Poissonniers": [
+    {
+      "station": "Marx Dormoy",
+      "line": "12",
+      "time": 1.5,
+      "fromLat": 48.891548,
+      "fromLon": 2.350025,
+      "toLat": 48.890579,
+      "toLon": 2.359808
+    },
+    {
+      "station": "Jules Joffrin",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.891548,
+      "fromLon": 2.350025,
+      "toLat": 48.89249,
+      "toLon": 2.34432
+    },
+    {
+      "station": "Simplon",
+      "line": "4",
+      "time": 1.3,
+      "fromLat": 48.891281,
+      "fromLon": 2.349545,
+      "toLat": 48.893814,
+      "toLon": 2.347795
+    },
+    {
+      "station": "Château Rouge",
+      "line": "4",
+      "time": 1.3,
+      "fromLat": 48.891281,
+      "fromLon": 2.349545,
+      "toLat": 48.887077,
+      "toLon": 2.349366
+    }
+  ],
+  "Jules Joffrin": [
+    {
+      "station": "Marcadet - Poissonniers",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.89249,
+      "fromLon": 2.34432,
+      "toLat": 48.891548,
+      "toLon": 2.350025
+    },
+    {
+      "station": "Lamarck - Caulaincourt",
+      "line": "12",
+      "time": 1.3,
+      "fromLat": 48.89249,
+      "fromLon": 2.34432,
+      "toLat": 48.889698,
+      "toLon": 2.338464
+    }
+  ],
+  "Lamarck - Caulaincourt": [
+    {
+      "station": "Jules Joffrin",
+      "line": "12",
+      "time": 1.3,
+      "fromLat": 48.889698,
+      "fromLon": 2.338464,
+      "toLat": 48.89249,
+      "toLon": 2.34432
+    },
+    {
+      "station": "Abbesses",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.889698,
+      "fromLon": 2.338464,
+      "toLat": 48.884392,
+      "toLon": 2.338395
+    }
+  ],
+  "Abbesses": [
+    {
+      "station": "Lamarck - Caulaincourt",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.884392,
+      "fromLon": 2.338395,
+      "toLat": 48.889698,
+      "toLon": 2.338464
+    },
+    {
+      "station": "Pigalle",
+      "line": "12",
+      "time": 1.3,
+      "fromLat": 48.884392,
+      "fromLon": 2.338395,
+      "toLat": 48.882019,
+      "toLon": 2.337211
+    }
+  ],
+  "Pigalle": [
+    {
+      "station": "Abbesses",
+      "line": "12",
+      "time": 1.3,
+      "fromLat": 48.882019,
+      "fromLon": 2.337211,
+      "toLat": 48.884392,
+      "toLon": 2.338395
+    },
+    {
+      "station": "Saint-Georges",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.882019,
+      "fromLon": 2.337211,
+      "toLat": 48.878361,
+      "toLon": 2.337455
+    },
+    {
+      "station": "Blanche",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.882198,
+      "fromLon": 2.338218,
+      "toLat": 48.883766,
+      "toLon": 2.332484
+    },
+    {
+      "station": "Anvers",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.882198,
+      "fromLon": 2.338218,
+      "toLat": 48.88287,
+      "toLon": 2.344155
+    }
+  ],
+  "Saint-Georges": [
+    {
+      "station": "Pigalle",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.878361,
+      "fromLon": 2.337455,
+      "toLat": 48.882019,
+      "toLon": 2.337211
+    },
+    {
+      "station": "Notre-Dame-de-Lorette",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.878361,
+      "fromLon": 2.337455,
+      "toLat": 48.876034,
+      "toLon": 2.337874
+    }
+  ],
+  "Notre-Dame-de-Lorette": [
+    {
+      "station": "Saint-Georges",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.876034,
+      "fromLon": 2.337874,
+      "toLat": 48.878361,
+      "toLon": 2.337455
+    },
+    {
+      "station": "Trinité - d'Estienne d'Orves",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.876034,
+      "fromLon": 2.337874,
+      "toLat": 48.876335,
+      "toLon": 2.333049
+    }
+  ],
+  "Trinité - d'Estienne d'Orves": [
+    {
+      "station": "Notre-Dame-de-Lorette",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.876335,
+      "fromLon": 2.333049,
+      "toLat": 48.876034,
+      "toLon": 2.337874
+    },
+    {
+      "station": "Saint-Lazare",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.876335,
+      "fromLon": 2.333049,
+      "toLat": 48.87569,
+      "toLon": 2.327448
+    }
+  ],
+  "Saint-Lazare": [
+    {
+      "station": "Trinité - d'Estienne d'Orves",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.87569,
+      "fromLon": 2.327448,
+      "toLat": 48.876335,
+      "toLon": 2.333049
+    },
+    {
+      "station": "Madeleine",
+      "line": "12",
+      "time": 1.5,
+      "fromLat": 48.87569,
+      "fromLon": 2.327448,
+      "toLat": 48.870056,
+      "toLon": 2.325039
+    },
+    {
+      "station": "Pont Cardinet",
+      "line": "14",
+      "time": 2,
+      "fromLat": 48.87566,
+      "fromLon": 2.324026,
+      "toLat": 48.888103,
+      "toLon": 2.315191
+    },
+    {
+      "station": "Madeleine",
+      "line": "14",
+      "time": 1,
+      "fromLat": 48.87566,
+      "fromLon": 2.324026,
+      "toLat": 48.870544,
+      "toLon": 2.32581
+    },
+    {
+      "station": "Havre-Caumartin",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.875027,
+      "fromLon": 2.324607,
+      "toLat": 48.87355,
+      "toLon": 2.327559
+    },
+    {
+      "station": "Europe",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.875027,
+      "fromLon": 2.324607,
+      "toLat": 48.87878,
+      "toLon": 2.322295
+    },
+    {
+      "station": "Miromesnil",
+      "line": "13",
+      "time": 2,
+      "fromLat": 48.875259,
+      "fromLon": 2.324631,
+      "toLat": 48.873314,
+      "toLon": 2.314649
+    },
+    {
+      "station": "Liège",
+      "line": "13",
+      "time": 1.4,
+      "fromLat": 48.875259,
+      "fromLon": 2.324631,
+      "toLat": 48.879177,
+      "toLon": 2.327048
+    }
+  ],
+  "Madeleine": [
+    {
+      "station": "Saint-Lazare",
+      "line": "12",
+      "time": 1.5,
+      "fromLat": 48.870056,
+      "fromLon": 2.325039,
+      "toLat": 48.87569,
+      "toLon": 2.327448
+    },
+    {
+      "station": "Concorde",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.870056,
+      "fromLon": 2.325039,
+      "toLat": 48.86618,
+      "toLon": 2.323058
+    },
+    {
+      "station": "Saint-Lazare",
+      "line": "14",
+      "time": 1,
+      "fromLat": 48.870544,
+      "fromLon": 2.32581,
+      "toLat": 48.87566,
+      "toLon": 2.324026
+    },
+    {
+      "station": "Pyramides",
+      "line": "14",
+      "time": 1,
+      "fromLat": 48.870544,
+      "fromLon": 2.32581,
+      "toLat": 48.865757,
+      "toLon": 2.334624
+    },
+    {
+      "station": "Opéra",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.869648,
+      "fromLon": 2.32597,
+      "toLat": 48.870667,
+      "toLon": 2.332094
+    },
+    {
+      "station": "Concorde",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.869648,
+      "fromLon": 2.32597,
+      "toLat": 48.866562,
+      "toLon": 2.321915
+    }
+  ],
+  "Concorde": [
+    {
+      "station": "Madeleine",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.86618,
+      "fromLon": 2.323058,
+      "toLat": 48.870056,
+      "toLon": 2.325039
+    },
+    {
+      "station": "Assemblée Nationale",
+      "line": "12",
+      "time": 1.3,
+      "fromLat": 48.86618,
+      "fromLon": 2.323058,
+      "toLat": 48.861073,
+      "toLon": 2.320576
+    },
+    {
+      "station": "Champs-Élysées - Clemenceau",
+      "line": "1",
+      "time": 1.3,
+      "fromLat": 48.866112,
+      "fromLon": 2.324532,
+      "toLat": 48.86763,
+      "toLon": 2.314315
+    },
+    {
+      "station": "Tuileries",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.866112,
+      "fromLon": 2.324532,
+      "toLat": 48.864647,
+      "toLon": 2.329049
+    },
+    {
+      "station": "Madeleine",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.866562,
+      "fromLon": 2.321915,
+      "toLat": 48.869648,
+      "toLon": 2.32597
+    },
+    {
+      "station": "Invalides",
+      "line": "8",
+      "time": 1.4,
+      "fromLat": 48.866562,
+      "fromLon": 2.321915,
+      "toLat": 48.861092,
+      "toLon": 2.314633
+    }
+  ],
+  "Assemblée Nationale": [
+    {
+      "station": "Concorde",
+      "line": "12",
+      "time": 1.3,
+      "fromLat": 48.861073,
+      "fromLon": 2.320576,
+      "toLat": 48.86618,
+      "toLon": 2.323058
+    },
+    {
+      "station": "Solférino",
+      "line": "12",
+      "time": 1.3,
+      "fromLat": 48.861073,
+      "fromLon": 2.320576,
+      "toLat": 48.858532,
+      "toLon": 2.323076
+    }
+  ],
+  "Solférino": [
+    {
+      "station": "Assemblée Nationale",
+      "line": "12",
+      "time": 1.3,
+      "fromLat": 48.858532,
+      "fromLon": 2.323076,
+      "toLat": 48.861073,
+      "toLon": 2.320576
+    },
+    {
+      "station": "Rue du Bac",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.858532,
+      "fromLon": 2.323076,
+      "toLat": 48.855885,
+      "toLon": 2.3257
+    }
+  ],
+  "Rue du Bac": [
+    {
+      "station": "Solférino",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.855885,
+      "fromLon": 2.3257,
+      "toLat": 48.858532,
+      "toLon": 2.323076
+    },
+    {
+      "station": "Sèvres - Babylone",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.855885,
+      "fromLon": 2.3257,
+      "toLat": 48.851566,
+      "toLon": 2.32686
+    }
+  ],
+  "Sèvres - Babylone": [
+    {
+      "station": "Rue du Bac",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.851566,
+      "fromLon": 2.32686,
+      "toLat": 48.855885,
+      "toLon": 2.3257
+    },
+    {
+      "station": "Rennes",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.851566,
+      "fromLon": 2.32686,
+      "toLat": 48.848331,
+      "toLon": 2.327787
+    },
+    {
+      "station": "Mabillon",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.851124,
+      "fromLon": 2.326149,
+      "toLat": 48.852959,
+      "toLon": 2.335087
+    },
+    {
+      "station": "Vaneau",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.851124,
+      "fromLon": 2.326149,
+      "toLat": 48.848896,
+      "toLon": 2.321351
+    }
+  ],
+  "Rennes": [
+    {
+      "station": "Sèvres - Babylone",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.848331,
+      "fromLon": 2.327787,
+      "toLat": 48.851566,
+      "toLon": 2.32686
+    },
+    {
+      "station": "Notre-Dame-des-Champs",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.848331,
+      "fromLon": 2.327787,
+      "toLat": 48.845081,
+      "toLon": 2.328565
+    }
+  ],
+  "Notre-Dame-des-Champs": [
+    {
+      "station": "Rennes",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.845081,
+      "fromLon": 2.328565,
+      "toLat": 48.848331,
+      "toLon": 2.327787
+    },
+    {
+      "station": "Montparnasse Bienvenue",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.845081,
+      "fromLon": 2.328565,
+      "toLat": 48.843822,
+      "toLon": 2.323989
+    }
+  ],
+  "Montparnasse Bienvenue": [
+    {
+      "station": "Notre-Dame-des-Champs",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.843822,
+      "fromLon": 2.323989,
+      "toLat": 48.845081,
+      "toLon": 2.328565
+    },
+    {
+      "station": "Falguière",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.843822,
+      "fromLon": 2.323989,
+      "toLat": 48.844444,
+      "toLon": 2.317509
+    },
+    {
+      "station": "Saint-Placide",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.843853,
+      "fromLon": 2.324329,
+      "toLat": 48.847042,
+      "toLon": 2.32685
+    },
+    {
+      "station": "Vavin",
+      "line": "4",
+      "time": 1.4,
+      "fromLat": 48.843853,
+      "fromLon": 2.324329,
+      "toLat": 48.842052,
+      "toLon": 2.328863
+    },
+    {
+      "station": "Pasteur",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.842056,
+      "fromLon": 2.321273,
+      "toLat": 48.842484,
+      "toLon": 2.312793
+    },
+    {
+      "station": "Edgar Quinet",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.842056,
+      "fromLon": 2.321273,
+      "toLat": 48.840904,
+      "toLon": 2.325287
+    },
+    {
+      "station": "Gaîté",
+      "line": "13",
+      "time": 1,
+      "fromLat": 48.842136,
+      "fromLon": 2.32115,
+      "toLat": 48.838779,
+      "toLon": 2.322529
+    },
+    {
+      "station": "Duroc",
+      "line": "13",
+      "time": 1.3,
+      "fromLat": 48.842136,
+      "fromLon": 2.32115,
+      "toLat": 48.847843,
+      "toLon": 2.316061
+    }
+  ],
+  "Falguière": [
+    {
+      "station": "Montparnasse Bienvenue",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.844444,
+      "fromLon": 2.317509,
+      "toLat": 48.843822,
+      "toLon": 2.323989
+    },
+    {
+      "station": "Pasteur",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.844444,
+      "fromLon": 2.317509,
+      "toLat": 48.842957,
+      "toLon": 2.312555
+    }
+  ],
+  "Pasteur": [
+    {
+      "station": "Falguière",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.842957,
+      "fromLon": 2.312555,
+      "toLat": 48.844444,
+      "toLon": 2.317509
+    },
+    {
+      "station": "Volontaires",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.842957,
+      "fromLon": 2.312555,
+      "toLat": 48.84153,
+      "toLon": 2.307914
+    },
+    {
+      "station": "Sèvres-Lecourbe",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.842484,
+      "fromLon": 2.312793,
+      "toLat": 48.845585,
+      "toLon": 2.309468
+    },
+    {
+      "station": "Montparnasse Bienvenue",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.842484,
+      "fromLon": 2.312793,
+      "toLat": 48.842056,
+      "toLon": 2.321273
+    }
+  ],
+  "Volontaires": [
+    {
+      "station": "Pasteur",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.84153,
+      "fromLon": 2.307914,
+      "toLat": 48.842957,
+      "toLon": 2.312555
+    },
+    {
+      "station": "Vaugirard",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.84153,
+      "fromLon": 2.307914,
+      "toLat": 48.839535,
+      "toLon": 2.300978
+    }
+  ],
+  "Vaugirard": [
+    {
+      "station": "Volontaires",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.839535,
+      "fromLon": 2.300978,
+      "toLat": 48.84153,
+      "toLon": 2.307914
+    },
+    {
+      "station": "Convention",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.839535,
+      "fromLon": 2.300978,
+      "toLat": 48.837135,
+      "toLon": 2.296391
+    }
+  ],
+  "Convention": [
+    {
+      "station": "Vaugirard",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.837135,
+      "fromLon": 2.296391,
+      "toLat": 48.839535,
+      "toLon": 2.300978
+    },
+    {
+      "station": "Porte de Versailles",
+      "line": "12",
+      "time": 1.5,
+      "fromLat": 48.837135,
+      "fromLon": 2.296391,
+      "toLat": 48.83252,
+      "toLon": 2.287742
+    }
+  ],
+  "Porte de Versailles": [
+    {
+      "station": "Convention",
+      "line": "12",
+      "time": 1.5,
+      "fromLat": 48.83252,
+      "fromLon": 2.287742,
+      "toLat": 48.837135,
+      "toLon": 2.296391
+    },
+    {
+      "station": "Corentin Celton",
+      "line": "12",
+      "time": 1.5,
+      "fromLat": 48.83252,
+      "fromLon": 2.287742,
+      "toLat": 48.826824,
+      "toLon": 2.278959
+    }
+  ],
+  "Corentin Celton": [
+    {
+      "station": "Porte de Versailles",
+      "line": "12",
+      "time": 1.5,
+      "fromLat": 48.826824,
+      "fromLon": 2.278959,
+      "toLat": 48.83252,
+      "toLon": 2.287742
+    },
+    {
+      "station": "Mairie d'Issy",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.826824,
+      "fromLon": 2.278959,
+      "toLat": 48.824345,
+      "toLon": 2.273558
+    }
+  ],
+  "Mairie d'Issy": [
+    {
+      "station": "Corentin Celton",
+      "line": "12",
+      "time": 1,
+      "fromLat": 48.824345,
+      "fromLon": 2.273558,
+      "toLat": 48.826824,
+      "toLon": 2.278959
+    }
+  ],
+  "Pont de Sèvres": [
+    {
+      "station": "Billancourt",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.829689,
+      "fromLon": 2.230519,
+      "toLat": 48.831829,
+      "toLon": 2.237966
+    },
+    {
+      "station": "Porte de Saint-Cloud",
+      "line": "9",
+      "time": 4,
+      "fromLat": 48.829845,
+      "fromLon": 2.229929,
+      "toLat": 48.837997,
+      "toLon": 2.256789
+    }
+  ],
+  "Billancourt": [
+    {
+      "station": "Pont de Sèvres",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.831829,
+      "fromLon": 2.237966,
+      "toLat": 48.829689,
+      "toLon": 2.230519
+    },
+    {
+      "station": "Marcel Sembat",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.831829,
+      "fromLon": 2.237966,
+      "toLat": 48.833591,
+      "toLon": 2.243583
+    }
+  ],
+  "Marcel Sembat": [
+    {
+      "station": "Billancourt",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.833591,
+      "fromLon": 2.243583,
+      "toLat": 48.831829,
+      "toLon": 2.237966
+    },
+    {
+      "station": "Porte de Saint-Cloud",
+      "line": "9",
+      "time": 2,
+      "fromLat": 48.833591,
+      "fromLon": 2.243583,
+      "toLat": 48.837959,
+      "toLon": 2.257046
+    }
+  ],
+  "Porte de Saint-Cloud": [
+    {
+      "station": "Marcel Sembat",
+      "line": "9",
+      "time": 2,
+      "fromLat": 48.837959,
+      "fromLon": 2.257046,
+      "toLat": 48.833591,
+      "toLon": 2.243583
+    },
+    {
+      "station": "Exelmans",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.837959,
+      "fromLon": 2.257046,
+      "toLat": 48.842579,
+      "toLon": 2.259801
+    },
+    {
+      "station": "Pont de Sèvres",
+      "line": "9",
+      "time": 4,
+      "fromLat": 48.837997,
+      "fromLon": 2.256789,
+      "toLat": 48.829845,
+      "toLon": 2.229929
+    }
+  ],
+  "Exelmans": [
+    {
+      "station": "Porte de Saint-Cloud",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.842579,
+      "fromLon": 2.259801,
+      "toLat": 48.837959,
+      "toLon": 2.257046
+    },
+    {
+      "station": "Michel-Ange - Molitor",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.842579,
+      "fromLon": 2.259801,
+      "toLat": 48.844879,
+      "toLon": 2.261631
+    }
+  ],
+  "Michel-Ange - Molitor": [
+    {
+      "station": "Exelmans",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.844879,
+      "fromLon": 2.261631,
+      "toLat": 48.842579,
+      "toLon": 2.259801
+    },
+    {
+      "station": "Michel-Ange - Auteuil",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.844879,
+      "fromLon": 2.261631,
+      "toLat": 48.847679,
+      "toLon": 2.263939
+    },
+    {
+      "station": "Porte d'Auteuil",
+      "line": "10",
+      "time": 2,
+      "fromLat": 48.845158,
+      "fromLon": 2.261822,
+      "toLat": 48.847904,
+      "toLon": 2.258281
+    },
+    {
+      "station": "Chardon-Lagache",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.845158,
+      "fromLon": 2.261822,
+      "toLat": 48.845089,
+      "toLon": 2.266906
+    },
+    {
+      "station": "Boulogne Jean Jaurès",
+      "line": "10",
+      "time": 2,
+      "fromLat": 48.845158,
+      "fromLon": 2.261822,
+      "toLat": 48.841991,
+      "toLon": 2.239078
+    }
+  ],
+  "Michel-Ange - Auteuil": [
+    {
+      "station": "Michel-Ange - Molitor",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.847679,
+      "fromLon": 2.263939,
+      "toLat": 48.844879,
+      "toLon": 2.261631
+    },
+    {
+      "station": "Jasmin",
+      "line": "9",
+      "time": 1.3,
+      "fromLat": 48.847679,
+      "fromLon": 2.263939,
+      "toLat": 48.852463,
+      "toLon": 2.268219
+    },
+    {
+      "station": "Église d'Auteuil",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.847977,
+      "fromLon": 2.263989,
+      "toLat": 48.847145,
+      "toLon": 2.269111
+    },
+    {
+      "station": "Porte d'Auteuil",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.847977,
+      "fromLon": 2.263989,
+      "toLat": 48.848129,
+      "toLon": 2.258264
+    }
+  ],
+  "Jasmin": [
+    {
+      "station": "Michel-Ange - Auteuil",
+      "line": "9",
+      "time": 1.3,
+      "fromLat": 48.852463,
+      "fromLon": 2.268219,
+      "toLat": 48.847679,
+      "toLon": 2.263939
+    },
+    {
+      "station": "Ranelagh",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.852463,
+      "fromLon": 2.268219,
+      "toLat": 48.855305,
+      "toLon": 2.270033
+    }
+  ],
+  "Ranelagh": [
+    {
+      "station": "Jasmin",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.855305,
+      "fromLon": 2.270033,
+      "toLat": 48.852463,
+      "toLon": 2.268219
+    },
+    {
+      "station": "La Muette",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.855305,
+      "fromLon": 2.270033,
+      "toLat": 48.858093,
+      "toLon": 2.274096
+    }
+  ],
+  "La Muette": [
+    {
+      "station": "Ranelagh",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.858093,
+      "fromLon": 2.274096,
+      "toLat": 48.855305,
+      "toLon": 2.270033
+    },
+    {
+      "station": "Rue de la Pompe",
+      "line": "9",
+      "time": 1.7,
+      "fromLat": 48.858093,
+      "fromLon": 2.274096,
+      "toLat": 48.863953,
+      "toLon": 2.277886
+    }
+  ],
+  "Rue de la Pompe": [
+    {
+      "station": "La Muette",
+      "line": "9",
+      "time": 1.7,
+      "fromLat": 48.863953,
+      "fromLon": 2.277886,
+      "toLat": 48.858093,
+      "toLon": 2.274096
+    },
+    {
+      "station": "Trocadéro",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.863953,
+      "fromLon": 2.277886,
+      "toLat": 48.863087,
+      "toLon": 2.28684
+    }
+  ],
+  "Trocadéro": [
+    {
+      "station": "Rue de la Pompe",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.863087,
+      "fromLon": 2.28684,
+      "toLat": 48.863953,
+      "toLon": 2.277886
+    },
+    {
+      "station": "Iéna",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.863087,
+      "fromLon": 2.28684,
+      "toLat": 48.864685,
+      "toLon": 2.293906
+    },
+    {
+      "station": "Boissière",
+      "line": "6",
+      "time": 1.3,
+      "fromLat": 48.863487,
+      "fromLon": 2.287493,
+      "toLat": 48.866848,
+      "toLon": 2.290033
+    },
+    {
+      "station": "Passy",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.863487,
+      "fromLon": 2.287493,
+      "toLat": 48.857533,
+      "toLon": 2.28558
+    }
+  ],
+  "Iéna": [
+    {
+      "station": "Trocadéro",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.864685,
+      "fromLon": 2.293906,
+      "toLat": 48.863087,
+      "toLon": 2.28684
+    },
+    {
+      "station": "Alma - Marceau",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.864685,
+      "fromLon": 2.293906,
+      "toLat": 48.864647,
+      "toLon": 2.301104
+    }
+  ],
+  "Alma - Marceau": [
+    {
+      "station": "Iéna",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.864647,
+      "fromLon": 2.301104,
+      "toLat": 48.864685,
+      "toLon": 2.293906
+    },
+    {
+      "station": "Franklin D. Roosevelt",
+      "line": "9",
+      "time": 1.4,
+      "fromLat": 48.864647,
+      "fromLon": 2.301104,
+      "toLat": 48.868664,
+      "toLon": 2.309574
+    }
+  ],
+  "Franklin D. Roosevelt": [
+    {
+      "station": "Alma - Marceau",
+      "line": "9",
+      "time": 1.4,
+      "fromLat": 48.868664,
+      "fromLon": 2.309574,
+      "toLat": 48.864647,
+      "toLon": 2.301104
+    },
+    {
+      "station": "Saint-Philippe-du-Roule",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.868664,
+      "fromLon": 2.309574,
+      "toLat": 48.872154,
+      "toLon": 2.310137
+    },
+    {
+      "station": "George V",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.869049,
+      "fromLon": 2.309729,
+      "toLat": 48.872063,
+      "toLon": 2.300296
+    },
+    {
+      "station": "Champs-Élysées - Clemenceau",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.869049,
+      "fromLon": 2.309729,
+      "toLat": 48.86763,
+      "toLon": 2.314315
+    }
+  ],
+  "Saint-Philippe-du-Roule": [
+    {
+      "station": "Franklin D. Roosevelt",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.872154,
+      "fromLon": 2.310137,
+      "toLat": 48.868664,
+      "toLon": 2.309574
+    },
+    {
+      "station": "Miromesnil",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.872154,
+      "fromLon": 2.310137,
+      "toLat": 48.873692,
+      "toLon": 2.314677
+    }
+  ],
+  "Miromesnil": [
+    {
+      "station": "Saint-Philippe-du-Roule",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.873692,
+      "fromLon": 2.314677,
+      "toLat": 48.872154,
+      "toLon": 2.310137
+    },
+    {
+      "station": "Saint-Augustin",
+      "line": "9",
+      "time": 1.3,
+      "fromLat": 48.873692,
+      "fromLon": 2.314677,
+      "toLat": 48.874546,
+      "toLon": 2.321014
+    },
+    {
+      "station": "Champs-Élysées - Clemenceau",
+      "line": "13",
+      "time": 1.4,
+      "fromLat": 48.873314,
+      "fromLon": 2.314649,
+      "toLat": 48.867374,
+      "toLon": 2.31395
+    },
+    {
+      "station": "Saint-Lazare",
+      "line": "13",
+      "time": 2,
+      "fromLat": 48.873314,
+      "fromLon": 2.314649,
+      "toLat": 48.875259,
+      "toLon": 2.324631
+    }
+  ],
+  "Saint-Augustin": [
+    {
+      "station": "Miromesnil",
+      "line": "9",
+      "time": 1.3,
+      "fromLat": 48.874546,
+      "fromLon": 2.321014,
+      "toLat": 48.873692,
+      "toLon": 2.314677
+    },
+    {
+      "station": "Havre-Caumartin",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.874546,
+      "fromLon": 2.321014,
+      "toLat": 48.873665,
+      "toLon": 2.327651
+    }
+  ],
+  "Havre-Caumartin": [
+    {
+      "station": "Saint-Augustin",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.873665,
+      "fromLon": 2.327651,
+      "toLat": 48.874546,
+      "toLon": 2.321014
+    },
+    {
+      "station": "Chaussée d'Antin - La Fayette",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.873665,
+      "fromLon": 2.327651,
+      "toLat": 48.872807,
+      "toLon": 2.333971
+    },
+    {
+      "station": "Opéra",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.87355,
+      "fromLon": 2.327559,
+      "toLat": 48.87151,
+      "toLon": 2.331129
+    },
+    {
+      "station": "Saint-Lazare",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.87355,
+      "fromLon": 2.327559,
+      "toLat": 48.875027,
+      "toLon": 2.324607
+    }
+  ],
+  "Chaussée d'Antin - La Fayette": [
+    {
+      "station": "Havre-Caumartin",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.872807,
+      "fromLon": 2.333971,
+      "toLat": 48.873665,
+      "toLon": 2.327651
+    },
+    {
+      "station": "Richelieu - Drouot",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.872807,
+      "fromLon": 2.333971,
+      "toLat": 48.872135,
+      "toLon": 2.338591
+    },
+    {
+      "station": "Le Peletier",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.873199,
+      "fromLon": 2.33367,
+      "toLat": 48.874958,
+      "toLon": 2.340151
+    },
+    {
+      "station": "Opéra",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.873199,
+      "fromLon": 2.33367,
+      "toLat": 48.870304,
+      "toLon": 2.332439
+    }
+  ],
+  "Richelieu - Drouot": [
+    {
+      "station": "Chaussée d'Antin - La Fayette",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.872135,
+      "fromLon": 2.338591,
+      "toLat": 48.872807,
+      "toLon": 2.333971
+    },
+    {
+      "station": "Grands Boulevards",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.872135,
+      "fromLon": 2.338591,
+      "toLat": 48.871414,
+      "toLon": 2.343168
+    },
+    {
+      "station": "Grands Boulevards",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.871738,
+      "fromLon": 2.338419,
+      "toLat": 48.871601,
+      "toLon": 2.342892
+    },
+    {
+      "station": "Opéra",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.871738,
+      "fromLon": 2.338419,
+      "toLat": 48.870667,
+      "toLon": 2.332094
+    }
+  ],
+  "Grands Boulevards": [
+    {
+      "station": "Richelieu - Drouot",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.871414,
+      "fromLon": 2.343168,
+      "toLat": 48.872135,
+      "toLon": 2.338591
+    },
+    {
+      "station": "Bonne Nouvelle",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.871414,
+      "fromLon": 2.343168,
+      "toLat": 48.870491,
+      "toLon": 2.348429
+    },
+    {
+      "station": "Bonne Nouvelle",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.871601,
+      "fromLon": 2.342892,
+      "toLat": 48.870636,
+      "toLon": 2.348576
+    },
+    {
+      "station": "Richelieu - Drouot",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.871601,
+      "fromLon": 2.342892,
+      "toLat": 48.871738,
+      "toLon": 2.338419
+    }
+  ],
+  "Bonne Nouvelle": [
+    {
+      "station": "Grands Boulevards",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.870491,
+      "fromLon": 2.348429,
+      "toLat": 48.871414,
+      "toLon": 2.343168
+    },
+    {
+      "station": "Strasbourg - Saint-Denis",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.870491,
+      "fromLon": 2.348429,
+      "toLat": 48.86935,
+      "toLon": 2.353732
+    },
+    {
+      "station": "Strasbourg - Saint-Denis",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.870636,
+      "fromLon": 2.348576,
+      "toLat": 48.869469,
+      "toLon": 2.353797
+    },
+    {
+      "station": "Grands Boulevards",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.870636,
+      "fromLon": 2.348576,
+      "toLat": 48.871601,
+      "toLon": 2.342892
+    }
+  ],
+  "Strasbourg - Saint-Denis": [
+    {
+      "station": "Bonne Nouvelle",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.86935,
+      "fromLon": 2.353732,
+      "toLat": 48.870491,
+      "toLon": 2.348429
+    },
+    {
+      "station": "République",
+      "line": "9",
+      "time": 1.5,
+      "fromLat": 48.86935,
+      "fromLon": 2.353732,
+      "toLat": 48.867393,
+      "toLon": 2.363121
+    },
+    {
+      "station": "République",
+      "line": "8",
+      "time": 1.5,
+      "fromLat": 48.869469,
+      "fromLon": 2.353797,
+      "toLat": 48.867485,
+      "toLon": 2.363256
+    },
+    {
+      "station": "Bonne Nouvelle",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.869469,
+      "fromLon": 2.353797,
+      "toLat": 48.870636,
+      "toLon": 2.348576
+    },
+    {
+      "station": "Château d'Eau",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.869667,
+      "fromLon": 2.354341,
+      "toLat": 48.872475,
+      "toLon": 2.355901
+    },
+    {
+      "station": "Réaumur - Sébastopol",
+      "line": "4",
+      "time": 1.3,
+      "fromLat": 48.869667,
+      "fromLon": 2.354341,
+      "toLat": 48.866077,
+      "toLon": 2.352382
+    }
+  ],
+  "République": [
+    {
+      "station": "Strasbourg - Saint-Denis",
+      "line": "9",
+      "time": 1.5,
+      "fromLat": 48.867393,
+      "fromLon": 2.363121,
+      "toLat": 48.86935,
+      "toLon": 2.353732
+    },
+    {
+      "station": "Oberkampf",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.867393,
+      "fromLon": 2.363121,
+      "toLat": 48.864777,
+      "toLon": 2.368156
+    },
+    {
+      "station": "Parmentier",
+      "line": "3",
+      "time": 1.3,
+      "fromLat": 48.867203,
+      "fromLon": 2.364333,
+      "toLat": 48.865242,
+      "toLon": 2.374721
+    },
+    {
+      "station": "Temple",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.867203,
+      "fromLon": 2.364333,
+      "toLat": 48.866756,
+      "toLon": 2.361561
+    },
+    {
+      "station": "Filles du Calvaire",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.867485,
+      "fromLon": 2.363256,
+      "toLat": 48.863087,
+      "toLon": 2.366827
+    },
+    {
+      "station": "Strasbourg - Saint-Denis",
+      "line": "8",
+      "time": 1.5,
+      "fromLat": 48.867485,
+      "fromLon": 2.363256,
+      "toLat": 48.869469,
+      "toLon": 2.353797
+    },
+    {
+      "station": "Jacques Bonsergent",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.867687,
+      "fromLon": 2.364099,
+      "toLat": 48.870621,
+      "toLon": 2.361024
+    },
+    {
+      "station": "Oberkampf",
+      "line": "5",
+      "time": 1.3,
+      "fromLat": 48.867687,
+      "fromLon": 2.364099,
+      "toLat": 48.864582,
+      "toLon": 2.368526
+    },
+    {
+      "station": "Arts et Métiers",
+      "line": "11",
+      "time": 1,
+      "fromLat": 48.867886,
+      "fromLon": 2.36488,
+      "toLat": 48.865299,
+      "toLon": 2.356508
+    },
+    {
+      "station": "Goncourt",
+      "line": "11",
+      "time": 1.3,
+      "fromLat": 48.867886,
+      "fromLon": 2.36488,
+      "toLat": 48.869938,
+      "toLon": 2.371079
+    }
+  ],
+  "Oberkampf": [
+    {
+      "station": "République",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.864777,
+      "fromLon": 2.368156,
+      "toLat": 48.867393,
+      "toLon": 2.363121
+    },
+    {
+      "station": "Saint-Ambroise",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.864777,
+      "fromLon": 2.368156,
+      "toLat": 48.861416,
+      "toLon": 2.373881
+    },
+    {
+      "station": "République",
+      "line": "5",
+      "time": 1.3,
+      "fromLat": 48.864582,
+      "fromLon": 2.368526,
+      "toLat": 48.867687,
+      "toLon": 2.364099
+    },
+    {
+      "station": "Richard-Lenoir",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.864582,
+      "fromLon": 2.368526,
+      "toLat": 48.859879,
+      "toLon": 2.371814
+    }
+  ],
+  "Saint-Ambroise": [
+    {
+      "station": "Oberkampf",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.861416,
+      "fromLon": 2.373881,
+      "toLat": 48.864777,
+      "toLon": 2.368156
+    },
+    {
+      "station": "Voltaire",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.861416,
+      "fromLon": 2.373881,
+      "toLat": 48.857662,
+      "toLon": 2.380032
+    }
+  ],
+  "Voltaire": [
+    {
+      "station": "Saint-Ambroise",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.857662,
+      "fromLon": 2.380032,
+      "toLat": 48.861416,
+      "toLon": 2.373881
+    },
+    {
+      "station": "Charonne",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.857662,
+      "fromLon": 2.380032,
+      "toLat": 48.854939,
+      "toLon": 2.384782
+    }
+  ],
+  "Charonne": [
+    {
+      "station": "Voltaire",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.854939,
+      "fromLon": 2.384782,
+      "toLat": 48.857662,
+      "toLon": 2.380032
+    },
+    {
+      "station": "Rue des Boulets",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.854939,
+      "fromLon": 2.384782,
+      "toLat": 48.852215,
+      "toLon": 2.389105
+    }
+  ],
+  "Rue des Boulets": [
+    {
+      "station": "Charonne",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.852215,
+      "fromLon": 2.389105,
+      "toLat": 48.854939,
+      "toLon": 2.384782
+    },
+    {
+      "station": "Nation",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.852215,
+      "fromLon": 2.389105,
+      "toLat": 48.848885,
+      "toLon": 2.395944
+    }
+  ],
+  "Nation": [
+    {
+      "station": "Rue des Boulets",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.848885,
+      "fromLon": 2.395944,
+      "toLat": 48.852215,
+      "toLon": 2.389105
+    },
+    {
+      "station": "Buzenval",
+      "line": "9",
+      "time": 1.3,
+      "fromLat": 48.848885,
+      "fromLon": 2.395944,
+      "toLat": 48.851761,
+      "toLon": 2.401171
+    },
+    {
+      "station": "Reuilly - Diderot",
+      "line": "1",
+      "time": 1.3,
+      "fromLat": 48.847557,
+      "fromLon": 2.396382,
+      "toLat": 48.84713,
+      "toLon": 2.385158
+    },
+    {
+      "station": "Porte de Vincennes",
+      "line": "1",
+      "time": 1.4,
+      "fromLat": 48.847557,
+      "fromLon": 2.396382,
+      "toLat": 48.847263,
+      "toLon": 2.407995
+    },
+    {
+      "station": "Avron",
+      "line": "2",
+      "time": 1.7,
+      "fromLat": 48.848454,
+      "fromLon": 2.395926,
+      "toLat": 48.851616,
+      "toLon": 2.398067
+    },
+    {
+      "station": "Picpus",
+      "line": "6",
+      "time": 2,
+      "fromLat": 48.847889,
+      "fromLon": 2.395788,
+      "toLat": 48.845104,
+      "toLon": 2.401274
+    }
+  ],
+  "Buzenval": [
+    {
+      "station": "Nation",
+      "line": "9",
+      "time": 1.3,
+      "fromLat": 48.851761,
+      "fromLon": 2.401171,
+      "toLat": 48.848885,
+      "toLon": 2.395944
+    },
+    {
+      "station": "Maraîchers",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.851761,
+      "fromLon": 2.401171,
+      "toLat": 48.85265,
+      "toLon": 2.406049
+    }
+  ],
+  "Maraîchers": [
+    {
+      "station": "Buzenval",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.85265,
+      "fromLon": 2.406049,
+      "toLat": 48.851761,
+      "toLon": 2.401171
+    },
+    {
+      "station": "Porte de Montreuil",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.85265,
+      "fromLon": 2.406049,
+      "toLat": 48.853481,
+      "toLon": 2.410718
+    }
+  ],
+  "Porte de Montreuil": [
+    {
+      "station": "Maraîchers",
+      "line": "9",
+      "time": 1,
+      "fromLat": 48.853481,
+      "fromLon": 2.410718,
+      "toLat": 48.85265,
+      "toLon": 2.406049
+    },
+    {
+      "station": "Robespierre",
+      "line": "9",
+      "time": 1.6,
+      "fromLat": 48.853481,
+      "fromLon": 2.410718,
+      "toLat": 48.855675,
+      "toLon": 2.422973
+    },
+    {
+      "station": "Mairie de Montreuil",
+      "line": "9",
+      "time": 5,
+      "fromLat": 48.853565,
+      "fromLon": 2.410704,
+      "toLat": 48.862312,
+      "toLon": 2.441439
+    }
+  ],
+  "Robespierre": [
+    {
+      "station": "Porte de Montreuil",
+      "line": "9",
+      "time": 1.6,
+      "fromLat": 48.855675,
+      "fromLon": 2.422973,
+      "toLat": 48.853481,
+      "toLon": 2.410718
+    },
+    {
+      "station": "Croix de Chavaux",
+      "line": "9",
+      "time": 1.4,
+      "fromLat": 48.855675,
+      "fromLon": 2.422973,
+      "toLat": 48.857994,
+      "toLon": 2.435855
+    }
+  ],
+  "Croix de Chavaux": [
+    {
+      "station": "Robespierre",
+      "line": "9",
+      "time": 1.4,
+      "fromLat": 48.857994,
+      "fromLon": 2.435855,
+      "toLat": 48.855675,
+      "toLon": 2.422973
+    },
+    {
+      "station": "Mairie de Montreuil",
+      "line": "9",
+      "time": 1.3,
+      "fromLat": 48.857994,
+      "fromLon": 2.435855,
+      "toLat": 48.862274,
+      "toLon": 2.441819
+    }
+  ],
+  "Mairie de Montreuil": [
+    {
+      "station": "Croix de Chavaux",
+      "line": "9",
+      "time": 1.3,
+      "fromLat": 48.862274,
+      "fromLon": 2.441819,
+      "toLat": 48.857994,
+      "toLon": 2.435855
+    },
+    {
+      "station": "Porte de Montreuil",
+      "line": "9",
+      "time": 5,
+      "fromLat": 48.862312,
+      "fromLon": 2.441439,
+      "toLat": 48.853565,
+      "toLon": 2.410704
+    }
+  ],
+  "La Défense (Grande Arche)": [
+    {
+      "station": "Esplanade de la Défense",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.892136,
+      "fromLon": 2.237015,
+      "toLat": 48.888008,
+      "toLon": 2.250059
+    }
+  ],
+  "Esplanade de la Défense": [
+    {
+      "station": "La Défense (Grande Arche)",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.888008,
+      "fromLon": 2.250059,
+      "toLat": 48.892136,
+      "toLon": 2.237015
+    },
+    {
+      "station": "Pont de Neuilly",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.888008,
+      "fromLon": 2.250059,
+      "toLat": 48.884632,
+      "toLon": 2.260689
+    }
+  ],
+  "Pont de Neuilly": [
+    {
+      "station": "Esplanade de la Défense",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.884632,
+      "fromLon": 2.260689,
+      "toLat": 48.888008,
+      "toLon": 2.250059
+    },
+    {
+      "station": "Les Sablons",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.884632,
+      "fromLon": 2.260689,
+      "toLat": 48.880951,
+      "toLon": 2.272278
+    }
+  ],
+  "Les Sablons": [
+    {
+      "station": "Pont de Neuilly",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.880951,
+      "fromLon": 2.272278,
+      "toLat": 48.884632,
+      "toLon": 2.260689
+    },
+    {
+      "station": "Porte Maillot",
+      "line": "1",
+      "time": 1.4,
+      "fromLat": 48.880951,
+      "fromLon": 2.272278,
+      "toLat": 48.877766,
+      "toLon": 2.282412
+    }
+  ],
+  "Porte Maillot": [
+    {
+      "station": "Les Sablons",
+      "line": "1",
+      "time": 1.4,
+      "fromLat": 48.877766,
+      "fromLon": 2.282412,
+      "toLat": 48.880951,
+      "toLon": 2.272278
+    },
+    {
+      "station": "Argentine",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.877766,
+      "fromLon": 2.282412,
+      "toLat": 48.875275,
+      "toLon": 2.290095
+    }
+  ],
+  "Argentine": [
+    {
+      "station": "Porte Maillot",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.875275,
+      "fromLon": 2.290095,
+      "toLat": 48.877766,
+      "toLon": 2.282412
+    },
+    {
+      "station": "Charles de Gaulle - Étoile",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.875275,
+      "fromLon": 2.290095,
+      "toLat": 48.875111,
+      "toLon": 2.295878
+    }
+  ],
+  "Charles de Gaulle - Étoile": [
+    {
+      "station": "Argentine",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.875111,
+      "fromLon": 2.295878,
+      "toLat": 48.875275,
+      "toLon": 2.290095
+    },
+    {
+      "station": "George V",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.875111,
+      "fromLon": 2.295878,
+      "toLat": 48.872063,
+      "toLon": 2.300296
+    },
+    {
+      "station": "Victor Hugo",
+      "line": "2",
+      "time": 1.5,
+      "fromLat": 48.874947,
+      "fromLon": 2.295928,
+      "toLat": 48.869854,
+      "toLon": 2.285902
+    },
+    {
+      "station": "Ternes",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.874947,
+      "fromLon": 2.295928,
+      "toLat": 48.878201,
+      "toLon": 2.298114
+    },
+    {
+      "station": "Kléber",
+      "line": "6",
+      "time": 1.6,
+      "fromLat": 48.87384,
+      "fromLon": 2.294996,
+      "toLat": 48.87149,
+      "toLon": 2.293146
+    }
+  ],
+  "George V": [
+    {
+      "station": "Charles de Gaulle - Étoile",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.872063,
+      "fromLon": 2.300296,
+      "toLat": 48.875111,
+      "toLon": 2.295878
+    },
+    {
+      "station": "Franklin D. Roosevelt",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.872063,
+      "fromLon": 2.300296,
+      "toLat": 48.869049,
+      "toLon": 2.309729
+    }
+  ],
+  "Champs-Élysées - Clemenceau": [
+    {
+      "station": "Franklin D. Roosevelt",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.86763,
+      "fromLon": 2.314315,
+      "toLat": 48.869049,
+      "toLon": 2.309729
+    },
+    {
+      "station": "Concorde",
+      "line": "1",
+      "time": 1.3,
+      "fromLat": 48.86763,
+      "fromLon": 2.314315,
+      "toLat": 48.866112,
+      "toLon": 2.324532
+    },
+    {
+      "station": "Invalides",
+      "line": "13",
+      "time": 1.6,
+      "fromLat": 48.867374,
+      "fromLon": 2.31395,
+      "toLat": 48.859985,
+      "toLon": 2.314361
+    },
+    {
+      "station": "Miromesnil",
+      "line": "13",
+      "time": 1.4,
+      "fromLat": 48.867374,
+      "fromLon": 2.31395,
+      "toLat": 48.873314,
+      "toLon": 2.314649
+    }
+  ],
+  "Tuileries": [
+    {
+      "station": "Concorde",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.864647,
+      "fromLon": 2.329049,
+      "toLat": 48.866112,
+      "toLon": 2.324532
+    },
+    {
+      "station": "Palais Royal - Musée du Louvre",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.864647,
+      "fromLon": 2.329049,
+      "toLat": 48.862694,
+      "toLon": 2.335276
+    }
+  ],
+  "Palais Royal - Musée du Louvre": [
+    {
+      "station": "Tuileries",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.862694,
+      "fromLon": 2.335276,
+      "toLat": 48.864647,
+      "toLon": 2.329049
+    },
+    {
+      "station": "Louvre - Rivoli",
+      "line": "1",
+      "time": 1.3,
+      "fromLat": 48.862694,
+      "fromLon": 2.335276,
+      "toLat": 48.861073,
+      "toLon": 2.340163
+    },
+    {
+      "station": "Pyramides",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.862682,
+      "fromLon": 2.337007,
+      "toLat": 48.865829,
+      "toLon": 2.334292
+    },
+    {
+      "station": "Pont Neuf",
+      "line": "7",
+      "time": 1.6,
+      "fromLat": 48.862682,
+      "fromLon": 2.337007,
+      "toLat": 48.858456,
+      "toLon": 2.341709
+    }
+  ],
+  "Louvre - Rivoli": [
+    {
+      "station": "Palais Royal - Musée du Louvre",
+      "line": "1",
+      "time": 1.3,
+      "fromLat": 48.861073,
+      "fromLon": 2.340163,
+      "toLat": 48.862694,
+      "toLon": 2.335276
+    },
+    {
+      "station": "Châtelet",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.861073,
+      "fromLon": 2.340163,
+      "toLat": 48.858582,
+      "toLon": 2.347882
+    }
+  ],
+  "Châtelet": [
+    {
+      "station": "Louvre - Rivoli",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.858582,
+      "fromLon": 2.347882,
+      "toLat": 48.861073,
+      "toLon": 2.340163
+    },
+    {
+      "station": "Hôtel de Ville",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.858582,
+      "fromLon": 2.347882,
+      "toLat": 48.857105,
+      "toLon": 2.352957
+    },
+    {
+      "station": "Pyramides",
+      "line": "14",
+      "time": 1.3,
+      "fromLat": 48.859516,
+      "fromLon": 2.346275,
+      "toLat": 48.865757,
+      "toLon": 2.334624
+    },
+    {
+      "station": "Gare de Lyon",
+      "line": "14",
+      "time": 3,
+      "fromLat": 48.859516,
+      "fromLon": 2.346275,
+      "toLat": 48.844677,
+      "toLon": 2.373101
+    },
+    {
+      "station": "Pont Neuf",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.856869,
+      "fromLon": 2.348102,
+      "toLat": 48.858456,
+      "toLon": 2.341709
+    },
+    {
+      "station": "Pont Marie (Cité des Arts)",
+      "line": "7",
+      "time": 1.3,
+      "fromLat": 48.856869,
+      "fromLon": 2.348102,
+      "toLat": 48.853416,
+      "toLon": 2.35735
+    },
+    {
+      "station": "Les Halles",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.859661,
+      "fromLon": 2.346642,
+      "toLat": 48.862526,
+      "toLon": 2.346006
+    },
+    {
+      "station": "Cité",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.859661,
+      "fromLon": 2.346642,
+      "toLat": 48.854935,
+      "toLon": 2.347232
+    },
+    {
+      "station": "Hôtel de Ville",
+      "line": "11",
+      "time": 1.3,
+      "fromLat": 48.857689,
+      "fromLon": 2.347759,
+      "toLat": 48.857574,
+      "toLon": 2.351547
+    }
+  ],
+  "Hôtel de Ville": [
+    {
+      "station": "Châtelet",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.857105,
+      "fromLon": 2.352957,
+      "toLat": 48.858582,
+      "toLon": 2.347882
+    },
+    {
+      "station": "Saint-Paul (Le Marais)",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.857105,
+      "fromLon": 2.352957,
+      "toLat": 48.855186,
+      "toLon": 2.360885
+    },
+    {
+      "station": "Châtelet",
+      "line": "11",
+      "time": 1.3,
+      "fromLat": 48.857574,
+      "fromLon": 2.351547,
+      "toLat": 48.857689,
+      "toLon": 2.347759
+    },
+    {
+      "station": "Rambuteau",
+      "line": "11",
+      "time": 1.3,
+      "fromLat": 48.857574,
+      "fromLon": 2.351547,
+      "toLat": 48.861191,
+      "toLon": 2.353274
+    }
+  ],
+  "Saint-Paul (Le Marais)": [
+    {
+      "station": "Hôtel de Ville",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.855186,
+      "fromLon": 2.360885,
+      "toLat": 48.857105,
+      "toLon": 2.352957
+    },
+    {
+      "station": "Bastille",
+      "line": "1",
+      "time": 1.6,
+      "fromLat": 48.855186,
+      "fromLon": 2.360885,
+      "toLat": 48.851963,
+      "toLon": 2.368693
+    }
+  ],
+  "Bastille": [
+    {
+      "station": "Saint-Paul (Le Marais)",
+      "line": "1",
+      "time": 1.6,
+      "fromLat": 48.851963,
+      "fromLon": 2.368693,
+      "toLat": 48.855186,
+      "toLon": 2.360885
+    },
+    {
+      "station": "Gare de Lyon",
+      "line": "1",
+      "time": 2,
+      "fromLat": 48.851963,
+      "fromLon": 2.368693,
+      "toLat": 48.845795,
+      "toLon": 2.373673
+    },
+    {
+      "station": "Ledru-Rollin",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.853485,
+      "fromLon": 2.369652,
+      "toLat": 48.851337,
+      "toLon": 2.376141
+    },
+    {
+      "station": "Chemin Vert",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.853485,
+      "fromLon": 2.369652,
+      "toLat": 48.857105,
+      "toLon": 2.368222
+    },
+    {
+      "station": "Bréguet-Sabin",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.853302,
+      "fromLon": 2.368798,
+      "toLat": 48.856243,
+      "toLon": 2.370195
+    },
+    {
+      "station": "Quai de la Rapée",
+      "line": "5",
+      "time": 1.5,
+      "fromLat": 48.853302,
+      "fromLon": 2.368798,
+      "toLat": 48.846428,
+      "toLon": 2.365885
+    }
+  ],
+  "Gare de Lyon": [
+    {
+      "station": "Bastille",
+      "line": "1",
+      "time": 2,
+      "fromLat": 48.845795,
+      "fromLon": 2.373673,
+      "toLat": 48.851963,
+      "toLon": 2.368693
+    },
+    {
+      "station": "Reuilly - Diderot",
+      "line": "1",
+      "time": 1.4,
+      "fromLat": 48.845795,
+      "fromLon": 2.373673,
+      "toLat": 48.84713,
+      "toLon": 2.385158
+    },
+    {
+      "station": "Châtelet",
+      "line": "14",
+      "time": 3,
+      "fromLat": 48.844677,
+      "fromLon": 2.373101,
+      "toLat": 48.859516,
+      "toLon": 2.346275
+    },
+    {
+      "station": "Bercy",
+      "line": "14",
+      "time": 1,
+      "fromLat": 48.844677,
+      "fromLon": 2.373101,
+      "toLat": 48.840103,
+      "toLon": 2.379062
+    }
+  ],
+  "Reuilly - Diderot": [
+    {
+      "station": "Gare de Lyon",
+      "line": "1",
+      "time": 1.4,
+      "fromLat": 48.84713,
+      "fromLon": 2.385158,
+      "toLat": 48.845795,
+      "toLon": 2.373673
+    },
+    {
+      "station": "Nation",
+      "line": "1",
+      "time": 1.3,
+      "fromLat": 48.84713,
+      "fromLon": 2.385158,
+      "toLat": 48.847557,
+      "toLon": 2.396382
+    },
+    {
+      "station": "Montgallet",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.847214,
+      "fromLon": 2.387201,
+      "toLat": 48.844063,
+      "toLon": 2.390522
+    },
+    {
+      "station": "Faidherbe - Chaligny",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.847214,
+      "fromLon": 2.387201,
+      "toLat": 48.850201,
+      "toLon": 2.384073
+    }
+  ],
+  "Porte de Vincennes": [
+    {
+      "station": "Nation",
+      "line": "1",
+      "time": 1.4,
+      "fromLat": 48.847263,
+      "fromLon": 2.407995,
+      "toLat": 48.847557,
+      "toLon": 2.396382
+    },
+    {
+      "station": "Saint-Mandé",
+      "line": "1",
+      "time": 1.5,
+      "fromLat": 48.847263,
+      "fromLon": 2.407995,
+      "toLat": 48.846363,
+      "toLon": 2.419002
+    }
+  ],
+  "Saint-Mandé": [
+    {
+      "station": "Porte de Vincennes",
+      "line": "1",
+      "time": 1.5,
+      "fromLat": 48.846363,
+      "fromLon": 2.419002,
+      "toLat": 48.847263,
+      "toLon": 2.407995
+    },
+    {
+      "station": "Bérault",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.846363,
+      "fromLon": 2.419002,
+      "toLat": 48.845451,
+      "toLon": 2.428973
+    }
+  ],
+  "Bérault": [
+    {
+      "station": "Saint-Mandé",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.845451,
+      "fromLon": 2.428973,
+      "toLat": 48.846363,
+      "toLon": 2.419002
+    },
+    {
+      "station": "Château de Vincennes",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.845451,
+      "fromLon": 2.428973,
+      "toLat": 48.844563,
+      "toLon": 2.438752
+    }
+  ],
+  "Château de Vincennes": [
+    {
+      "station": "Bérault",
+      "line": "1",
+      "time": 1,
+      "fromLat": 48.844563,
+      "fromLon": 2.438752,
+      "toLat": 48.845451,
+      "toLon": 2.428973
+    }
+  ],
+  "Saint-Denis - Pleyel": [
+    {
+      "station": "Mairie de Saint-Ouen",
+      "line": "14",
+      "time": 1.3,
+      "fromLat": 48.918911,
+      "fromLon": 2.345747,
+      "toLat": 48.911705,
+      "toLon": 2.333436
+    }
+  ],
+  "Mairie de Saint-Ouen": [
+    {
+      "station": "Saint-Denis - Pleyel",
+      "line": "14",
+      "time": 1.3,
+      "fromLat": 48.911705,
+      "fromLon": 2.333436,
+      "toLat": 48.918911,
+      "toLon": 2.345747
+    },
+    {
+      "station": "Saint-Ouen",
+      "line": "14",
+      "time": 1.5,
+      "fromLat": 48.911705,
+      "fromLon": 2.333436,
+      "toLat": 48.905212,
+      "toLon": 2.32266
+    },
+    {
+      "station": "Garibaldi",
+      "line": "13",
+      "time": 1.4,
+      "fromLat": 48.911598,
+      "fromLon": 2.333792,
+      "toLat": 48.905247,
+      "toLon": 2.331595
+    },
+    {
+      "station": "Carrefour Pleyel",
+      "line": "13",
+      "time": 1.6,
+      "fromLat": 48.911598,
+      "fromLon": 2.333792,
+      "toLat": 48.918976,
+      "toLon": 2.342622
+    }
+  ],
+  "Saint-Ouen": [
+    {
+      "station": "Mairie de Saint-Ouen",
+      "line": "14",
+      "time": 1.5,
+      "fromLat": 48.905212,
+      "fromLon": 2.32266,
+      "toLat": 48.911705,
+      "toLon": 2.333436
+    },
+    {
+      "station": "Porte de Clichy",
+      "line": "14",
+      "time": 1.7,
+      "fromLat": 48.905212,
+      "fromLon": 2.32266,
+      "toLat": 48.894287,
+      "toLon": 2.313432
+    }
+  ],
+  "Pont Cardinet": [
+    {
+      "station": "Porte de Clichy",
+      "line": "14",
+      "time": 1,
+      "fromLat": 48.888103,
+      "fromLon": 2.315191,
+      "toLat": 48.894287,
+      "toLon": 2.313432
+    },
+    {
+      "station": "Saint-Lazare",
+      "line": "14",
+      "time": 2,
+      "fromLat": 48.888103,
+      "fromLon": 2.315191,
+      "toLat": 48.87566,
+      "toLon": 2.324026
+    }
+  ],
+  "Pyramides": [
+    {
+      "station": "Madeleine",
+      "line": "14",
+      "time": 1,
+      "fromLat": 48.865757,
+      "fromLon": 2.334624,
+      "toLat": 48.870544,
+      "toLon": 2.32581
+    },
+    {
+      "station": "Châtelet",
+      "line": "14",
+      "time": 1.3,
+      "fromLat": 48.865757,
+      "fromLon": 2.334624,
+      "toLat": 48.859516,
+      "toLon": 2.346275
+    },
+    {
+      "station": "Opéra",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.865829,
+      "fromLon": 2.334292,
+      "toLat": 48.870304,
+      "toLon": 2.332439
+    },
+    {
+      "station": "Palais Royal - Musée du Louvre",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.865829,
+      "fromLon": 2.334292,
+      "toLat": 48.862682,
+      "toLon": 2.337007
+    }
+  ],
+  "Bercy": [
+    {
+      "station": "Gare de Lyon",
+      "line": "14",
+      "time": 1,
+      "fromLat": 48.840103,
+      "fromLon": 2.379062,
+      "toLat": 48.844677,
+      "toLon": 2.373101
+    },
+    {
+      "station": "Cour Saint-Emilion",
+      "line": "14",
+      "time": 1,
+      "fromLat": 48.840103,
+      "fromLon": 2.379062,
+      "toLat": 48.833351,
+      "toLon": 2.386465
+    },
+    {
+      "station": "Quai de la Gare",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.840176,
+      "fromLon": 2.379463,
+      "toLat": 48.837002,
+      "toLon": 2.372825
+    },
+    {
+      "station": "Dugommier",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.840176,
+      "fromLon": 2.379463,
+      "toLat": 48.838951,
+      "toLon": 2.389601
+    }
+  ],
+  "Cour Saint-Emilion": [
+    {
+      "station": "Bercy",
+      "line": "14",
+      "time": 1,
+      "fromLat": 48.833351,
+      "fromLon": 2.386465,
+      "toLat": 48.840103,
+      "toLon": 2.379062
+    },
+    {
+      "station": "Bibliothèque François Mitterrand",
+      "line": "14",
+      "time": 1,
+      "fromLat": 48.833351,
+      "fromLon": 2.386465,
+      "toLat": 48.830006,
+      "toLon": 2.376424
+    }
+  ],
+  "Bibliothèque François Mitterrand": [
+    {
+      "station": "Cour Saint-Emilion",
+      "line": "14",
+      "time": 1,
+      "fromLat": 48.830006,
+      "fromLon": 2.376424,
+      "toLat": 48.833351,
+      "toLon": 2.386465
+    },
+    {
+      "station": "Olympiades",
+      "line": "14",
+      "time": 1,
+      "fromLat": 48.830006,
+      "fromLon": 2.376424,
+      "toLat": 48.827122,
+      "toLon": 2.366923
+    }
+  ],
+  "Olympiades": [
+    {
+      "station": "Bibliothèque François Mitterrand",
+      "line": "14",
+      "time": 1,
+      "fromLat": 48.827122,
+      "fromLon": 2.366923,
+      "toLat": 48.830006,
+      "toLon": 2.376424
+    },
+    {
+      "station": "Maison Blanche",
+      "line": "14",
+      "time": 1.6,
+      "fromLat": 48.827122,
+      "fromLon": 2.366923,
+      "toLat": 48.821209,
+      "toLon": 2.358918
+    }
+  ],
+  "Maison Blanche": [
+    {
+      "station": "Olympiades",
+      "line": "14",
+      "time": 1.6,
+      "fromLat": 48.821209,
+      "fromLon": 2.358918,
+      "toLat": 48.827122,
+      "toLon": 2.366923
+    },
+    {
+      "station": "Hôpital Bicêtre",
+      "line": "14",
+      "time": 2,
+      "fromLat": 48.821209,
+      "fromLon": 2.358918,
+      "toLat": 48.809971,
+      "toLon": 2.349946
+    },
+    {
+      "station": "Tolbiac",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.822151,
+      "fromLon": 2.358413,
+      "toLat": 48.826153,
+      "toLon": 2.357018
+    },
+    {
+      "station": "Le Kremlin-Bicêtre",
+      "line": "7",
+      "time": 2,
+      "fromLat": 48.822151,
+      "fromLon": 2.358413,
+      "toLat": 48.810253,
+      "toLon": 2.36213
+    },
+    {
+      "station": "Porte d'Italie",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.822166,
+      "fromLon": 2.358539,
+      "toLat": 48.819107,
+      "toLon": 2.35953
+    }
+  ],
+  "Hôpital Bicêtre": [
+    {
+      "station": "Maison Blanche",
+      "line": "14",
+      "time": 2,
+      "fromLat": 48.809971,
+      "fromLon": 2.349946,
+      "toLat": 48.821209,
+      "toLon": 2.358918
+    },
+    {
+      "station": "Villejuif - Gustave Roussy",
+      "line": "14",
+      "time": 2,
+      "fromLat": 48.809971,
+      "fromLon": 2.349946,
+      "toLat": 48.79324,
+      "toLon": 2.349229
+    }
+  ],
+  "Villejuif - Gustave Roussy": [
+    {
+      "station": "Hôpital Bicêtre",
+      "line": "14",
+      "time": 2,
+      "fromLat": 48.79324,
+      "fromLon": 2.349229,
+      "toLat": 48.809971,
+      "toLon": 2.349946
+    },
+    {
+      "station": "L'Haÿ-les-Roses",
+      "line": "14",
+      "time": 2,
+      "fromLat": 48.79324,
+      "fromLon": 2.349229,
+      "toLat": 48.775326,
+      "toLon": 2.354991
+    }
+  ],
+  "L'Haÿ-les-Roses": [
+    {
+      "station": "Villejuif - Gustave Roussy",
+      "line": "14",
+      "time": 2,
+      "fromLat": 48.775326,
+      "fromLon": 2.354991,
+      "toLat": 48.79324,
+      "toLon": 2.349229
+    },
+    {
+      "station": "Chevilly-Larue (Marché International)",
+      "line": "14",
+      "time": 2,
+      "fromLat": 48.775326,
+      "fromLon": 2.354991,
+      "toLat": 48.758484,
+      "toLon": 2.367375
+    }
+  ],
+  "Chevilly-Larue (Marché International)": [
+    {
+      "station": "L'Haÿ-les-Roses",
+      "line": "14",
+      "time": 2,
+      "fromLat": 48.758484,
+      "fromLon": 2.367375,
+      "toLat": 48.775326,
+      "toLon": 2.354991
+    },
+    {
+      "station": "Thiais - Orly (Pont de Rungis)",
+      "line": "14",
+      "time": 1.6,
+      "fromLat": 48.758484,
+      "fromLon": 2.367375,
+      "toLat": 48.746834,
+      "toLon": 2.372385
+    }
+  ],
+  "Thiais - Orly (Pont de Rungis)": [
+    {
+      "station": "Chevilly-Larue (Marché International)",
+      "line": "14",
+      "time": 1.6,
+      "fromLat": 48.746834,
+      "fromLon": 2.372385,
+      "toLat": 48.758484,
+      "toLon": 2.367375
+    },
+    {
+      "station": "Aéroport d'Orly",
+      "line": "14",
+      "time": 2.3,
+      "fromLat": 48.746834,
+      "fromLon": 2.372385,
+      "toLat": 48.727695,
+      "toLon": 2.362459
+    }
+  ],
+  "Aéroport d'Orly": [
+    {
+      "station": "Thiais - Orly (Pont de Rungis)",
+      "line": "14",
+      "time": 2.3,
+      "fromLat": 48.727695,
+      "fromLon": 2.362459,
+      "toLat": 48.746834,
+      "toLon": 2.372385
+    }
+  ],
+  "La Courneuve - 8 Mai 1945": [
+    {
+      "station": "Fort d'Aubervilliers",
+      "line": "7",
+      "time": 1.5,
+      "fromLat": 48.920372,
+      "fromLon": 2.410008,
+      "toLat": 48.914757,
+      "toLon": 2.404075
+    }
+  ],
+  "Fort d'Aubervilliers": [
+    {
+      "station": "La Courneuve - 8 Mai 1945",
+      "line": "7",
+      "time": 1.5,
+      "fromLat": 48.914757,
+      "fromLon": 2.404075,
+      "toLat": 48.920372,
+      "toLon": 2.410008
+    },
+    {
+      "station": "Aubervilliers - Pantin - Quatre Chemins",
+      "line": "7",
+      "time": 2,
+      "fromLat": 48.914757,
+      "fromLon": 2.404075,
+      "toLat": 48.903797,
+      "toLon": 2.392114
+    }
+  ],
+  "Aubervilliers - Pantin - Quatre Chemins": [
+    {
+      "station": "Fort d'Aubervilliers",
+      "line": "7",
+      "time": 2,
+      "fromLat": 48.903797,
+      "fromLon": 2.392114,
+      "toLat": 48.914757,
+      "toLon": 2.404075
+    },
+    {
+      "station": "Porte de la Villette",
+      "line": "7",
+      "time": 2,
+      "fromLat": 48.903797,
+      "fromLon": 2.392114,
+      "toLat": 48.897865,
+      "toLon": 2.385779
+    }
+  ],
+  "Porte de la Villette": [
+    {
+      "station": "Aubervilliers - Pantin - Quatre Chemins",
+      "line": "7",
+      "time": 2,
+      "fromLat": 48.897865,
+      "fromLon": 2.385779,
+      "toLat": 48.903797,
+      "toLon": 2.392114
+    },
+    {
+      "station": "Corentin Cariou",
+      "line": "7",
+      "time": 1.4,
+      "fromLat": 48.897865,
+      "fromLon": 2.385779,
+      "toLat": 48.894672,
+      "toLon": 2.382292
+    }
+  ],
+  "Corentin Cariou": [
+    {
+      "station": "Porte de la Villette",
+      "line": "7",
+      "time": 1.4,
+      "fromLat": 48.894672,
+      "fromLon": 2.382292,
+      "toLat": 48.897865,
+      "toLon": 2.385779
+    },
+    {
+      "station": "Crimée",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.894672,
+      "fromLon": 2.382292,
+      "toLat": 48.890884,
+      "toLon": 2.376936
+    }
+  ],
+  "Crimée": [
+    {
+      "station": "Corentin Cariou",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.890884,
+      "fromLon": 2.376936,
+      "toLat": 48.894672,
+      "toLon": 2.382292
+    },
+    {
+      "station": "Riquet",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.890884,
+      "fromLon": 2.376936,
+      "toLat": 48.888157,
+      "toLon": 2.373669
+    }
+  ],
+  "Riquet": [
+    {
+      "station": "Crimée",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.888157,
+      "fromLon": 2.373669,
+      "toLat": 48.890884,
+      "toLon": 2.376936
+    },
+    {
+      "station": "Stalingrad",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.888157,
+      "fromLon": 2.373669,
+      "toLat": 48.884373,
+      "toLon": 2.368899
+    }
+  ],
+  "Stalingrad": [
+    {
+      "station": "Riquet",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.884373,
+      "fromLon": 2.368899,
+      "toLat": 48.888157,
+      "toLon": 2.373669
+    },
+    {
+      "station": "Louis Blanc",
+      "line": "7",
+      "time": 1.3,
+      "fromLat": 48.884373,
+      "fromLon": 2.368899,
+      "toLat": 48.881241,
+      "toLon": 2.364356
+    },
+    {
+      "station": "La Chapelle",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.884243,
+      "fromLon": 2.365752,
+      "toLat": 48.884388,
+      "toLon": 2.360404
+    },
+    {
+      "station": "Jaurès",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.884243,
+      "fromLon": 2.365752,
+      "toLat": 48.881596,
+      "toLon": 2.370154
+    },
+    {
+      "station": "Jaurès",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.884144,
+      "fromLon": 2.367348,
+      "toLat": 48.883114,
+      "toLon": 2.371383
+    },
+    {
+      "station": "Gare du Nord",
+      "line": "5",
+      "time": 2,
+      "fromLat": 48.884144,
+      "fromLon": 2.367348,
+      "toLat": 48.879704,
+      "toLon": 2.357217
+    },
+    {
+      "station": "Colonel Fabien",
+      "line": "2",
+      "time": 2.4,
+      "fromLat": 48.884319,
+      "fromLon": 2.365774,
+      "toLat": 48.877697,
+      "toLon": 2.370576
+    }
+  ],
+  "Château Landon": [
+    {
+      "station": "Louis Blanc",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.878452,
+      "fromLon": 2.362045,
+      "toLat": 48.881241,
+      "toLon": 2.364356
+    },
+    {
+      "station": "Gare de l'Est",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.878452,
+      "fromLon": 2.362045,
+      "toLat": 48.876362,
+      "toLon": 2.358103
+    }
+  ],
+  "Gare de l'Est": [
+    {
+      "station": "Château Landon",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.876362,
+      "fromLon": 2.358103,
+      "toLat": 48.878452,
+      "toLon": 2.362045
+    },
+    {
+      "station": "Poissonnière",
+      "line": "7",
+      "time": 1.4,
+      "fromLat": 48.876362,
+      "fromLon": 2.358103,
+      "toLat": 48.877167,
+      "toLon": 2.34874
+    },
+    {
+      "station": "Gare du Nord",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.876278,
+      "fromLon": 2.35775,
+      "toLat": 48.879509,
+      "toLon": 2.356769
+    },
+    {
+      "station": "Château d'Eau",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.876278,
+      "fromLon": 2.35775,
+      "toLat": 48.872475,
+      "toLon": 2.355901
+    },
+    {
+      "station": "Gare du Nord",
+      "line": "5",
+      "time": 1.6,
+      "fromLat": 48.876083,
+      "fromLon": 2.357983,
+      "toLat": 48.879704,
+      "toLon": 2.357217
+    },
+    {
+      "station": "Jacques Bonsergent",
+      "line": "5",
+      "time": 1.4,
+      "fromLat": 48.876083,
+      "fromLon": 2.357983,
+      "toLat": 48.870621,
+      "toLon": 2.361024
+    }
+  ],
+  "Poissonnière": [
+    {
+      "station": "Gare de l'Est",
+      "line": "7",
+      "time": 1.4,
+      "fromLat": 48.877167,
+      "fromLon": 2.34874,
+      "toLat": 48.876362,
+      "toLon": 2.358103
+    },
+    {
+      "station": "Cadet",
+      "line": "7",
+      "time": 1.3,
+      "fromLat": 48.877167,
+      "fromLon": 2.34874,
+      "toLat": 48.876049,
+      "toLon": 2.344384
+    }
+  ],
+  "Cadet": [
+    {
+      "station": "Poissonnière",
+      "line": "7",
+      "time": 1.3,
+      "fromLat": 48.876049,
+      "fromLon": 2.344384,
+      "toLat": 48.877167,
+      "toLon": 2.34874
+    },
+    {
+      "station": "Le Peletier",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.876049,
+      "fromLon": 2.344384,
+      "toLat": 48.874958,
+      "toLon": 2.340151
+    }
+  ],
+  "Le Peletier": [
+    {
+      "station": "Cadet",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.874958,
+      "fromLon": 2.340151,
+      "toLat": 48.876049,
+      "toLon": 2.344384
+    },
+    {
+      "station": "Chaussée d'Antin - La Fayette",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.874958,
+      "fromLon": 2.340151,
+      "toLat": 48.873199,
+      "toLon": 2.33367
+    }
+  ],
+  "Opéra": [
+    {
+      "station": "Chaussée d'Antin - La Fayette",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.870304,
+      "fromLon": 2.332439,
+      "toLat": 48.873199,
+      "toLon": 2.33367
+    },
+    {
+      "station": "Pyramides",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.870304,
+      "fromLon": 2.332439,
+      "toLat": 48.865829,
+      "toLon": 2.334292
+    },
+    {
+      "station": "Quatre Septembre",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.87151,
+      "fromLon": 2.331129,
+      "toLat": 48.869717,
+      "toLon": 2.336293
+    },
+    {
+      "station": "Havre-Caumartin",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.87151,
+      "fromLon": 2.331129,
+      "toLat": 48.87355,
+      "toLon": 2.327559
+    },
+    {
+      "station": "Richelieu - Drouot",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.870667,
+      "fromLon": 2.332094,
+      "toLat": 48.871738,
+      "toLon": 2.338419
+    },
+    {
+      "station": "Madeleine",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.870667,
+      "fromLon": 2.332094,
+      "toLat": 48.869648,
+      "toLon": 2.32597
+    }
+  ],
+  "Pont Neuf": [
+    {
+      "station": "Palais Royal - Musée du Louvre",
+      "line": "7",
+      "time": 1.6,
+      "fromLat": 48.858456,
+      "fromLon": 2.341709,
+      "toLat": 48.862682,
+      "toLon": 2.337007
+    },
+    {
+      "station": "Châtelet",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.858456,
+      "fromLon": 2.341709,
+      "toLat": 48.856869,
+      "toLon": 2.348102
+    }
+  ],
+  "Pont Marie (Cité des Arts)": [
+    {
+      "station": "Châtelet",
+      "line": "7",
+      "time": 1.3,
+      "fromLat": 48.853416,
+      "fromLon": 2.35735,
+      "toLat": 48.856869,
+      "toLon": 2.348102
+    },
+    {
+      "station": "Sully - Morland",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.853416,
+      "fromLon": 2.35735,
+      "toLat": 48.851208,
+      "toLon": 2.361752
+    }
+  ],
+  "Sully - Morland": [
+    {
+      "station": "Pont Marie (Cité des Arts)",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.851208,
+      "fromLon": 2.361752,
+      "toLat": 48.853416,
+      "toLon": 2.35735
+    },
+    {
+      "station": "Jussieu",
+      "line": "7",
+      "time": 1.6,
+      "fromLat": 48.851208,
+      "fromLon": 2.361752,
+      "toLat": 48.845963,
+      "toLon": 2.354798
+    }
+  ],
+  "Jussieu": [
+    {
+      "station": "Sully - Morland",
+      "line": "7",
+      "time": 1.6,
+      "fromLat": 48.845963,
+      "fromLon": 2.354798,
+      "toLat": 48.851208,
+      "toLon": 2.361752
+    },
+    {
+      "station": "Place Monge",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.845963,
+      "fromLon": 2.354798,
+      "toLat": 48.842682,
+      "toLon": 2.352005
+    },
+    {
+      "station": "Gare d'Austerlitz",
+      "line": "10",
+      "time": 2,
+      "fromLat": 48.846287,
+      "fromLon": 2.354944,
+      "toLat": 48.842354,
+      "toLon": 2.364531
+    },
+    {
+      "station": "Cardinal Lemoine",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.846287,
+      "fromLon": 2.354944,
+      "toLat": 48.846699,
+      "toLon": 2.351328
+    }
+  ],
+  "Place Monge": [
+    {
+      "station": "Jussieu",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.842682,
+      "fromLon": 2.352005,
+      "toLat": 48.845963,
+      "toLon": 2.354798
+    },
+    {
+      "station": "Censier - Daubenton",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.842682,
+      "fromLon": 2.352005,
+      "toLat": 48.840267,
+      "toLon": 2.351495
+    }
+  ],
+  "Censier - Daubenton": [
+    {
+      "station": "Place Monge",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.840267,
+      "fromLon": 2.351495,
+      "toLat": 48.842682,
+      "toLon": 2.352005
+    },
+    {
+      "station": "Les Gobelins",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.840267,
+      "fromLon": 2.351495,
+      "toLat": 48.835842,
+      "toLon": 2.352417
+    }
+  ],
+  "Les Gobelins": [
+    {
+      "station": "Censier - Daubenton",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.835842,
+      "fromLon": 2.352417,
+      "toLat": 48.840267,
+      "toLon": 2.351495
+    },
+    {
+      "station": "Place d'Italie",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.835842,
+      "fromLon": 2.352417,
+      "toLat": 48.831539,
+      "toLon": 2.355304
+    }
+  ],
+  "Place d'Italie": [
+    {
+      "station": "Les Gobelins",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.831539,
+      "fromLon": 2.355304,
+      "toLat": 48.835842,
+      "toLon": 2.352417
+    },
+    {
+      "station": "Tolbiac",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.831539,
+      "fromLon": 2.355304,
+      "toLat": 48.826153,
+      "toLon": 2.357018
+    },
+    {
+      "station": "Campo-Formio",
+      "line": "5",
+      "time": 1.6,
+      "fromLat": 48.830967,
+      "fromLon": 2.355502,
+      "toLat": 48.835594,
+      "toLon": 2.358469
+    },
+    {
+      "station": "Corvisart",
+      "line": "6",
+      "time": 1.3,
+      "fromLat": 48.830914,
+      "fromLon": 2.356102,
+      "toLat": 48.829861,
+      "toLon": 2.350611
+    },
+    {
+      "station": "Nationale",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.830914,
+      "fromLon": 2.356102,
+      "toLat": 48.833183,
+      "toLon": 2.362858
+    }
+  ],
+  "Tolbiac": [
+    {
+      "station": "Place d'Italie",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.826153,
+      "fromLon": 2.357018,
+      "toLat": 48.831539,
+      "toLon": 2.355304
+    },
+    {
+      "station": "Maison Blanche",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.826153,
+      "fromLon": 2.357018,
+      "toLat": 48.822151,
+      "toLon": 2.358413
+    }
+  ],
+  "Le Kremlin-Bicêtre": [
+    {
+      "station": "Maison Blanche",
+      "line": "7",
+      "time": 2,
+      "fromLat": 48.810253,
+      "fromLon": 2.36213,
+      "toLat": 48.822151,
+      "toLon": 2.358413
+    },
+    {
+      "station": "Villejuif Léo Lagrange",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.810253,
+      "fromLon": 2.36213,
+      "toLat": 48.804352,
+      "toLon": 2.363932
+    }
+  ],
+  "Villejuif Léo Lagrange": [
+    {
+      "station": "Le Kremlin-Bicêtre",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.804352,
+      "fromLon": 2.363932,
+      "toLat": 48.810253,
+      "toLon": 2.36213
+    },
+    {
+      "station": "Villejuif Paul Vaillant-Couturier",
+      "line": "7",
+      "time": 1.6,
+      "fromLat": 48.804352,
+      "fromLon": 2.363932,
+      "toLat": 48.796307,
+      "toLon": 2.368196
+    }
+  ],
+  "Villejuif Paul Vaillant-Couturier": [
+    {
+      "station": "Villejuif Léo Lagrange",
+      "line": "7",
+      "time": 1.6,
+      "fromLat": 48.796307,
+      "fromLon": 2.368196,
+      "toLat": 48.804352,
+      "toLon": 2.363932
+    },
+    {
+      "station": "Villejuif - Louis Aragon",
+      "line": "7",
+      "time": 1.5,
+      "fromLat": 48.796307,
+      "fromLon": 2.368196,
+      "toLat": 48.787571,
+      "toLon": 2.367717
+    }
+  ],
+  "Villejuif - Louis Aragon": [
+    {
+      "station": "Villejuif Paul Vaillant-Couturier",
+      "line": "7",
+      "time": 1.5,
+      "fromLat": 48.787571,
+      "fromLon": 2.367717,
+      "toLat": 48.796307,
+      "toLon": 2.368196
+    }
+  ],
+  "Mairie d'Ivry": [
+    {
+      "station": "Pierre et Marie Curie",
+      "line": "7",
+      "time": 1.6,
+      "fromLat": 48.811211,
+      "fromLon": 2.383498,
+      "toLat": 48.815876,
+      "toLon": 2.377363
+    }
+  ],
+  "Pierre et Marie Curie": [
+    {
+      "station": "Mairie d'Ivry",
+      "line": "7",
+      "time": 1.6,
+      "fromLat": 48.815876,
+      "fromLon": 2.377363,
+      "toLat": 48.811211,
+      "toLon": 2.383498
+    },
+    {
+      "station": "Porte d'Ivry",
+      "line": "7",
+      "time": 1.5,
+      "fromLat": 48.815876,
+      "fromLon": 2.377363,
+      "toLat": 48.821487,
+      "toLon": 2.369511
+    }
+  ],
+  "Porte d'Ivry": [
+    {
+      "station": "Pierre et Marie Curie",
+      "line": "7",
+      "time": 1.5,
+      "fromLat": 48.821487,
+      "fromLon": 2.369511,
+      "toLat": 48.815876,
+      "toLon": 2.377363
+    },
+    {
+      "station": "Porte de Choisy",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.821487,
+      "fromLon": 2.369511,
+      "toLat": 48.820133,
+      "toLon": 2.364625
+    }
+  ],
+  "Porte de Choisy": [
+    {
+      "station": "Porte d'Ivry",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.820133,
+      "fromLon": 2.364625,
+      "toLat": 48.821487,
+      "toLon": 2.369511
+    },
+    {
+      "station": "Porte d'Italie",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.820133,
+      "fromLon": 2.364625,
+      "toLat": 48.819107,
+      "toLon": 2.35953
+    }
+  ],
+  "Porte d'Italie": [
+    {
+      "station": "Porte de Choisy",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.819107,
+      "fromLon": 2.35953,
+      "toLat": 48.820133,
+      "toLon": 2.364625
+    },
+    {
+      "station": "Maison Blanche",
+      "line": "7",
+      "time": 1,
+      "fromLat": 48.819107,
+      "fromLon": 2.35953,
+      "toLat": 48.822166,
+      "toLon": 2.358539
+    }
+  ],
+  "Porte Dauphine": [
+    {
+      "station": "Victor Hugo",
+      "line": "2",
+      "time": 1.4,
+      "fromLat": 48.871395,
+      "fromLon": 2.277633,
+      "toLat": 48.869854,
+      "toLon": 2.285902
+    }
+  ],
+  "Victor Hugo": [
+    {
+      "station": "Porte Dauphine",
+      "line": "2",
+      "time": 1.4,
+      "fromLat": 48.869854,
+      "fromLon": 2.285902,
+      "toLat": 48.871395,
+      "toLon": 2.277633
+    },
+    {
+      "station": "Charles de Gaulle - Étoile",
+      "line": "2",
+      "time": 1.5,
+      "fromLat": 48.869854,
+      "fromLon": 2.285902,
+      "toLat": 48.874947,
+      "toLon": 2.295928
+    }
+  ],
+  "Ternes": [
+    {
+      "station": "Charles de Gaulle - Étoile",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.878201,
+      "fromLon": 2.298114,
+      "toLat": 48.874947,
+      "toLon": 2.295928
+    },
+    {
+      "station": "Courcelles",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.878201,
+      "fromLon": 2.298114,
+      "toLat": 48.879265,
+      "toLon": 2.303294
+    }
+  ],
+  "Courcelles": [
+    {
+      "station": "Ternes",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.879265,
+      "fromLon": 2.303294,
+      "toLat": 48.878201,
+      "toLon": 2.298114
+    },
+    {
+      "station": "Monceau",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.879265,
+      "fromLon": 2.303294,
+      "toLat": 48.880569,
+      "toLon": 2.309413
+    }
+  ],
+  "Monceau": [
+    {
+      "station": "Courcelles",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.880569,
+      "fromLon": 2.309413,
+      "toLat": 48.879265,
+      "toLon": 2.303294
+    },
+    {
+      "station": "Villiers",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.880569,
+      "fromLon": 2.309413,
+      "toLat": 48.881214,
+      "toLon": 2.315762
+    }
+  ],
+  "Villiers": [
+    {
+      "station": "Monceau",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.881214,
+      "fromLon": 2.315762,
+      "toLat": 48.880569,
+      "toLon": 2.309413
+    },
+    {
+      "station": "Rome",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.881214,
+      "fromLon": 2.315762,
+      "toLat": 48.882256,
+      "toLon": 2.321404
+    },
+    {
+      "station": "Europe",
+      "line": "3",
+      "time": 1.3,
+      "fromLat": 48.881153,
+      "fromLon": 2.31579,
+      "toLat": 48.87878,
+      "toLon": 2.322295
+    },
+    {
+      "station": "Malesherbes",
+      "line": "3",
+      "time": 1.3,
+      "fromLat": 48.881153,
+      "fromLon": 2.31579,
+      "toLat": 48.882839,
+      "toLon": 2.309488
+    }
+  ],
+  "Rome": [
+    {
+      "station": "Villiers",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.882256,
+      "fromLon": 2.321404,
+      "toLat": 48.881214,
+      "toLon": 2.315762
+    },
+    {
+      "station": "Place de Clichy",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.882256,
+      "fromLon": 2.321404,
+      "toLat": 48.883671,
+      "toLon": 2.327958
+    }
+  ],
+  "Place de Clichy": [
+    {
+      "station": "Rome",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.883671,
+      "fromLon": 2.327958,
+      "toLat": 48.882256,
+      "toLon": 2.321404
+    },
+    {
+      "station": "Blanche",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.883671,
+      "fromLon": 2.327958,
+      "toLat": 48.883766,
+      "toLon": 2.332484
+    },
+    {
+      "station": "Liège",
+      "line": "13",
+      "time": 1,
+      "fromLat": 48.883232,
+      "fromLon": 2.327309,
+      "toLat": 48.879177,
+      "toLon": 2.327048
+    },
+    {
+      "station": "La Fourche",
+      "line": "13",
+      "time": 1,
+      "fromLat": 48.883232,
+      "fromLon": 2.327309,
+      "toLat": 48.88694,
+      "toLon": 2.325912
+    }
+  ],
+  "Blanche": [
+    {
+      "station": "Place de Clichy",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.883766,
+      "fromLon": 2.332484,
+      "toLat": 48.883671,
+      "toLon": 2.327958
+    },
+    {
+      "station": "Pigalle",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.883766,
+      "fromLon": 2.332484,
+      "toLat": 48.882198,
+      "toLon": 2.338218
+    }
+  ],
+  "Anvers": [
+    {
+      "station": "Pigalle",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.88287,
+      "fromLon": 2.344155,
+      "toLat": 48.882198,
+      "toLon": 2.338218
+    },
+    {
+      "station": "Barbès - Rochechouart",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.88287,
+      "fromLon": 2.344155,
+      "toLat": 48.883778,
+      "toLon": 2.350607
+    }
+  ],
+  "Barbès - Rochechouart": [
+    {
+      "station": "Anvers",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.883778,
+      "fromLon": 2.350607,
+      "toLat": 48.88287,
+      "toLon": 2.344155
+    },
+    {
+      "station": "La Chapelle",
+      "line": "2",
+      "time": 1.3,
+      "fromLat": 48.883778,
+      "fromLon": 2.350607,
+      "toLat": 48.884388,
+      "toLon": 2.360404
+    },
+    {
+      "station": "Château Rouge",
+      "line": "4",
+      "time": 1.4,
+      "fromLat": 48.883404,
+      "fromLon": 2.34963,
+      "toLat": 48.887077,
+      "toLon": 2.349366
+    },
+    {
+      "station": "Gare du Nord",
+      "line": "4",
+      "time": 1.3,
+      "fromLat": 48.883404,
+      "fromLon": 2.34963,
+      "toLat": 48.879509,
+      "toLon": 2.356769
+    }
+  ],
+  "La Chapelle": [
+    {
+      "station": "Barbès - Rochechouart",
+      "line": "2",
+      "time": 1.3,
+      "fromLat": 48.884388,
+      "fromLon": 2.360404,
+      "toLat": 48.883778,
+      "toLon": 2.350607
+    },
+    {
+      "station": "Stalingrad",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.884388,
+      "fromLon": 2.360404,
+      "toLat": 48.884243,
+      "toLon": 2.365752
+    }
+  ],
+  "Colonel Fabien": [
+    {
+      "station": "Jaurès",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.877651,
+      "fromLon": 2.370468,
+      "toLat": 48.881596,
+      "toLon": 2.370154
+    },
+    {
+      "station": "Belleville",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.877651,
+      "fromLon": 2.370468,
+      "toLat": 48.87225,
+      "toLon": 2.376641
+    },
+    {
+      "station": "Stalingrad",
+      "line": "2",
+      "time": 2.4,
+      "fromLat": 48.877697,
+      "fromLon": 2.370576,
+      "toLat": 48.884319,
+      "toLon": 2.365774
+    }
+  ],
+  "Belleville": [
+    {
+      "station": "Colonel Fabien",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.87225,
+      "fromLon": 2.376641,
+      "toLat": 48.877651,
+      "toLon": 2.370468
+    },
+    {
+      "station": "Couronnes",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.87225,
+      "fromLon": 2.376641,
+      "toLat": 48.869194,
+      "toLon": 2.380289
+    },
+    {
+      "station": "Goncourt",
+      "line": "11",
+      "time": 1,
+      "fromLat": 48.87191,
+      "fromLon": 2.376754,
+      "toLat": 48.869938,
+      "toLon": 2.371079
+    },
+    {
+      "station": "Pyrénées",
+      "line": "11",
+      "time": 1,
+      "fromLat": 48.87191,
+      "fromLon": 2.376754,
+      "toLat": 48.873814,
+      "toLon": 2.384884
+    }
+  ],
+  "Couronnes": [
+    {
+      "station": "Belleville",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.869194,
+      "fromLon": 2.380289,
+      "toLat": 48.87225,
+      "toLon": 2.376641
+    },
+    {
+      "station": "Ménilmontant",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.869194,
+      "fromLon": 2.380289,
+      "toLat": 48.86639,
+      "toLon": 2.38343
+    }
+  ],
+  "Ménilmontant": [
+    {
+      "station": "Couronnes",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.86639,
+      "fromLon": 2.38343,
+      "toLat": 48.869194,
+      "toLon": 2.380289
+    },
+    {
+      "station": "Père Lachaise",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.86639,
+      "fromLon": 2.38343,
+      "toLat": 48.86245,
+      "toLon": 2.38758
+    }
+  ],
+  "Père Lachaise": [
+    {
+      "station": "Ménilmontant",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.86245,
+      "fromLon": 2.38758,
+      "toLat": 48.86639,
+      "toLon": 2.38343
+    },
+    {
+      "station": "Philippe Auguste",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.86245,
+      "fromLon": 2.38758,
+      "toLat": 48.858089,
+      "toLon": 2.390498
+    },
+    {
+      "station": "Gambetta",
+      "line": "3",
+      "time": 1.5,
+      "fromLat": 48.863041,
+      "fromLon": 2.386231,
+      "toLat": 48.864971,
+      "toLon": 2.397359
+    },
+    {
+      "station": "Rue Saint-Maur",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.863041,
+      "fromLon": 2.386231,
+      "toLat": 48.864132,
+      "toLon": 2.380486
+    }
+  ],
+  "Philippe Auguste": [
+    {
+      "station": "Père Lachaise",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.858089,
+      "fromLon": 2.390498,
+      "toLat": 48.86245,
+      "toLon": 2.38758
+    },
+    {
+      "station": "Alexandre Dumas",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.858089,
+      "fromLon": 2.390498,
+      "toLat": 48.856197,
+      "toLon": 2.394591
+    }
+  ],
+  "Alexandre Dumas": [
+    {
+      "station": "Philippe Auguste",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.856197,
+      "fromLon": 2.394591,
+      "toLat": 48.858089,
+      "toLon": 2.390498
+    },
+    {
+      "station": "Avron",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.856197,
+      "fromLon": 2.394591,
+      "toLat": 48.851616,
+      "toLon": 2.398067
+    }
+  ],
+  "Avron": [
+    {
+      "station": "Alexandre Dumas",
+      "line": "2",
+      "time": 1,
+      "fromLat": 48.851616,
+      "fromLon": 2.398067,
+      "toLat": 48.856197,
+      "toLon": 2.394591
+    },
+    {
+      "station": "Nation",
+      "line": "2",
+      "time": 1.7,
+      "fromLat": 48.851616,
+      "fromLon": 2.398067,
+      "toLat": 48.848454,
+      "toLon": 2.395926
+    }
+  ],
+  "Gallieni": [
+    {
+      "station": "Porte de Bagnolet",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.865398,
+      "fromLon": 2.415921,
+      "toLat": 48.86454,
+      "toLon": 2.408754
+    }
+  ],
+  "Rue Saint-Maur": [
+    {
+      "station": "Père Lachaise",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.864132,
+      "fromLon": 2.380486,
+      "toLat": 48.863041,
+      "toLon": 2.386231
+    },
+    {
+      "station": "Parmentier",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.864132,
+      "fromLon": 2.380486,
+      "toLat": 48.865242,
+      "toLon": 2.374721
+    }
+  ],
+  "Parmentier": [
+    {
+      "station": "Rue Saint-Maur",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.865242,
+      "fromLon": 2.374721,
+      "toLat": 48.864132,
+      "toLon": 2.380486
+    },
+    {
+      "station": "République",
+      "line": "3",
+      "time": 1.3,
+      "fromLat": 48.865242,
+      "fromLon": 2.374721,
+      "toLat": 48.867203,
+      "toLon": 2.364333
+    }
+  ],
+  "Temple": [
+    {
+      "station": "République",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.866756,
+      "fromLon": 2.361561,
+      "toLat": 48.867203,
+      "toLon": 2.364333
+    },
+    {
+      "station": "Arts et Métiers",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.866756,
+      "fromLon": 2.361561,
+      "toLat": 48.865616,
+      "toLon": 2.356682
+    }
+  ],
+  "Arts et Métiers": [
+    {
+      "station": "Temple",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.865616,
+      "fromLon": 2.356682,
+      "toLat": 48.866756,
+      "toLon": 2.361561
+    },
+    {
+      "station": "Réaumur - Sébastopol",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.865616,
+      "fromLon": 2.356682,
+      "toLat": 48.866383,
+      "toLon": 2.352051
+    },
+    {
+      "station": "Rambuteau",
+      "line": "11",
+      "time": 1,
+      "fromLat": 48.865299,
+      "fromLon": 2.356508,
+      "toLat": 48.861191,
+      "toLon": 2.353274
+    },
+    {
+      "station": "République",
+      "line": "11",
+      "time": 1,
+      "fromLat": 48.865299,
+      "fromLon": 2.356508,
+      "toLat": 48.867886,
+      "toLon": 2.36488
+    }
+  ],
+  "Réaumur - Sébastopol": [
+    {
+      "station": "Arts et Métiers",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.866383,
+      "fromLon": 2.352051,
+      "toLat": 48.865616,
+      "toLon": 2.356682
+    },
+    {
+      "station": "Sentier",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.866383,
+      "fromLon": 2.352051,
+      "toLat": 48.867348,
+      "toLon": 2.347554
+    },
+    {
+      "station": "Strasbourg - Saint-Denis",
+      "line": "4",
+      "time": 1.3,
+      "fromLat": 48.866077,
+      "fromLon": 2.352382,
+      "toLat": 48.869667,
+      "toLon": 2.354341
+    },
+    {
+      "station": "Etienne Marcel",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.866077,
+      "fromLon": 2.352382,
+      "toLat": 48.863705,
+      "toLon": 2.348976
+    }
+  ],
+  "Sentier": [
+    {
+      "station": "Réaumur - Sébastopol",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.867348,
+      "fromLon": 2.347554,
+      "toLat": 48.866383,
+      "toLon": 2.352051
+    },
+    {
+      "station": "Bourse",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.867348,
+      "fromLon": 2.347554,
+      "toLat": 48.868793,
+      "toLon": 2.340678
+    }
+  ],
+  "Bourse": [
+    {
+      "station": "Sentier",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.868793,
+      "fromLon": 2.340678,
+      "toLat": 48.867348,
+      "toLon": 2.347554
+    },
+    {
+      "station": "Quatre Septembre",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.868793,
+      "fromLon": 2.340678,
+      "toLat": 48.869717,
+      "toLon": 2.336293
+    }
+  ],
+  "Quatre Septembre": [
+    {
+      "station": "Bourse",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.869717,
+      "fromLon": 2.336293,
+      "toLat": 48.868793,
+      "toLon": 2.340678
+    },
+    {
+      "station": "Opéra",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.869717,
+      "fromLon": 2.336293,
+      "toLat": 48.87151,
+      "toLon": 2.331129
+    }
+  ],
+  "Europe": [
+    {
+      "station": "Saint-Lazare",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.87878,
+      "fromLon": 2.322295,
+      "toLat": 48.875027,
+      "toLon": 2.324607
+    },
+    {
+      "station": "Villiers",
+      "line": "3",
+      "time": 1.3,
+      "fromLat": 48.87878,
+      "fromLon": 2.322295,
+      "toLat": 48.881153,
+      "toLon": 2.31579
+    }
+  ],
+  "Malesherbes": [
+    {
+      "station": "Villiers",
+      "line": "3",
+      "time": 1.3,
+      "fromLat": 48.882839,
+      "fromLon": 2.309488,
+      "toLat": 48.881153,
+      "toLon": 2.31579
+    },
+    {
+      "station": "Wagram",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.882839,
+      "fromLon": 2.309488,
+      "toLat": 48.883846,
+      "toLon": 2.304673
+    }
+  ],
+  "Wagram": [
+    {
+      "station": "Malesherbes",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.883846,
+      "fromLon": 2.304673,
+      "toLat": 48.882839,
+      "toLon": 2.309488
+    },
+    {
+      "station": "Pereire",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.883846,
+      "fromLon": 2.304673,
+      "toLat": 48.88493,
+      "toLon": 2.297701
+    }
+  ],
+  "Pereire": [
+    {
+      "station": "Wagram",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.88493,
+      "fromLon": 2.297701,
+      "toLat": 48.883846,
+      "toLon": 2.304673
+    },
+    {
+      "station": "Porte de Champerret",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.88493,
+      "fromLon": 2.297701,
+      "toLat": 48.885735,
+      "toLon": 2.291848
+    }
+  ],
+  "Porte de Champerret": [
+    {
+      "station": "Pereire",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.885735,
+      "fromLon": 2.291848,
+      "toLat": 48.88493,
+      "toLon": 2.297701
+    },
+    {
+      "station": "Louise Michel",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.885735,
+      "fromLon": 2.291848,
+      "toLat": 48.888538,
+      "toLon": 2.288278
+    }
+  ],
+  "Louise Michel": [
+    {
+      "station": "Porte de Champerret",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.888538,
+      "fromLon": 2.288278,
+      "toLat": 48.885735,
+      "toLon": 2.291848
+    },
+    {
+      "station": "Anatole France",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.888538,
+      "fromLon": 2.288278,
+      "toLat": 48.892208,
+      "toLon": 2.284982
+    }
+  ],
+  "Anatole France": [
+    {
+      "station": "Louise Michel",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.892208,
+      "fromLon": 2.284982,
+      "toLat": 48.888538,
+      "toLon": 2.288278
+    },
+    {
+      "station": "Pont de Levallois - Bécon",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.892208,
+      "fromLon": 2.284982,
+      "toLat": 48.897228,
+      "toLon": 2.280304
+    }
+  ],
+  "Pont de Levallois - Bécon": [
+    {
+      "station": "Anatole France",
+      "line": "3",
+      "time": 1,
+      "fromLat": 48.897228,
+      "fromLon": 2.280304,
+      "toLat": 48.892208,
+      "toLon": 2.284982
+    }
+  ],
+  "Pointe du Lac": [
+    {
+      "station": "Créteil - Préfecture",
+      "line": "8",
+      "time": 1.7,
+      "fromLat": 48.768761,
+      "fromLon": 2.464317,
+      "toLat": 48.779755,
+      "toLon": 2.459305
+    }
+  ],
+  "Créteil - Préfecture": [
+    {
+      "station": "Pointe du Lac",
+      "line": "8",
+      "time": 1.7,
+      "fromLat": 48.779755,
+      "fromLon": 2.459305,
+      "toLat": 48.768761,
+      "toLon": 2.464317
+    },
+    {
+      "station": "Créteil - Université",
+      "line": "8",
+      "time": 1.7,
+      "fromLat": 48.779755,
+      "fromLon": 2.459305,
+      "toLat": 48.789944,
+      "toLon": 2.45057
+    }
+  ],
+  "Créteil - Université": [
+    {
+      "station": "Créteil - Préfecture",
+      "line": "8",
+      "time": 1.7,
+      "fromLat": 48.789944,
+      "fromLon": 2.45057,
+      "toLat": 48.779755,
+      "toLon": 2.459305
+    },
+    {
+      "station": "Créteil - L'Échat",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.789944,
+      "fromLon": 2.45057,
+      "toLat": 48.796612,
+      "toLon": 2.449424
+    }
+  ],
+  "Créteil - L'Échat": [
+    {
+      "station": "Créteil - Université",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.796612,
+      "fromLon": 2.449424,
+      "toLat": 48.789944,
+      "toLon": 2.45057
+    },
+    {
+      "station": "Maisons-Alfort - Les Juilliottes",
+      "line": "8",
+      "time": 1.4,
+      "fromLat": 48.796612,
+      "fromLon": 2.449424,
+      "toLat": 48.803219,
+      "toLon": 2.445956
+    }
+  ],
+  "Maisons-Alfort - Les Juilliottes": [
+    {
+      "station": "Créteil - L'Échat",
+      "line": "8",
+      "time": 1.4,
+      "fromLat": 48.803219,
+      "fromLon": 2.445956,
+      "toLat": 48.796612,
+      "toLon": 2.449424
+    },
+    {
+      "station": "Maisons-Alfort - Stade",
+      "line": "8",
+      "time": 1.6,
+      "fromLat": 48.803219,
+      "fromLon": 2.445956,
+      "toLat": 48.808979,
+      "toLon": 2.434924
+    }
+  ],
+  "Maisons-Alfort - Stade": [
+    {
+      "station": "Maisons-Alfort - Les Juilliottes",
+      "line": "8",
+      "time": 1.6,
+      "fromLat": 48.808979,
+      "fromLon": 2.434924,
+      "toLat": 48.803219,
+      "toLon": 2.445956
+    },
+    {
+      "station": "Ecole Vétérinaire de Maisons-Alfort",
+      "line": "8",
+      "time": 1.5,
+      "fromLat": 48.808979,
+      "fromLon": 2.434924,
+      "toLat": 48.814835,
+      "toLon": 2.4224
+    }
+  ],
+  "Ecole Vétérinaire de Maisons-Alfort": [
+    {
+      "station": "Maisons-Alfort - Stade",
+      "line": "8",
+      "time": 1.5,
+      "fromLat": 48.814835,
+      "fromLon": 2.4224,
+      "toLat": 48.808979,
+      "toLon": 2.434924
+    },
+    {
+      "station": "Charenton - Écoles",
+      "line": "8",
+      "time": 1.7,
+      "fromLat": 48.814835,
+      "fromLon": 2.4224,
+      "toLat": 48.82148,
+      "toLon": 2.413845
+    }
+  ],
+  "Charenton - Écoles": [
+    {
+      "station": "Ecole Vétérinaire de Maisons-Alfort",
+      "line": "8",
+      "time": 1.7,
+      "fromLat": 48.82148,
+      "fromLon": 2.413845,
+      "toLat": 48.814835,
+      "toLon": 2.4224
+    },
+    {
+      "station": "Liberté",
+      "line": "8",
+      "time": 1.3,
+      "fromLat": 48.82148,
+      "fromLon": 2.413845,
+      "toLat": 48.826149,
+      "toLon": 2.406491
+    }
+  ],
+  "Liberté": [
+    {
+      "station": "Charenton - Écoles",
+      "line": "8",
+      "time": 1.3,
+      "fromLat": 48.826149,
+      "fromLon": 2.406491,
+      "toLat": 48.82148,
+      "toLon": 2.413845
+    },
+    {
+      "station": "Porte de Charenton",
+      "line": "8",
+      "time": 1.7,
+      "fromLat": 48.826149,
+      "fromLon": 2.406491,
+      "toLat": 48.83345,
+      "toLon": 2.402512
+    }
+  ],
+  "Porte de Charenton": [
+    {
+      "station": "Liberté",
+      "line": "8",
+      "time": 1.7,
+      "fromLat": 48.83345,
+      "fromLon": 2.402512,
+      "toLat": 48.826149,
+      "toLon": 2.406491
+    },
+    {
+      "station": "Porte Dorée",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.83345,
+      "fromLon": 2.402512,
+      "toLat": 48.835018,
+      "toLon": 2.405874
+    }
+  ],
+  "Porte Dorée": [
+    {
+      "station": "Porte de Charenton",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.835018,
+      "fromLon": 2.405874,
+      "toLat": 48.83345,
+      "toLon": 2.402512
+    },
+    {
+      "station": "Michel Bizot",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.835018,
+      "fromLon": 2.405874,
+      "toLat": 48.837078,
+      "toLon": 2.402367
+    }
+  ],
+  "Michel Bizot": [
+    {
+      "station": "Porte Dorée",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.837078,
+      "fromLon": 2.402367,
+      "toLat": 48.835018,
+      "toLon": 2.405874
+    },
+    {
+      "station": "Daumesnil",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.837078,
+      "fromLon": 2.402367,
+      "toLat": 48.839672,
+      "toLon": 2.395574
+    }
+  ],
+  "Daumesnil": [
+    {
+      "station": "Michel Bizot",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.839672,
+      "fromLon": 2.395574,
+      "toLat": 48.837078,
+      "toLon": 2.402367
+    },
+    {
+      "station": "Montgallet",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.839672,
+      "fromLon": 2.395574,
+      "toLat": 48.844063,
+      "toLon": 2.390522
+    },
+    {
+      "station": "Dugommier",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.839436,
+      "fromLon": 2.396149,
+      "toLat": 48.838951,
+      "toLon": 2.389601
+    },
+    {
+      "station": "Bel-Air",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.839436,
+      "fromLon": 2.396149,
+      "toLat": 48.841427,
+      "toLon": 2.400867
+    }
+  ],
+  "Montgallet": [
+    {
+      "station": "Daumesnil",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.844063,
+      "fromLon": 2.390522,
+      "toLat": 48.839672,
+      "toLon": 2.395574
+    },
+    {
+      "station": "Reuilly - Diderot",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.844063,
+      "fromLon": 2.390522,
+      "toLat": 48.847214,
+      "toLon": 2.387201
+    }
+  ],
+  "Faidherbe - Chaligny": [
+    {
+      "station": "Reuilly - Diderot",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.850201,
+      "fromLon": 2.384073,
+      "toLat": 48.847214,
+      "toLon": 2.387201
+    },
+    {
+      "station": "Ledru-Rollin",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.850201,
+      "fromLon": 2.384073,
+      "toLat": 48.851337,
+      "toLon": 2.376141
+    }
+  ],
+  "Ledru-Rollin": [
+    {
+      "station": "Faidherbe - Chaligny",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.851337,
+      "fromLon": 2.376141,
+      "toLat": 48.850201,
+      "toLon": 2.384073
+    },
+    {
+      "station": "Bastille",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.851337,
+      "fromLon": 2.376141,
+      "toLat": 48.853485,
+      "toLon": 2.369652
+    }
+  ],
+  "Chemin Vert": [
+    {
+      "station": "Bastille",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.857105,
+      "fromLon": 2.368222,
+      "toLat": 48.853485,
+      "toLon": 2.369652
+    },
+    {
+      "station": "Saint-Sébastien - Froissart",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.857105,
+      "fromLon": 2.368222,
+      "toLat": 48.860985,
+      "toLon": 2.36737
+    }
+  ],
+  "Saint-Sébastien - Froissart": [
+    {
+      "station": "Chemin Vert",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.860985,
+      "fromLon": 2.36737,
+      "toLat": 48.857105,
+      "toLon": 2.368222
+    },
+    {
+      "station": "Filles du Calvaire",
+      "line": "8",
+      "time": 1.3,
+      "fromLat": 48.860985,
+      "fromLon": 2.36737,
+      "toLat": 48.863087,
+      "toLon": 2.366827
+    }
+  ],
+  "Filles du Calvaire": [
+    {
+      "station": "Saint-Sébastien - Froissart",
+      "line": "8",
+      "time": 1.3,
+      "fromLat": 48.863087,
+      "fromLon": 2.366827,
+      "toLat": 48.860985,
+      "toLon": 2.36737
+    },
+    {
+      "station": "République",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.863087,
+      "fromLon": 2.366827,
+      "toLat": 48.867485,
+      "toLon": 2.363256
+    }
+  ],
+  "Invalides": [
+    {
+      "station": "Concorde",
+      "line": "8",
+      "time": 1.4,
+      "fromLat": 48.861092,
+      "fromLon": 2.314633,
+      "toLat": 48.866562,
+      "toLon": 2.321915
+    },
+    {
+      "station": "La Tour-Maubourg",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.861092,
+      "fromLon": 2.314633,
+      "toLat": 48.857727,
+      "toLon": 2.310473
+    },
+    {
+      "station": "Varenne",
+      "line": "13",
+      "time": 1,
+      "fromLat": 48.859985,
+      "fromLon": 2.314361,
+      "toLat": 48.856392,
+      "toLon": 2.315076
+    },
+    {
+      "station": "Champs-Élysées - Clemenceau",
+      "line": "13",
+      "time": 1.6,
+      "fromLat": 48.859985,
+      "fromLon": 2.314361,
+      "toLat": 48.867374,
+      "toLon": 2.31395
+    }
+  ],
+  "La Tour-Maubourg": [
+    {
+      "station": "Invalides",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.857727,
+      "fromLon": 2.310473,
+      "toLat": 48.861092,
+      "toLon": 2.314633
+    },
+    {
+      "station": "École Militaire",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.857727,
+      "fromLon": 2.310473,
+      "toLat": 48.854919,
+      "toLon": 2.306346
+    }
+  ],
+  "École Militaire": [
+    {
+      "station": "La Tour-Maubourg",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.854919,
+      "fromLon": 2.306346,
+      "toLat": 48.857727,
+      "toLon": 2.310473
+    },
+    {
+      "station": "La Motte-Picquet - Grenelle",
+      "line": "8",
+      "time": 1.4,
+      "fromLat": 48.854919,
+      "fromLon": 2.306346,
+      "toLat": 48.84967,
+      "toLon": 2.298488
+    }
+  ],
+  "La Motte-Picquet - Grenelle": [
+    {
+      "station": "École Militaire",
+      "line": "8",
+      "time": 1.4,
+      "fromLat": 48.84967,
+      "fromLon": 2.298488,
+      "toLat": 48.854919,
+      "toLon": 2.306346
+    },
+    {
+      "station": "Commerce",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.84967,
+      "fromLon": 2.298488,
+      "toLat": 48.844639,
+      "toLon": 2.293688
+    },
+    {
+      "station": "Ségur",
+      "line": "10",
+      "time": 1.5,
+      "fromLat": 48.849632,
+      "fromLon": 2.298526,
+      "toLat": 48.847225,
+      "toLon": 2.307252
+    },
+    {
+      "station": "Avenue Émile Zola",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.849632,
+      "fromLon": 2.298526,
+      "toLat": 48.847038,
+      "toLon": 2.295019
+    },
+    {
+      "station": "Dupleix",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.848698,
+      "fromLon": 2.298906,
+      "toLat": 48.850384,
+      "toLon": 2.293637
+    },
+    {
+      "station": "Cambronne",
+      "line": "6",
+      "time": 1.4,
+      "fromLat": 48.848698,
+      "fromLon": 2.298906,
+      "toLat": 48.847492,
+      "toLon": 2.302899
+    }
+  ],
+  "Commerce": [
+    {
+      "station": "La Motte-Picquet - Grenelle",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.844639,
+      "fromLon": 2.293688,
+      "toLat": 48.84967,
+      "toLon": 2.298488
+    },
+    {
+      "station": "Félix Faure",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.844639,
+      "fromLon": 2.293688,
+      "toLat": 48.842747,
+      "toLon": 2.291752
+    }
+  ],
+  "Félix Faure": [
+    {
+      "station": "Commerce",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.842747,
+      "fromLon": 2.291752,
+      "toLat": 48.844639,
+      "toLon": 2.293688
+    },
+    {
+      "station": "Boucicaut",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.842747,
+      "fromLon": 2.291752,
+      "toLat": 48.841122,
+      "toLon": 2.287794
+    }
+  ],
+  "Boucicaut": [
+    {
+      "station": "Félix Faure",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.841122,
+      "fromLon": 2.287794,
+      "toLat": 48.842747,
+      "toLon": 2.291752
+    },
+    {
+      "station": "Lourmel",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.841122,
+      "fromLon": 2.287794,
+      "toLat": 48.838787,
+      "toLon": 2.282036
+    }
+  ],
+  "Lourmel": [
+    {
+      "station": "Boucicaut",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.838787,
+      "fromLon": 2.282036,
+      "toLat": 48.841122,
+      "toLon": 2.287794
+    },
+    {
+      "station": "Balard",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.838787,
+      "fromLon": 2.282036,
+      "toLat": 48.836666,
+      "toLon": 2.278363
+    }
+  ],
+  "Balard": [
+    {
+      "station": "Lourmel",
+      "line": "8",
+      "time": 1,
+      "fromLat": 48.836666,
+      "fromLon": 2.278363,
+      "toLat": 48.838787,
+      "toLon": 2.282036
+    }
+  ],
+  "Porte de Clignancourt": [
+    {
+      "station": "Simplon",
+      "line": "4",
+      "time": 1.3,
+      "fromLat": 48.897526,
+      "fromLon": 2.344624,
+      "toLat": 48.893814,
+      "toLon": 2.347795
+    }
+  ],
+  "Simplon": [
+    {
+      "station": "Porte de Clignancourt",
+      "line": "4",
+      "time": 1.3,
+      "fromLat": 48.893814,
+      "fromLon": 2.347795,
+      "toLat": 48.897526,
+      "toLon": 2.344624
+    },
+    {
+      "station": "Marcadet - Poissonniers",
+      "line": "4",
+      "time": 1.3,
+      "fromLat": 48.893814,
+      "fromLon": 2.347795,
+      "toLat": 48.891281,
+      "toLon": 2.349545
+    }
+  ],
+  "Château Rouge": [
+    {
+      "station": "Marcadet - Poissonniers",
+      "line": "4",
+      "time": 1.3,
+      "fromLat": 48.887077,
+      "fromLon": 2.349366,
+      "toLat": 48.891281,
+      "toLon": 2.349545
+    },
+    {
+      "station": "Barbès - Rochechouart",
+      "line": "4",
+      "time": 1.4,
+      "fromLat": 48.887077,
+      "fromLon": 2.349366,
+      "toLat": 48.883404,
+      "toLon": 2.34963
+    }
+  ],
+  "Gare du Nord": [
+    {
+      "station": "Barbès - Rochechouart",
+      "line": "4",
+      "time": 1.3,
+      "fromLat": 48.879509,
+      "fromLon": 2.356769,
+      "toLat": 48.883404,
+      "toLon": 2.34963
+    },
+    {
+      "station": "Gare de l'Est",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.879509,
+      "fromLon": 2.356769,
+      "toLat": 48.876278,
+      "toLon": 2.35775
+    },
+    {
+      "station": "Stalingrad",
+      "line": "5",
+      "time": 2,
+      "fromLat": 48.879704,
+      "fromLon": 2.357217,
+      "toLat": 48.884144,
+      "toLon": 2.367348
+    },
+    {
+      "station": "Gare de l'Est",
+      "line": "5",
+      "time": 1.6,
+      "fromLat": 48.879704,
+      "fromLon": 2.357217,
+      "toLat": 48.876083,
+      "toLon": 2.357983
+    }
+  ],
+  "Château d'Eau": [
+    {
+      "station": "Gare de l'Est",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.872475,
+      "fromLon": 2.355901,
+      "toLat": 48.876278,
+      "toLon": 2.35775
+    },
+    {
+      "station": "Strasbourg - Saint-Denis",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.872475,
+      "fromLon": 2.355901,
+      "toLat": 48.869667,
+      "toLon": 2.354341
+    }
+  ],
+  "Etienne Marcel": [
+    {
+      "station": "Réaumur - Sébastopol",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.863705,
+      "fromLon": 2.348976,
+      "toLat": 48.866077,
+      "toLon": 2.352382
+    },
+    {
+      "station": "Les Halles",
+      "line": "4",
+      "time": 1.3,
+      "fromLat": 48.863705,
+      "fromLon": 2.348976,
+      "toLat": 48.862526,
+      "toLon": 2.346006
+    }
+  ],
+  "Les Halles": [
+    {
+      "station": "Etienne Marcel",
+      "line": "4",
+      "time": 1.3,
+      "fromLat": 48.862526,
+      "fromLon": 2.346006,
+      "toLat": 48.863705,
+      "toLon": 2.348976
+    },
+    {
+      "station": "Châtelet",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.862526,
+      "fromLon": 2.346006,
+      "toLat": 48.859661,
+      "toLon": 2.346642
+    }
+  ],
+  "Cité": [
+    {
+      "station": "Châtelet",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.854935,
+      "fromLon": 2.347232,
+      "toLat": 48.859661,
+      "toLon": 2.346642
+    },
+    {
+      "station": "Saint-Michel",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.854935,
+      "fromLon": 2.347232,
+      "toLat": 48.853584,
+      "toLon": 2.343965
+    }
+  ],
+  "Saint-Michel": [
+    {
+      "station": "Cité",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.853584,
+      "fromLon": 2.343965,
+      "toLat": 48.854935,
+      "toLon": 2.347232
+    },
+    {
+      "station": "Odéon",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.853584,
+      "fromLon": 2.343965,
+      "toLat": 48.852177,
+      "toLon": 2.339516
+    }
+  ],
+  "Odéon": [
+    {
+      "station": "Saint-Michel",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.852177,
+      "fromLon": 2.339516,
+      "toLat": 48.853584,
+      "toLon": 2.343965
+    },
+    {
+      "station": "Saint-Germain-des-Prés",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.852177,
+      "fromLon": 2.339516,
+      "toLat": 48.853672,
+      "toLon": 2.333987
+    },
+    {
+      "station": "Cluny - La Sorbonne",
+      "line": "10",
+      "time": 1.3,
+      "fromLat": 48.852024,
+      "fromLon": 2.340692,
+      "toLat": 48.851028,
+      "toLon": 2.344896
+    },
+    {
+      "station": "Mabillon",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.852024,
+      "fromLon": 2.340692,
+      "toLat": 48.852959,
+      "toLon": 2.335087
+    }
+  ],
+  "Saint-Germain-des-Prés": [
+    {
+      "station": "Odéon",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.853672,
+      "fromLon": 2.333987,
+      "toLat": 48.852177,
+      "toLon": 2.339516
+    },
+    {
+      "station": "Saint-Sulpice",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.853672,
+      "fromLon": 2.333987,
+      "toLat": 48.851208,
+      "toLon": 2.330612
+    }
+  ],
+  "Saint-Sulpice": [
+    {
+      "station": "Saint-Germain-des-Prés",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.851208,
+      "fromLon": 2.330612,
+      "toLat": 48.853672,
+      "toLon": 2.333987
+    },
+    {
+      "station": "Saint-Placide",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.851208,
+      "fromLon": 2.330612,
+      "toLat": 48.847042,
+      "toLon": 2.32685
+    }
+  ],
+  "Saint-Placide": [
+    {
+      "station": "Saint-Sulpice",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.847042,
+      "fromLon": 2.32685,
+      "toLat": 48.851208,
+      "toLon": 2.330612
+    },
+    {
+      "station": "Montparnasse Bienvenue",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.847042,
+      "fromLon": 2.32685,
+      "toLat": 48.843853,
+      "toLon": 2.324329
+    }
+  ],
+  "Vavin": [
+    {
+      "station": "Montparnasse Bienvenue",
+      "line": "4",
+      "time": 1.4,
+      "fromLat": 48.842052,
+      "fromLon": 2.328863,
+      "toLat": 48.843853,
+      "toLon": 2.324329
+    },
+    {
+      "station": "Raspail",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.842052,
+      "fromLon": 2.328863,
+      "toLat": 48.839157,
+      "toLon": 2.330467
+    }
+  ],
+  "Raspail": [
+    {
+      "station": "Vavin",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.839157,
+      "fromLon": 2.330467,
+      "toLat": 48.842052,
+      "toLon": 2.328863
+    },
+    {
+      "station": "Denfert-Rochereau",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.839157,
+      "fromLon": 2.330467,
+      "toLat": 48.83395,
+      "toLon": 2.332019
+    },
+    {
+      "station": "Edgar Quinet",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.839066,
+      "fromLon": 2.330415,
+      "toLat": 48.840904,
+      "toLon": 2.325287
+    },
+    {
+      "station": "Denfert-Rochereau",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.839066,
+      "fromLon": 2.330415,
+      "toLat": 48.834251,
+      "toLon": 2.332804
+    }
+  ],
+  "Denfert-Rochereau": [
+    {
+      "station": "Raspail",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.83395,
+      "fromLon": 2.332019,
+      "toLat": 48.839157,
+      "toLon": 2.330467
+    },
+    {
+      "station": "Mouton-Duvernet",
+      "line": "4",
+      "time": 1.4,
+      "fromLat": 48.83395,
+      "fromLon": 2.332019,
+      "toLat": 48.831383,
+      "toLon": 2.32979
+    },
+    {
+      "station": "Raspail",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.834251,
+      "fromLon": 2.332804,
+      "toLat": 48.839066,
+      "toLon": 2.330415
+    },
+    {
+      "station": "Saint-Jacques",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.834251,
+      "fromLon": 2.332804,
+      "toLat": 48.832859,
+      "toLon": 2.337096
+    }
+  ],
+  "Mouton-Duvernet": [
+    {
+      "station": "Denfert-Rochereau",
+      "line": "4",
+      "time": 1.4,
+      "fromLat": 48.831383,
+      "fromLon": 2.32979,
+      "toLat": 48.83395,
+      "toLon": 2.332019
+    },
+    {
+      "station": "Alésia",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.831383,
+      "fromLon": 2.32979,
+      "toLat": 48.828201,
+      "toLon": 2.327093
+    }
+  ],
+  "Alésia": [
+    {
+      "station": "Mouton-Duvernet",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.828201,
+      "fromLon": 2.327093,
+      "toLat": 48.831383,
+      "toLon": 2.32979
+    },
+    {
+      "station": "Porte d'Orléans",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.828201,
+      "fromLon": 2.327093,
+      "toLat": 48.823418,
+      "toLon": 2.325493
+    }
+  ],
+  "Porte d'Orléans": [
+    {
+      "station": "Alésia",
+      "line": "4",
+      "time": 1,
+      "fromLat": 48.823418,
+      "fromLon": 2.325493,
+      "toLat": 48.828201,
+      "toLon": 2.327093
+    },
+    {
+      "station": "Mairie de Montrouge",
+      "line": "4",
+      "time": 1.3,
+      "fromLat": 48.823418,
+      "fromLon": 2.325493,
+      "toLat": 48.81847,
+      "toLon": 2.319524
+    }
+  ],
+  "Mairie de Montrouge": [
+    {
+      "station": "Porte d'Orléans",
+      "line": "4",
+      "time": 1.3,
+      "fromLat": 48.81847,
+      "fromLon": 2.319524,
+      "toLat": 48.823418,
+      "toLon": 2.325493
+    },
+    {
+      "station": "Barbara",
+      "line": "4",
+      "time": 1.7,
+      "fromLat": 48.81847,
+      "fromLon": 2.319524,
+      "toLat": 48.809799,
+      "toLon": 2.317417
+    }
+  ],
+  "Barbara": [
+    {
+      "station": "Mairie de Montrouge",
+      "line": "4",
+      "time": 1.7,
+      "fromLat": 48.809799,
+      "fromLon": 2.317417,
+      "toLat": 48.81847,
+      "toLon": 2.319524
+    },
+    {
+      "station": "Bagneux - Lucie Aubrac",
+      "line": "4",
+      "time": 1.3,
+      "fromLat": 48.809799,
+      "fromLon": 2.317417,
+      "toLat": 48.803547,
+      "toLon": 2.317458
+    }
+  ],
+  "Bagneux - Lucie Aubrac": [
+    {
+      "station": "Barbara",
+      "line": "4",
+      "time": 1.3,
+      "fromLat": 48.803547,
+      "fromLon": 2.317458,
+      "toLat": 48.809799,
+      "toLon": 2.317417
+    }
+  ],
+  "Bobigny - Pablo Picasso": [
+    {
+      "station": "Bobigny-Pantin - Raymond Queneau",
+      "line": "5",
+      "time": 3,
+      "fromLat": 48.906364,
+      "fromLon": 2.449027,
+      "toLat": 48.895638,
+      "toLon": 2.426278
+    }
+  ],
+  "Bobigny-Pantin - Raymond Queneau": [
+    {
+      "station": "Bobigny - Pablo Picasso",
+      "line": "5",
+      "time": 3,
+      "fromLat": 48.895638,
+      "fromLon": 2.426278,
+      "toLat": 48.906364,
+      "toLon": 2.449027
+    },
+    {
+      "station": "Église de Pantin",
+      "line": "5",
+      "time": 1.7,
+      "fromLat": 48.895638,
+      "fromLon": 2.426278,
+      "toLat": 48.893246,
+      "toLon": 2.413075
+    }
+  ],
+  "Église de Pantin": [
+    {
+      "station": "Bobigny-Pantin - Raymond Queneau",
+      "line": "5",
+      "time": 1.7,
+      "fromLat": 48.893246,
+      "fromLon": 2.413075,
+      "toLat": 48.895638,
+      "toLon": 2.426278
+    },
+    {
+      "station": "Hoche",
+      "line": "5",
+      "time": 1.4,
+      "fromLat": 48.893246,
+      "fromLon": 2.413075,
+      "toLat": 48.891495,
+      "toLon": 2.403114
+    }
+  ],
+  "Hoche": [
+    {
+      "station": "Église de Pantin",
+      "line": "5",
+      "time": 1.4,
+      "fromLat": 48.891495,
+      "fromLon": 2.403114,
+      "toLat": 48.893246,
+      "toLon": 2.413075
+    },
+    {
+      "station": "Porte de Pantin",
+      "line": "5",
+      "time": 1.3,
+      "fromLat": 48.891495,
+      "fromLon": 2.403114,
+      "toLat": 48.888535,
+      "toLon": 2.392061
+    }
+  ],
+  "Porte de Pantin": [
+    {
+      "station": "Hoche",
+      "line": "5",
+      "time": 1.3,
+      "fromLat": 48.888535,
+      "fromLon": 2.392061,
+      "toLat": 48.891495,
+      "toLon": 2.403114
+    },
+    {
+      "station": "Ourcq",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.888535,
+      "fromLon": 2.392061,
+      "toLat": 48.88715,
+      "toLon": 2.386677
+    }
+  ],
+  "Ourcq": [
+    {
+      "station": "Porte de Pantin",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.88715,
+      "fromLon": 2.386677,
+      "toLat": 48.888535,
+      "toLon": 2.392061
+    },
+    {
+      "station": "Laumière",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.88715,
+      "fromLon": 2.386677,
+      "toLat": 48.885201,
+      "toLon": 2.379312
+    }
+  ],
+  "Laumière": [
+    {
+      "station": "Ourcq",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.885201,
+      "fromLon": 2.379312,
+      "toLat": 48.88715,
+      "toLon": 2.386677
+    },
+    {
+      "station": "Jaurès",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.885201,
+      "fromLon": 2.379312,
+      "toLat": 48.883114,
+      "toLon": 2.371383
+    }
+  ],
+  "Jacques Bonsergent": [
+    {
+      "station": "Gare de l'Est",
+      "line": "5",
+      "time": 1.4,
+      "fromLat": 48.870621,
+      "fromLon": 2.361024,
+      "toLat": 48.876083,
+      "toLon": 2.357983
+    },
+    {
+      "station": "République",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.870621,
+      "fromLon": 2.361024,
+      "toLat": 48.867687,
+      "toLon": 2.364099
+    }
+  ],
+  "Richard-Lenoir": [
+    {
+      "station": "Oberkampf",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.859879,
+      "fromLon": 2.371814,
+      "toLat": 48.864582,
+      "toLon": 2.368526
+    },
+    {
+      "station": "Bréguet-Sabin",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.859879,
+      "fromLon": 2.371814,
+      "toLat": 48.856243,
+      "toLon": 2.370195
+    }
+  ],
+  "Bréguet-Sabin": [
+    {
+      "station": "Richard-Lenoir",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.856243,
+      "fromLon": 2.370195,
+      "toLat": 48.859879,
+      "toLon": 2.371814
+    },
+    {
+      "station": "Bastille",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.856243,
+      "fromLon": 2.370195,
+      "toLat": 48.853302,
+      "toLon": 2.368798
+    }
+  ],
+  "Quai de la Rapée": [
+    {
+      "station": "Bastille",
+      "line": "5",
+      "time": 1.5,
+      "fromLat": 48.846428,
+      "fromLon": 2.365885,
+      "toLat": 48.853302,
+      "toLon": 2.368798
+    },
+    {
+      "station": "Gare d'Austerlitz",
+      "line": "5",
+      "time": 1.5,
+      "fromLat": 48.846428,
+      "fromLon": 2.365885,
+      "toLat": 48.842396,
+      "toLon": 2.365443
+    }
+  ],
+  "Gare d'Austerlitz": [
+    {
+      "station": "Quai de la Rapée",
+      "line": "5",
+      "time": 1.5,
+      "fromLat": 48.842396,
+      "fromLon": 2.365443,
+      "toLat": 48.846428,
+      "toLon": 2.365885
+    },
+    {
+      "station": "Saint-Marcel",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.842396,
+      "fromLon": 2.365443,
+      "toLat": 48.838539,
+      "toLon": 2.36064
+    },
+    {
+      "station": "Jussieu",
+      "line": "10",
+      "time": 2,
+      "fromLat": 48.842354,
+      "fromLon": 2.364531,
+      "toLat": 48.846287,
+      "toLon": 2.354944
+    }
+  ],
+  "Saint-Marcel": [
+    {
+      "station": "Gare d'Austerlitz",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.838539,
+      "fromLon": 2.36064,
+      "toLat": 48.842396,
+      "toLon": 2.365443
+    },
+    {
+      "station": "Campo-Formio",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.838539,
+      "fromLon": 2.36064,
+      "toLat": 48.835594,
+      "toLon": 2.358469
+    }
+  ],
+  "Campo-Formio": [
+    {
+      "station": "Saint-Marcel",
+      "line": "5",
+      "time": 1,
+      "fromLat": 48.835594,
+      "fromLon": 2.358469,
+      "toLat": 48.838539,
+      "toLon": 2.36064
+    },
+    {
+      "station": "Place d'Italie",
+      "line": "5",
+      "time": 1.6,
+      "fromLat": 48.835594,
+      "fromLon": 2.358469,
+      "toLat": 48.830967,
+      "toLon": 2.355502
+    }
+  ],
+  "Rambuteau": [
+    {
+      "station": "Hôtel de Ville",
+      "line": "11",
+      "time": 1.3,
+      "fromLat": 48.861191,
+      "fromLon": 2.353274,
+      "toLat": 48.857574,
+      "toLon": 2.351547
+    },
+    {
+      "station": "Arts et Métiers",
+      "line": "11",
+      "time": 1,
+      "fromLat": 48.861191,
+      "fromLon": 2.353274,
+      "toLat": 48.865299,
+      "toLon": 2.356508
+    }
+  ],
+  "Goncourt": [
+    {
+      "station": "République",
+      "line": "11",
+      "time": 1.3,
+      "fromLat": 48.869938,
+      "fromLon": 2.371079,
+      "toLat": 48.867886,
+      "toLon": 2.36488
+    },
+    {
+      "station": "Belleville",
+      "line": "11",
+      "time": 1,
+      "fromLat": 48.869938,
+      "fromLon": 2.371079,
+      "toLat": 48.87191,
+      "toLon": 2.376754
+    }
+  ],
+  "Pyrénées": [
+    {
+      "station": "Belleville",
+      "line": "11",
+      "time": 1,
+      "fromLat": 48.873814,
+      "fromLon": 2.384884,
+      "toLat": 48.87191,
+      "toLon": 2.376754
+    },
+    {
+      "station": "Jourdain",
+      "line": "11",
+      "time": 1.3,
+      "fromLat": 48.873814,
+      "fromLon": 2.384884,
+      "toLat": 48.875248,
+      "toLon": 2.389325
+    }
+  ],
+  "Jourdain": [
+    {
+      "station": "Pyrénées",
+      "line": "11",
+      "time": 1.3,
+      "fromLat": 48.875248,
+      "fromLon": 2.389325,
+      "toLat": 48.873814,
+      "toLon": 2.384884
+    },
+    {
+      "station": "Place des Fêtes",
+      "line": "11",
+      "time": 1.3,
+      "fromLat": 48.875248,
+      "fromLon": 2.389325,
+      "toLat": 48.876724,
+      "toLon": 2.393139
+    }
+  ],
+  "Télégraphe": [
+    {
+      "station": "Place des Fêtes",
+      "line": "11",
+      "time": 1,
+      "fromLat": 48.875519,
+      "fromLon": 2.398675,
+      "toLat": 48.876724,
+      "toLon": 2.393139
+    },
+    {
+      "station": "Porte des Lilas",
+      "line": "11",
+      "time": 1,
+      "fromLat": 48.875519,
+      "fromLon": 2.398675,
+      "toLat": 48.877232,
+      "toLon": 2.406523
+    }
+  ],
+  "Mairie des Lilas": [
+    {
+      "station": "Porte des Lilas",
+      "line": "11",
+      "time": 1,
+      "fromLat": 48.879658,
+      "fromLon": 2.41635,
+      "toLat": 48.877232,
+      "toLon": 2.406523
+    },
+    {
+      "station": "Serge Gainsbourg",
+      "line": "11",
+      "time": 1,
+      "fromLat": 48.879658,
+      "fromLon": 2.41635,
+      "toLat": 48.881207,
+      "toLon": 2.427163
+    }
+  ],
+  "Serge Gainsbourg": [
+    {
+      "station": "Mairie des Lilas",
+      "line": "11",
+      "time": 1,
+      "fromLat": 48.881207,
+      "fromLon": 2.427163,
+      "toLat": 48.879658,
+      "toLon": 2.41635
+    },
+    {
+      "station": "Romainville - Carnot",
+      "line": "11",
+      "time": 1.3,
+      "fromLat": 48.881207,
+      "fromLon": 2.427163,
+      "toLat": 48.883575,
+      "toLon": 2.440677
+    }
+  ],
+  "Romainville - Carnot": [
+    {
+      "station": "Serge Gainsbourg",
+      "line": "11",
+      "time": 1.3,
+      "fromLat": 48.883575,
+      "fromLon": 2.440677,
+      "toLat": 48.881207,
+      "toLon": 2.427163
+    },
+    {
+      "station": "Montreuil - Hôpital",
+      "line": "11",
+      "time": 1.5,
+      "fromLat": 48.883575,
+      "fromLon": 2.440677,
+      "toLat": 48.878269,
+      "toLon": 2.454669
+    }
+  ],
+  "Montreuil - Hôpital": [
+    {
+      "station": "Romainville - Carnot",
+      "line": "11",
+      "time": 1.5,
+      "fromLat": 48.878269,
+      "fromLon": 2.454669,
+      "toLat": 48.883575,
+      "toLon": 2.440677
+    },
+    {
+      "station": "La Dhuys",
+      "line": "11",
+      "time": 1.3,
+      "fromLat": 48.878269,
+      "fromLon": 2.454669,
+      "toLat": 48.877773,
+      "toLon": 2.465969
+    }
+  ],
+  "La Dhuys": [
+    {
+      "station": "Montreuil - Hôpital",
+      "line": "11",
+      "time": 1.3,
+      "fromLat": 48.877773,
+      "fromLon": 2.465969,
+      "toLat": 48.878269,
+      "toLon": 2.454669
+    },
+    {
+      "station": "Coteaux Beauclair",
+      "line": "11",
+      "time": 1,
+      "fromLat": 48.877773,
+      "fromLon": 2.465969,
+      "toLat": 48.882088,
+      "toLon": 2.467433
+    }
+  ],
+  "Coteaux Beauclair": [
+    {
+      "station": "La Dhuys",
+      "line": "11",
+      "time": 1,
+      "fromLat": 48.882088,
+      "fromLon": 2.467433,
+      "toLat": 48.877773,
+      "toLon": 2.465969
+    },
+    {
+      "station": "Rosny-Bois-Perrier",
+      "line": "11",
+      "time": 1.5,
+      "fromLat": 48.882088,
+      "fromLon": 2.467433,
+      "toLat": 48.883026,
+      "toLon": 2.48061
+    }
+  ],
+  "Rosny-Bois-Perrier": [
+    {
+      "station": "Coteaux Beauclair",
+      "line": "11",
+      "time": 1.5,
+      "fromLat": 48.883026,
+      "fromLon": 2.48061,
+      "toLat": 48.882088,
+      "toLon": 2.467433
+    }
+  ],
+  "Cardinal Lemoine": [
+    {
+      "station": "Jussieu",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.846699,
+      "fromLon": 2.351328,
+      "toLat": 48.846287,
+      "toLon": 2.354944
+    },
+    {
+      "station": "Maubert - Mutualité",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.846699,
+      "fromLon": 2.351328,
+      "toLat": 48.850197,
+      "toLon": 2.34828
+    }
+  ],
+  "Maubert - Mutualité": [
+    {
+      "station": "Cardinal Lemoine",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.850197,
+      "fromLon": 2.34828,
+      "toLat": 48.846699,
+      "toLon": 2.351328
+    },
+    {
+      "station": "Cluny - La Sorbonne",
+      "line": "10",
+      "time": 1.3,
+      "fromLat": 48.850197,
+      "fromLon": 2.34828,
+      "toLat": 48.851028,
+      "toLon": 2.344896
+    }
+  ],
+  "Cluny - La Sorbonne": [
+    {
+      "station": "Maubert - Mutualité",
+      "line": "10",
+      "time": 1.3,
+      "fromLat": 48.851028,
+      "fromLon": 2.344896,
+      "toLat": 48.850197,
+      "toLon": 2.34828
+    },
+    {
+      "station": "Odéon",
+      "line": "10",
+      "time": 1.3,
+      "fromLat": 48.851028,
+      "fromLon": 2.344896,
+      "toLat": 48.852024,
+      "toLon": 2.340692
+    }
+  ],
+  "Mabillon": [
+    {
+      "station": "Odéon",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.852959,
+      "fromLon": 2.335087,
+      "toLat": 48.852024,
+      "toLon": 2.340692
+    },
+    {
+      "station": "Sèvres - Babylone",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.852959,
+      "fromLon": 2.335087,
+      "toLat": 48.851124,
+      "toLon": 2.326149
+    }
+  ],
+  "Vaneau": [
+    {
+      "station": "Sèvres - Babylone",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.848896,
+      "fromLon": 2.321351,
+      "toLat": 48.851124,
+      "toLon": 2.326149
+    },
+    {
+      "station": "Duroc",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.848896,
+      "fromLon": 2.321351,
+      "toLat": 48.846756,
+      "toLon": 2.316225
+    }
+  ],
+  "Duroc": [
+    {
+      "station": "Vaneau",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.846756,
+      "fromLon": 2.316225,
+      "toLat": 48.848896,
+      "toLon": 2.321351
+    },
+    {
+      "station": "Ségur",
+      "line": "10",
+      "time": 1.3,
+      "fromLat": 48.846756,
+      "fromLon": 2.316225,
+      "toLat": 48.847225,
+      "toLon": 2.307252
+    },
+    {
+      "station": "Montparnasse Bienvenue",
+      "line": "13",
+      "time": 1.3,
+      "fromLat": 48.847843,
+      "fromLon": 2.316061,
+      "toLat": 48.842136,
+      "toLon": 2.32115
+    },
+    {
+      "station": "Saint-François-Xavier",
+      "line": "13",
+      "time": 1,
+      "fromLat": 48.847843,
+      "fromLon": 2.316061,
+      "toLat": 48.851936,
+      "toLon": 2.314508
+    }
+  ],
+  "Ségur": [
+    {
+      "station": "Duroc",
+      "line": "10",
+      "time": 1.3,
+      "fromLat": 48.847225,
+      "fromLon": 2.307252,
+      "toLat": 48.846756,
+      "toLon": 2.316225
+    },
+    {
+      "station": "La Motte-Picquet - Grenelle",
+      "line": "10",
+      "time": 1.5,
+      "fromLat": 48.847225,
+      "fromLon": 2.307252,
+      "toLat": 48.849632,
+      "toLon": 2.298526
+    }
+  ],
+  "Avenue Émile Zola": [
+    {
+      "station": "La Motte-Picquet - Grenelle",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.847038,
+      "fromLon": 2.295019,
+      "toLat": 48.849632,
+      "toLon": 2.298526
+    },
+    {
+      "station": "Charles Michels",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.847038,
+      "fromLon": 2.295019,
+      "toLat": 48.846603,
+      "toLon": 2.285621
+    }
+  ],
+  "Charles Michels": [
+    {
+      "station": "Avenue Émile Zola",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.846603,
+      "fromLon": 2.285621,
+      "toLat": 48.847038,
+      "toLon": 2.295019
+    },
+    {
+      "station": "Javel - André Citroën",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.846603,
+      "fromLon": 2.285621,
+      "toLat": 48.84618,
+      "toLon": 2.278009
+    }
+  ],
+  "Javel - André Citroën": [
+    {
+      "station": "Charles Michels",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.84618,
+      "fromLon": 2.278009,
+      "toLat": 48.846603,
+      "toLon": 2.285621
+    },
+    {
+      "station": "Église d'Auteuil",
+      "line": "10",
+      "time": 1.7,
+      "fromLat": 48.84618,
+      "fromLon": 2.278009,
+      "toLat": 48.847145,
+      "toLon": 2.269111
+    },
+    {
+      "station": "Mirabeau",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.846088,
+      "fromLon": 2.278044,
+      "toLat": 48.847076,
+      "toLon": 2.273064
+    }
+  ],
+  "Église d'Auteuil": [
+    {
+      "station": "Javel - André Citroën",
+      "line": "10",
+      "time": 1.7,
+      "fromLat": 48.847145,
+      "fromLon": 2.269111,
+      "toLat": 48.84618,
+      "toLon": 2.278009
+    },
+    {
+      "station": "Michel-Ange - Auteuil",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.847145,
+      "fromLon": 2.269111,
+      "toLat": 48.847977,
+      "toLon": 2.263989
+    }
+  ],
+  "Porte d'Auteuil": [
+    {
+      "station": "Michel-Ange - Auteuil",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.848129,
+      "fromLon": 2.258264,
+      "toLat": 48.847977,
+      "toLon": 2.263989
+    },
+    {
+      "station": "Boulogne Jean Jaurès",
+      "line": "10",
+      "time": 2,
+      "fromLat": 48.848129,
+      "fromLon": 2.258264,
+      "toLat": 48.842064,
+      "toLon": 2.239043
+    },
+    {
+      "station": "Michel-Ange - Molitor",
+      "line": "10",
+      "time": 2,
+      "fromLat": 48.847904,
+      "fromLon": 2.258281,
+      "toLat": 48.845158,
+      "toLon": 2.261822
+    }
+  ],
+  "Boulogne Jean Jaurès": [
+    {
+      "station": "Porte d'Auteuil",
+      "line": "10",
+      "time": 2,
+      "fromLat": 48.842064,
+      "fromLon": 2.239043,
+      "toLat": 48.848129,
+      "toLon": 2.258264
+    },
+    {
+      "station": "Boulogne Pont de Saint-Cloud",
+      "line": "10",
+      "time": 1.6,
+      "fromLat": 48.842064,
+      "fromLon": 2.239043,
+      "toLat": 48.840672,
+      "toLon": 2.228312
+    },
+    {
+      "station": "Michel-Ange - Molitor",
+      "line": "10",
+      "time": 2,
+      "fromLat": 48.841991,
+      "fromLon": 2.239078,
+      "toLat": 48.845158,
+      "toLon": 2.261822
+    }
+  ],
+  "Boulogne Pont de Saint-Cloud": [
+    {
+      "station": "Boulogne Jean Jaurès",
+      "line": "10",
+      "time": 1.6,
+      "fromLat": 48.840672,
+      "fromLon": 2.228312,
+      "toLat": 48.842064,
+      "toLon": 2.239043
+    }
+  ],
+  "Chardon-Lagache": [
+    {
+      "station": "Michel-Ange - Molitor",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.845089,
+      "fromLon": 2.266906,
+      "toLat": 48.845158,
+      "toLon": 2.261822
+    },
+    {
+      "station": "Mirabeau",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.845089,
+      "fromLon": 2.266906,
+      "toLat": 48.847076,
+      "toLon": 2.273064
+    }
+  ],
+  "Mirabeau": [
+    {
+      "station": "Chardon-Lagache",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.847076,
+      "fromLon": 2.273064,
+      "toLat": 48.845089,
+      "toLon": 2.266906
+    },
+    {
+      "station": "Javel - André Citroën",
+      "line": "10",
+      "time": 1,
+      "fromLat": 48.847076,
+      "fromLon": 2.273064,
+      "toLat": 48.846088,
+      "toLon": 2.278044
+    }
+  ],
+  "Kléber": [
+    {
+      "station": "Boissière",
+      "line": "6",
+      "time": 1.3,
+      "fromLat": 48.87149,
+      "fromLon": 2.293146,
+      "toLat": 48.866848,
+      "toLon": 2.290033
+    },
+    {
+      "station": "Charles de Gaulle - Étoile",
+      "line": "6",
+      "time": 1.6,
+      "fromLat": 48.87149,
+      "fromLon": 2.293146,
+      "toLat": 48.87384,
+      "toLon": 2.294996
+    }
+  ],
+  "Boissière": [
+    {
+      "station": "Kléber",
+      "line": "6",
+      "time": 1.3,
+      "fromLat": 48.866848,
+      "fromLon": 2.290033,
+      "toLat": 48.87149,
+      "toLon": 2.293146
+    },
+    {
+      "station": "Trocadéro",
+      "line": "6",
+      "time": 1.3,
+      "fromLat": 48.866848,
+      "fromLon": 2.290033,
+      "toLat": 48.863487,
+      "toLon": 2.287493
+    }
+  ],
+  "Passy": [
+    {
+      "station": "Trocadéro",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.857533,
+      "fromLon": 2.28558,
+      "toLat": 48.863487,
+      "toLon": 2.287493
+    },
+    {
+      "station": "Bir-Hakeim",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.857533,
+      "fromLon": 2.28558,
+      "toLat": 48.853886,
+      "toLon": 2.289296
+    }
+  ],
+  "Bir-Hakeim": [
+    {
+      "station": "Passy",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.853886,
+      "fromLon": 2.289296,
+      "toLat": 48.857533,
+      "toLon": 2.28558
+    },
+    {
+      "station": "Dupleix",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.853886,
+      "fromLon": 2.289296,
+      "toLat": 48.850384,
+      "toLon": 2.293637
+    }
+  ],
+  "Dupleix": [
+    {
+      "station": "Bir-Hakeim",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.850384,
+      "fromLon": 2.293637,
+      "toLat": 48.853886,
+      "toLon": 2.289296
+    },
+    {
+      "station": "La Motte-Picquet - Grenelle",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.850384,
+      "fromLon": 2.293637,
+      "toLat": 48.848698,
+      "toLon": 2.298906
+    }
+  ],
+  "Cambronne": [
+    {
+      "station": "La Motte-Picquet - Grenelle",
+      "line": "6",
+      "time": 1.4,
+      "fromLat": 48.847492,
+      "fromLon": 2.302899,
+      "toLat": 48.848698,
+      "toLon": 2.298906
+    },
+    {
+      "station": "Sèvres-Lecourbe",
+      "line": "6",
+      "time": 1.3,
+      "fromLat": 48.847492,
+      "fromLon": 2.302899,
+      "toLat": 48.845585,
+      "toLon": 2.309468
+    }
+  ],
+  "Sèvres-Lecourbe": [
+    {
+      "station": "Cambronne",
+      "line": "6",
+      "time": 1.3,
+      "fromLat": 48.845585,
+      "fromLon": 2.309468,
+      "toLat": 48.847492,
+      "toLon": 2.302899
+    },
+    {
+      "station": "Pasteur",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.845585,
+      "fromLon": 2.309468,
+      "toLat": 48.842484,
+      "toLon": 2.312793
+    }
+  ],
+  "Edgar Quinet": [
+    {
+      "station": "Montparnasse Bienvenue",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.840904,
+      "fromLon": 2.325287,
+      "toLat": 48.842056,
+      "toLon": 2.321273
+    },
+    {
+      "station": "Raspail",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.840904,
+      "fromLon": 2.325287,
+      "toLat": 48.839066,
+      "toLon": 2.330415
+    }
+  ],
+  "Saint-Jacques": [
+    {
+      "station": "Denfert-Rochereau",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.832859,
+      "fromLon": 2.337096,
+      "toLat": 48.834251,
+      "toLon": 2.332804
+    },
+    {
+      "station": "Glacière",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.832859,
+      "fromLon": 2.337096,
+      "toLat": 48.831116,
+      "toLon": 2.343438
+    }
+  ],
+  "Glacière": [
+    {
+      "station": "Saint-Jacques",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.831116,
+      "fromLon": 2.343438,
+      "toLat": 48.832859,
+      "toLon": 2.337096
+    },
+    {
+      "station": "Corvisart",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.831116,
+      "fromLon": 2.343438,
+      "toLat": 48.829861,
+      "toLon": 2.350611
+    }
+  ],
+  "Corvisart": [
+    {
+      "station": "Glacière",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.829861,
+      "fromLon": 2.350611,
+      "toLat": 48.831116,
+      "toLon": 2.343438
+    },
+    {
+      "station": "Place d'Italie",
+      "line": "6",
+      "time": 1.3,
+      "fromLat": 48.829861,
+      "fromLon": 2.350611,
+      "toLat": 48.830914,
+      "toLon": 2.356102
+    }
+  ],
+  "Nationale": [
+    {
+      "station": "Place d'Italie",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.833183,
+      "fromLon": 2.362858,
+      "toLat": 48.830914,
+      "toLon": 2.356102
+    },
+    {
+      "station": "Chevaleret",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.833183,
+      "fromLon": 2.362858,
+      "toLat": 48.834946,
+      "toLon": 2.368095
+    }
+  ],
+  "Chevaleret": [
+    {
+      "station": "Nationale",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.834946,
+      "fromLon": 2.368095,
+      "toLat": 48.833183,
+      "toLon": 2.362858
+    },
+    {
+      "station": "Quai de la Gare",
+      "line": "6",
+      "time": 1.3,
+      "fromLat": 48.834946,
+      "fromLon": 2.368095,
+      "toLat": 48.837002,
+      "toLon": 2.372825
+    }
+  ],
+  "Quai de la Gare": [
+    {
+      "station": "Chevaleret",
+      "line": "6",
+      "time": 1.3,
+      "fromLat": 48.837002,
+      "fromLon": 2.372825,
+      "toLat": 48.834946,
+      "toLon": 2.368095
+    },
+    {
+      "station": "Bercy",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.837002,
+      "fromLon": 2.372825,
+      "toLat": 48.840176,
+      "toLon": 2.379463
+    }
+  ],
+  "Dugommier": [
+    {
+      "station": "Bercy",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.838951,
+      "fromLon": 2.389601,
+      "toLat": 48.840176,
+      "toLon": 2.379463
+    },
+    {
+      "station": "Daumesnil",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.838951,
+      "fromLon": 2.389601,
+      "toLat": 48.839436,
+      "toLon": 2.396149
+    }
+  ],
+  "Bel-Air": [
+    {
+      "station": "Daumesnil",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.841427,
+      "fromLon": 2.400867,
+      "toLat": 48.839436,
+      "toLon": 2.396149
+    },
+    {
+      "station": "Picpus",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.841427,
+      "fromLon": 2.400867,
+      "toLat": 48.845104,
+      "toLon": 2.401274
+    }
+  ],
+  "Picpus": [
+    {
+      "station": "Bel-Air",
+      "line": "6",
+      "time": 1,
+      "fromLat": 48.845104,
+      "fromLon": 2.401274,
+      "toLat": 48.841427,
+      "toLon": 2.400867
+    },
+    {
+      "station": "Nation",
+      "line": "6",
+      "time": 2,
+      "fromLat": 48.845104,
+      "fromLon": 2.401274,
+      "toLat": 48.847889,
+      "toLon": 2.395788
+    }
+  ],
+  "Châtillon - Montrouge": [
+    {
+      "station": "Malakoff - Rue Étienne Dolet",
+      "line": "13",
+      "time": 1,
+      "fromLat": 48.810814,
+      "fromLon": 2.30188,
+      "toLat": 48.815338,
+      "toLon": 2.297124
+    }
+  ],
+  "Malakoff - Rue Étienne Dolet": [
+    {
+      "station": "Châtillon - Montrouge",
+      "line": "13",
+      "time": 1,
+      "fromLat": 48.815338,
+      "fromLon": 2.297124,
+      "toLat": 48.810814,
+      "toLon": 2.30188
+    },
+    {
+      "station": "Malakoff - Plateau de Vanves",
+      "line": "13",
+      "time": 1.6,
+      "fromLat": 48.815338,
+      "fromLon": 2.297124,
+      "toLat": 48.82225,
+      "toLon": 2.29824
+    }
+  ],
+  "Malakoff - Plateau de Vanves": [
+    {
+      "station": "Malakoff - Rue Étienne Dolet",
+      "line": "13",
+      "time": 1.6,
+      "fromLat": 48.82225,
+      "fromLon": 2.29824,
+      "toLat": 48.815338,
+      "toLon": 2.297124
+    },
+    {
+      "station": "Porte de Vanves",
+      "line": "13",
+      "time": 1.3,
+      "fromLat": 48.82225,
+      "fromLon": 2.29824,
+      "toLat": 48.827347,
+      "toLon": 2.304833
+    }
+  ],
+  "Porte de Vanves": [
+    {
+      "station": "Malakoff - Plateau de Vanves",
+      "line": "13",
+      "time": 1.3,
+      "fromLat": 48.827347,
+      "fromLon": 2.304833,
+      "toLat": 48.82225,
+      "toLon": 2.29824
+    },
+    {
+      "station": "Plaisance",
+      "line": "13",
+      "time": 1.3,
+      "fromLat": 48.827347,
+      "fromLon": 2.304833,
+      "toLat": 48.831715,
+      "toLon": 2.313997
+    }
+  ],
+  "Plaisance": [
+    {
+      "station": "Porte de Vanves",
+      "line": "13",
+      "time": 1.3,
+      "fromLat": 48.831715,
+      "fromLon": 2.313997,
+      "toLat": 48.827347,
+      "toLon": 2.304833
+    },
+    {
+      "station": "Pernety",
+      "line": "13",
+      "time": 1,
+      "fromLat": 48.831715,
+      "fromLon": 2.313997,
+      "toLat": 48.833832,
+      "toLon": 2.318015
+    }
+  ],
+  "Pernety": [
+    {
+      "station": "Plaisance",
+      "line": "13",
+      "time": 1,
+      "fromLat": 48.833832,
+      "fromLon": 2.318015,
+      "toLat": 48.831715,
+      "toLon": 2.313997
+    },
+    {
+      "station": "Gaîté",
+      "line": "13",
+      "time": 1.4,
+      "fromLat": 48.833832,
+      "fromLon": 2.318015,
+      "toLat": 48.838779,
+      "toLon": 2.322529
+    }
+  ],
+  "Gaîté": [
+    {
+      "station": "Pernety",
+      "line": "13",
+      "time": 1.4,
+      "fromLat": 48.838779,
+      "fromLon": 2.322529,
+      "toLat": 48.833832,
+      "toLon": 2.318015
+    },
+    {
+      "station": "Montparnasse Bienvenue",
+      "line": "13",
+      "time": 1,
+      "fromLat": 48.838779,
+      "fromLon": 2.322529,
+      "toLat": 48.842136,
+      "toLon": 2.32115
+    }
+  ],
+  "Saint-François-Xavier": [
+    {
+      "station": "Duroc",
+      "line": "13",
+      "time": 1,
+      "fromLat": 48.851936,
+      "fromLon": 2.314508,
+      "toLat": 48.847843,
+      "toLon": 2.316061
+    },
+    {
+      "station": "Varenne",
+      "line": "13",
+      "time": 1,
+      "fromLat": 48.851936,
+      "fromLon": 2.314508,
+      "toLat": 48.856392,
+      "toLon": 2.315076
+    }
+  ],
+  "Varenne": [
+    {
+      "station": "Saint-François-Xavier",
+      "line": "13",
+      "time": 1,
+      "fromLat": 48.856392,
+      "fromLon": 2.315076,
+      "toLat": 48.851936,
+      "toLon": 2.314508
+    },
+    {
+      "station": "Invalides",
+      "line": "13",
+      "time": 1,
+      "fromLat": 48.856392,
+      "fromLon": 2.315076,
+      "toLat": 48.859985,
+      "toLon": 2.314361
+    }
+  ],
+  "Liège": [
+    {
+      "station": "Saint-Lazare",
+      "line": "13",
+      "time": 1.4,
+      "fromLat": 48.879177,
+      "fromLon": 2.327048,
+      "toLat": 48.875259,
+      "toLon": 2.324631
+    },
+    {
+      "station": "Place de Clichy",
+      "line": "13",
+      "time": 1,
+      "fromLat": 48.879177,
+      "fromLon": 2.327048,
+      "toLat": 48.883232,
+      "toLon": 2.327309
+    }
+  ],
+  "La Fourche": [
+    {
+      "station": "Place de Clichy",
+      "line": "13",
+      "time": 1,
+      "fromLat": 48.88694,
+      "fromLon": 2.325912,
+      "toLat": 48.883232,
+      "toLon": 2.327309
+    },
+    {
+      "station": "Guy Môquet",
+      "line": "13",
+      "time": 1.3,
+      "fromLat": 48.88694,
+      "fromLon": 2.325912,
+      "toLat": 48.893036,
+      "toLon": 2.327551
+    },
+    {
+      "station": "Brochant",
+      "line": "13",
+      "time": 1.4,
+      "fromLat": 48.88694,
+      "fromLon": 2.325912,
+      "toLat": 48.890621,
+      "toLon": 2.32019
+    }
+  ],
+  "Guy Môquet": [
+    {
+      "station": "La Fourche",
+      "line": "13",
+      "time": 1.3,
+      "fromLat": 48.893036,
+      "fromLon": 2.327551,
+      "toLat": 48.88694,
+      "toLon": 2.325912
+    },
+    {
+      "station": "Porte de Saint-Ouen",
+      "line": "13",
+      "time": 1,
+      "fromLat": 48.893036,
+      "fromLon": 2.327551,
+      "toLat": 48.897499,
+      "toLon": 2.329048
+    }
+  ],
+  "Porte de Saint-Ouen": [
+    {
+      "station": "Guy Môquet",
+      "line": "13",
+      "time": 1,
+      "fromLat": 48.897499,
+      "fromLon": 2.329048,
+      "toLat": 48.893036,
+      "toLon": 2.327551
+    },
+    {
+      "station": "Garibaldi",
+      "line": "13",
+      "time": 1.6,
+      "fromLat": 48.897499,
+      "fromLon": 2.329048,
+      "toLat": 48.905247,
+      "toLon": 2.331595
+    }
+  ],
+  "Garibaldi": [
+    {
+      "station": "Porte de Saint-Ouen",
+      "line": "13",
+      "time": 1.6,
+      "fromLat": 48.905247,
+      "fromLon": 2.331595,
+      "toLat": 48.897499,
+      "toLon": 2.329048
+    },
+    {
+      "station": "Mairie de Saint-Ouen",
+      "line": "13",
+      "time": 1.4,
+      "fromLat": 48.905247,
+      "fromLon": 2.331595,
+      "toLat": 48.911598,
+      "toLon": 2.333792
+    }
+  ],
+  "Carrefour Pleyel": [
+    {
+      "station": "Mairie de Saint-Ouen",
+      "line": "13",
+      "time": 1.6,
+      "fromLat": 48.918976,
+      "fromLon": 2.342622,
+      "toLat": 48.911598,
+      "toLon": 2.333792
+    },
+    {
+      "station": "Saint-Denis - Porte de Paris",
+      "line": "13",
+      "time": 2,
+      "fromLat": 48.918976,
+      "fromLon": 2.342622,
+      "toLat": 48.929924,
+      "toLon": 2.356173
+    }
+  ],
+  "Saint-Denis - Porte de Paris": [
+    {
+      "station": "Carrefour Pleyel",
+      "line": "13",
+      "time": 2,
+      "fromLat": 48.929924,
+      "fromLon": 2.356173,
+      "toLat": 48.918976,
+      "toLon": 2.342622
+    },
+    {
+      "station": "Basilique de Saint-Denis",
+      "line": "13",
+      "time": 1.4,
+      "fromLat": 48.929924,
+      "fromLon": 2.356173,
+      "toLat": 48.936577,
+      "toLon": 2.359326
+    }
+  ],
+  "Basilique de Saint-Denis": [
+    {
+      "station": "Saint-Denis - Porte de Paris",
+      "line": "13",
+      "time": 1.4,
+      "fromLat": 48.936577,
+      "fromLon": 2.359326,
+      "toLat": 48.929924,
+      "toLon": 2.356173
+    },
+    {
+      "station": "Saint-Denis - Université",
+      "line": "13",
+      "time": 1.7,
+      "fromLat": 48.936577,
+      "fromLon": 2.359326,
+      "toLat": 48.945797,
+      "toLon": 2.364591
+    }
+  ],
+  "Saint-Denis - Université": [
+    {
+      "station": "Basilique de Saint-Denis",
+      "line": "13",
+      "time": 1.7,
+      "fromLat": 48.945797,
+      "fromLon": 2.364591,
+      "toLat": 48.936577,
+      "toLon": 2.359326
+    }
+  ],
+  "Brochant": [
+    {
+      "station": "La Fourche",
+      "line": "13",
+      "time": 1.4,
+      "fromLat": 48.890621,
+      "fromLon": 2.32019,
+      "toLat": 48.88694,
+      "toLon": 2.325912
+    },
+    {
+      "station": "Porte de Clichy",
+      "line": "13",
+      "time": 1.3,
+      "fromLat": 48.890621,
+      "fromLon": 2.32019,
+      "toLat": 48.894451,
+      "toLon": 2.31358
+    }
+  ],
+  "Gabriel Péri": [
+    {
+      "station": "Mairie de Clichy",
+      "line": "13",
+      "time": 2.3,
+      "fromLat": 48.916615,
+      "fromLon": 2.29443,
+      "toLat": 48.903973,
+      "toLon": 2.305351
+    },
+    {
+      "station": "Les Agnettes",
+      "line": "13",
+      "time": 1.6,
+      "fromLat": 48.916615,
+      "fromLon": 2.29443,
+      "toLat": 48.923061,
+      "toLon": 2.286359
+    }
+  ],
+  "Asnières - Gennevilliers - Les Courtilles": [
+    {
+      "station": "Les Agnettes",
+      "line": "13",
+      "time": 1.3,
+      "fromLat": 48.930763,
+      "fromLon": 2.28422,
+      "toLat": 48.923061,
+      "toLon": 2.286359
+    }
+  ]
+}
