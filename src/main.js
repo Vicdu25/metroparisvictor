@@ -290,9 +290,6 @@ function render() {
             <span>Départ</span>
             <strong>${start}</strong>
           </div>
-
-          <div class="separator">→</div>
-
           <div class="station">
             <span>Arrivée</span>
             <strong>${end}</strong>
