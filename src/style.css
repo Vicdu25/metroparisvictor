@@ -658,3 +658,56 @@ h1 {
     flex-direction: column;
   }
 }
+/* --- Overlay mobile: fit viewport --- */
+
+.route-overlay {
+  align-items: center;
+  overflow: hidden;
+}
+
+.route-overlay-panel,
+.route-overlay-panel-wide {
+  max-height: calc(100dvh - 24px);
+  overflow-y: auto;
+}
+
+@media (max-width: 700px) {
+  .route-overlay {
+    align-items: stretch;
+    padding: 8px;
+  }
+
+  .route-overlay-panel,
+  .route-overlay-panel-wide {
+    height: calc(100dvh - 16px);
+    max-height: calc(100dvh - 16px);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .route-overlay-header {
+    flex-shrink: 0;
+  }
+
+  .score-animation-row {
+    flex-shrink: 0;
+  }
+
+  .maps-comparison {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  .route-map-box {
+    height: 240px;
+  }
+
+  .next-round-button {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    flex-shrink: 0;
+    margin-top: 12px;
+  }
+}
