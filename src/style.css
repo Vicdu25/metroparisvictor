@@ -792,3 +792,46 @@ h1 {
     margin-top: 16px;
   }
 }
+
+.header {
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.timer {
+  margin-left: 12px;
+}
+
+.separator {
+  display: none !important;
+}
+
+.stations {
+  grid-template-columns: 1fr 1fr !important;
+}
+
+@media (max-width: 700px) {
+  .header {
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+  .header > div:first-child {
+    flex: 1;
+  }
+
+  .timer {
+    margin-left: 10px;
+    flex-shrink: 0;
+  }
+
+  .separator {
+    display: none !important;
+  }
+
+  .stations {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
