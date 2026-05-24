@@ -653,7 +653,7 @@ function calculatePlayerRoute(start, end, playerLines) {
     };
   }
 
-  function calculatePlayerRouteWithWalkingFallback(start, end, playerLines) {
+function calculatePlayerRouteWithWalkingFallback(start, end, playerLines) {
   const strictRoute = calculatePlayerRoute(start, end, playerLines);
 
   if (strictRoute.possible) {
@@ -664,93 +664,7 @@ function calculatePlayerRoute(start, end, playerLines) {
     };
   }
 
-  if (playerLines.length === 0) {
-    return strictRoute;
-  }
-
-  const firstLine = playerLines[0];
-  const lastLine = playerLines[playerLines.length - 1];
-
-  const startFallback = stationServesLine(start, firstLine)
-    ? { station: start, walkingTime: 0 }
-    : findNearestStationOnLine(start, firstLine);
-
-  const endFallback = stationServesLine(end, lastLine)
-    ? { station: end, walkingTime: 0 }
-    : findNearestStationOnLine(end, lastLine);
-
-  if (!startFallback || !endFallback) {
-    return strictRoute;
-  }
-
-  const metroRoute = calculatePlayerRoute(
-    startFallback.station,
-    endFallback.station,
-    playerLines
-  );
-
-  if (!metroRoute.possible) {
-    return strictRoute;
-  }
-
-  const totalWalkingTime =
-    startFallback.walkingTime + endFallback.walkingTime;
-
-  const mapSteps = [];
-
-  if (startFallback.station !== start) {
-    const from = getStationCoordinates(start);
-    const to = getStationCoordinates(startFallback.station);
-
-    if (from && to) {
-      mapSteps.push({
-        line: "walk",
-        fromLat: from.lat,
-        fromLon: from.lon,
-        toLat: to.lat,
-        toLon: to.lon,
-      });
-    }
-  }
-
-  mapSteps.push(...metroRoute.mapSteps);
-
-  if (endFallback.station !== end) {
-    const from = getStationCoordinates(endFallback.station);
-    const to = getStationCoordinates(end);
-
-    if (from && to) {
-      mapSteps.push({
-        line: "walk",
-        fromLat: from.lat,
-        fromLon: from.lon,
-        toLat: to.lat,
-        toLon: to.lon,
-      });
-    }
-  }
-
-  return {
-    possible: true,
-    usedWalkingFallback: true,
-    totalTime: metroRoute.totalTime + totalWalkingTime,
-    rideTime: metroRoute.rideTime,
-    transferTime: metroRoute.transferTime,
-    walkingTime: totalWalkingTime,
-    path: [
-      start,
-      ...(startFallback.station !== start ? [startFallback.station] : []),
-      ...metroRoute.path.slice(1),
-      ...(endFallback.station !== end ? [end] : []),
-    ],
-    lines: [
-      ...(startFallback.station !== start ? ["walk"] : []),
-      ...metroRoute.lines,
-      ...(endFallback.station !== end ? ["walk"] : []),
-    ],
-    transfers: metroRoute.transfers,
-    mapSteps,
-  };
+  return strictRoute;
 }
 
 
