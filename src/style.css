@@ -835,3 +835,178 @@ h1 {
     grid-template-columns: 1fr 1fr !important;
   }
 }
+
+
+/* --- Mobile final layout fixes --- */
+
+@media (max-width: 700px) {
+  .page {
+    padding: 8px;
+  }
+
+  .game-card {
+    padding: 14px;
+    border-radius: 16px;
+  }
+
+  .header {
+    display: grid !important;
+    grid-template-columns: 1fr auto;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .header .eyebrow {
+    display: none;
+  }
+
+  .header h1 {
+    grid-column: 1 / 3;
+    font-size: 17px;
+    line-height: 1.2;
+    margin: 0;
+  }
+
+  .round-indicator {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    font-size: 12px;
+    text-align: right;
+  }
+
+  .timer {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    min-width: auto;
+    width: auto;
+    padding: 6px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+  .stations {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .station {
+    min-height: 78px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .station strong {
+    font-size: 13px;
+    line-height: 1.2;
+  }
+
+  .selection-zone {
+    margin-top: 8px;
+  }
+
+  .selection-zone .section-title {
+    display: none;
+  }
+
+  .empty-selection,
+  .selected-lines {
+    min-height: 52px;
+    padding: 8px;
+  }
+
+  .lines-zone {
+    margin-top: 10px;
+  }
+
+  .actions {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .primary-button,
+  .secondary-button {
+    padding: 12px 14px;
+  }
+
+  .route-overlay {
+    padding: 6px;
+    align-items: stretch;
+    overflow: hidden;
+  }
+
+  .route-overlay-panel,
+  .route-overlay-panel-wide {
+    width: 100%;
+    max-width: 100%;
+    height: calc(100dvh - 12px);
+    max-height: calc(100dvh - 12px);
+    padding: 10px;
+    border-radius: 16px;
+    overflow-y: auto;
+  }
+
+  .route-overlay-header {
+    margin-bottom: 8px;
+    gap: 8px;
+  }
+
+  .route-overlay-header h2 {
+    font-size: 16px;
+  }
+
+  .overlay-score {
+    padding: 8px 10px;
+  }
+
+  .score-animation-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+
+  .score-detail-message {
+    min-height: 34px;
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+
+  .maps-comparison {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .map-card {
+    padding: 8px;
+    border-radius: 14px;
+  }
+
+  .map-card-header {
+    margin-bottom: 6px;
+  }
+
+  .map-card h3 {
+    font-size: 14px;
+  }
+
+  .route-line-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .route-map-box {
+    height: 210px;
+    border-radius: 12px;
+  }
+
+  .next-round-button {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    margin-top: 8px;
+  }
+}
