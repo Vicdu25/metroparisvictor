@@ -1103,33 +1103,6 @@ scoreValue.textContent = `${score.total} / 100`;
 
   scoreMessage.textContent = "Score final";
 }
-function renderRouteLineIcons(lines) {
-  if (!lines || lines.length === 0) {
-    return `<span class="route-lines-empty">Aucune ligne</span>`;
-  }
-
-  return `
-    <div class="route-line-icons">
-      ${lines
-        .map(
-          (line, index) => `
-            <img
-              src="/metro-icons/${getLineIconName(line)}.svg"
-              alt="Ligne ${line}"
-              class="route-line-icon"
-            />
-            ${
-              index < lines.length - 1
-                ? `<span class="route-line-icon-arrow">→</span>`
-                : ""
-            }
-          `
-        )
-        .join("")}
-    </div>
-  `;
-}
-
 function openRouteOverlay(playerRoute, optimalRoute, score, isLastRound) {
   let canCloseOverlay = false;
   let mapsAnimationFinished = false;
