@@ -1005,7 +1005,7 @@ function getLineColor(line) {
     "c": "#F7C600",
     "d": "#008B5A",
     "e": "#C43C95",
-    walk: "#111827",
+    walk: "#475569",
   };
 
   return colors[normalizeLine(line)] || "#111827";
@@ -1099,12 +1099,26 @@ function addTransferMarker(map, point, delay) {
 }
 
 function addLineIconMarker(map, section, delay) {
-  if (!section || !section.points || section.points.length === 0) return;
+  if (
+    !section ||
+    !section.points ||
+    section.points.length === 0
+  ) {
+    return;
+  }
+
+  if (normalizeLine(section.line) === "walk") {
+    return;
+  }
 
   const middleIndex = Math.floor(section.points.length / 2);
   const point = section.points[middleIndex];
 
-  if (!point || !Number.isFinite(point[0]) || !Number.isFinite(point[1])) {
+  if (
+    !point ||
+    !Number.isFinite(point[0]) ||
+    !Number.isFinite(point[1])
+  ) {
     return;
   }
 
@@ -1134,14 +1148,17 @@ function animateSection(map, section, delay) {
   setTimeout(() => {
     let index = 1;
 
-    const polyline = L.polyline([section.points[0]], {
-      color,
-      weight: 11,
-      opacity: 0.95,
-      lineCap: "round",
-      lineJoin: "round",
-      smoothFactor: 2.5,
-    }).addTo(map);
+    const isWalking = normalizeLine(section.line) === "walk";
+
+const polyline = L.polyline([section.points[0]], {
+  color,
+  weight: isWalking ? 5 : 11,
+  opacity: isWalking ? 0.75 : 0.95,
+  lineCap: "round",
+  lineJoin: "round",
+  smoothFactor: 2.5,
+  dashArray: isWalking ? "10 10" : null,
+}).addTo(map);
 
     const interval = setInterval(() => {
       if (index >= section.points.length) {
