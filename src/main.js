@@ -991,22 +991,23 @@ function drawRouteOnMap(map, route, initialDelay = 0, onComplete = null) {
     if (onComplete) onComplete();
     return;
   }
-const routePoints = validSteps.flatMap((step) => [
-  [step.fromLat, step.fromLon],
-  [step.toLat, step.toLon],
-]);
 
-const currentBounds = map.getBounds();
+  const routePoints = validSteps.flatMap((step) => [
+    [step.fromLat, step.fromLon],
+    [step.toLat, step.toLon],
+  ]);
 
-if (!currentBounds.contains(routeBounds)) {
-  const expandedBounds = currentBounds.extend(routeBounds);
+  const routeBounds = L.latLngBounds(routePoints);
+  const currentBounds = map.getBounds();
 
-  map.fitBounds(expandedBounds, {
-    padding: [24, 24],
-    maxZoom: map.getZoom(),
-  });
-}
+  if (!currentBounds.contains(routeBounds)) {
+    const expandedBounds = currentBounds.extend(routeBounds);
 
+    map.fitBounds(expandedBounds, {
+      padding: [24, 24],
+      maxZoom: map.getZoom(),
+    });
+  }
 
   const sections = buildRouteSections(validSteps);
 
