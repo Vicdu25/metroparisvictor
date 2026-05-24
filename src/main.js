@@ -1413,24 +1413,6 @@ function openRouteOverlay(playerRoute, optimalRoute, score, isLastRound) {
   const optimalMap = createRouteMap("optimal-route-map", fixedBounds);
 
   if (playerRoute.possible) {
-    drawRouteOnMap(playerMap, playerRoute, 300, () => {
-      drawRouteOnMap(optimalMap, optimalRoute, 500, () => {
-        mapsAnimationFinished = true;
-        tryUnlockNextButton();
-      });
-    });
-  } else {
-    showImpossibleRoute(playerMap);
-
-    setTimeout(() => {
-      drawRouteOnMap(optimalMap, optimalRoute, 500, () => {
-        mapsAnimationFinished = true;
-        tryUnlockNextButton();
-      });
-    }, 700);
-  }
-
-  if (playerRoute.possible) {
   drawRouteOnMap(playerMap, playerRoute, 300, () => {
     drawRouteOnMap(optimalMap, optimalRoute, 500, () => {
       mapsAnimationFinished = true;
@@ -1564,8 +1546,8 @@ const score = calculateScore(
   const scoreText = `
   <strong>Score :</strong> ${score.total} / 100<br>
   <strong>Détail du score :</strong><br>
-  Base trajet possible : ${score.baseScore} / 50<br>
-  Efficacité du trajet : ${score.efficiencyScore} / 50<br>
+  Qualité du trajet : ${score.routeScore} / 80<br>
+  Temps de réponse : ${score.speedScore} / 20<br>
   ${
     score.gap === null
       ? "Écart avec l'optimal : non applicable"
