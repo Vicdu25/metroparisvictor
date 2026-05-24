@@ -886,6 +886,30 @@ function addTransferMarker(map, point, delay) {
   }, delay);
 }
 
+function addLineIconMarker(map, section, delay) {
+  const middleIndex = Math.floor(section.points.length / 2);
+  const point = section.points[middleIndex];
+
+  setTimeout(() => {
+    const icon = L.divIcon({
+      className: "route-line-map-icon",
+      html: `
+        <img
+          src="/metro-icons/${getLineIconName(section.line)}.svg"
+          alt="Ligne ${section.line}"
+        />
+      `,
+      iconSize: [28, 28],
+      iconAnchor: [14, 14],
+    });
+
+    L.marker(point, {
+      icon,
+      interactive: false,
+    }).addTo(map);
+  }, delay);
+}
+
 function animateSection(map, section, delay) {
   const color = getLineColor(section.line);
 
@@ -1002,19 +1026,22 @@ if (!currentBounds.contains(routeBounds)) {
   let delay = initialDelay;
 
   sections.forEach((section, index) => {
-    animateSection(map, section, delay);
+  animateSection(map, section, delay);
 
-    const sectionDuration = section.points.length * 70 + 450;
-    delay += sectionDuration;
+  const sectionDuration = section.points.length * 70 + 450;
 
-    const nextSection = sections[index + 1];
+  addLineIconMarker(map, section, delay + sectionDuration - 250);
 
-    if (nextSection) {
-      const transferPoint = section.points[section.points.length - 1];
-      addTransferMarker(map, transferPoint, delay);
-      delay += 450;
-    }
-  });
+  delay += sectionDuration;
+
+  const nextSection = sections[index + 1];
+
+  if (nextSection) {
+    const transferPoint = section.points[section.points.length - 1];
+    addTransferMarker(map, transferPoint, delay);
+    delay += 450;
+  }
+});
 
   if (onComplete) {
     setTimeout(onComplete, delay + 300);
@@ -1142,10 +1169,7 @@ function openRouteOverlay(playerRoute, optimalRoute, score, isLastRound) {
       <div class="maps-comparison">
         <div class="map-card">
           <div class="map-card-header">
-  <div>
-    <h3>Ton trajet</h3>
-    ${renderRouteLineIcons(playerRoute.lines)}
-  </div>
+  <h3>Ton trajet</h3>
   <strong>${playerStatus}</strong>
 </div>
           <div id="player-route-map" class="route-map-box"></div>
@@ -1153,10 +1177,7 @@ function openRouteOverlay(playerRoute, optimalRoute, score, isLastRound) {
 
         <div class="map-card">
           <div class="map-card-header">
-  <div>
-    <h3>Trajet optimal</h3>
-    ${renderRouteLineIcons(optimalRoute.lines)}
-  </div>
+  <h3>Trajet optimal</h3>
   <strong>${Math.round(optimalRoute.totalTime)} min</strong>
 </div>
           <div id="optimal-route-map" class="route-map-box"></div>
