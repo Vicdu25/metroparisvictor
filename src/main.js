@@ -966,14 +966,13 @@ const routePoints = validSteps.flatMap((step) => [
   [step.toLat, step.toLon],
 ]);
 
-const routeBounds = L.latLngBounds(routePoints);
-
 const currentBounds = map.getBounds();
-const paddedCurrentBounds = currentBounds.pad(-0.08);
 
-if (!paddedCurrentBounds.contains(routeBounds)) {
-  map.fitBounds(routeBounds, {
-    padding: [32, 32],
+if (!currentBounds.contains(routeBounds)) {
+  const expandedBounds = currentBounds.extend(routeBounds);
+
+  map.fitBounds(expandedBounds, {
+    padding: [24, 24],
     maxZoom: map.getZoom(),
   });
 }
