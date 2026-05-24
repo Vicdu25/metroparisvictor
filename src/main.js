@@ -10,7 +10,8 @@ const ROUND_DURATION = 30;
 const MIN_WAIT_TIME = 1;
 const MAX_WAIT_TIME = 4;
 const DEFAULT_WAIT_TIME = 2;
-
+const WALKING_SPEED_KMH = 4.5;
+const MAX_WALKING_MINUTES = 15;
 let timeLeft = ROUND_DURATION;
 let timerId = null;
 let roundEnded = false;
@@ -532,6 +533,113 @@ function hasExtraOrMissingLines(playerLines, optimalLines) {
   };
 }
 
+function getStationCoordinates(stationName) {
+  const edges = graph[stationName] || [];
+  const edge = edges.find(
+    (edge) =>
+      Number.isFinite(edge.fromLat) &&
+      Number.isFinite(edge.fromLon)
+  );
+
+  if (!edge) return null;
+
+  return {
+    lat: edge.fromLat,
+    lon: edge.fromLon,
+  };
+}
+
+function distanceKm(lat1, lon1, lat2, lon2) {
+  const radius = 6371;
+
+  const dLat = ((lat2 - lat1) * Math.PI) / 180;
+  const dLon = ((lon2 - lon1) * Math.PI) / 180;
+
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos((lat1 * Math.PI) / 180) *
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLon / 2) ** 2;
+
+  return radius * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function walkingMinutesBetweenStations(fromStation, toStation) {
+  const from = getStationCoordinates(fromStation);
+  const to = getStationCoordinates(toStation);
+
+  if (!from || !to) return Infinity;
+
+  const distance = distanceKm(from.lat, from.lon, to.lat, to.lon);
+  return Math.round((distance / WALKING_SPEED_KMH) * 60);
+}
+
+function stationServesLine(station, line) {
+  const cleanLine = normalizeLine(line);
+  return (graph[station] || []).some(
+    (edge) => normalizeLine(edge.line) === cleanLine
+  );
+}
+
+function getStationsForLine(line) {
+  const cleanLine = normalizeLine(line);
+
+  return Object.keys(graph).filter((station) =>
+    stationServesLine(station, cleanLine)
+  );
+}
+
+function findNearestStationOnLine(fromStation, line) {
+  const candidates = getStationsForLine(line);
+
+  let best = null;
+
+  candidates.forEach((candidate) => {
+    const walkingTime = walkingMinutesBetweenStations(fromStation, candidate);
+
+    if (
+      Number.isFinite(walkingTime) &&
+      walkingTime <= MAX_WALKING_MINUTES &&
+      (!best || walkingTime < best.walkingTime)
+    ) {
+      best = {
+        station: candidate,
+        walkingTime,
+      };
+    }
+  });
+
+  return best;
+}
+
+function addWalkingStep(route, fromStation, toStation) {
+  const walkingTime = walkingMinutesBetweenStations(fromStation, toStation);
+
+  if (!Number.isFinite(walkingTime)) return false;
+
+  route.totalTime += walkingTime;
+  route.walkingTime = (route.walkingTime || 0) + walkingTime;
+
+  route.path.push(toStation);
+  route.lines.push("walk");
+
+  const from = getStationCoordinates(fromStation);
+  const to = getStationCoordinates(toStation);
+
+  if (from && to) {
+    route.mapSteps.push({
+      line: "walk",
+      fromLat: from.lat,
+      fromLon: from.lon,
+      toLat: to.lat,
+      toLon: to.lon,
+    });
+  }
+
+  return true;
+}
+
+
 function calculatePlayerRoute(start, end, playerLines) {
   if (playerLines.length === 0) {
     return {
@@ -544,6 +652,107 @@ function calculatePlayerRoute(start, end, playerLines) {
       transfers: [],
     };
   }
+
+  function calculatePlayerRouteWithWalkingFallback(start, end, playerLines) {
+  const strictRoute = calculatePlayerRoute(start, end, playerLines);
+
+  if (strictRoute.possible) {
+    return {
+      ...strictRoute,
+      usedWalkingFallback: false,
+      walkingTime: 0,
+    };
+  }
+
+  if (playerLines.length === 0) {
+    return strictRoute;
+  }
+
+  const firstLine = playerLines[0];
+  const lastLine = playerLines[playerLines.length - 1];
+
+  const startFallback = stationServesLine(start, firstLine)
+    ? { station: start, walkingTime: 0 }
+    : findNearestStationOnLine(start, firstLine);
+
+  const endFallback = stationServesLine(end, lastLine)
+    ? { station: end, walkingTime: 0 }
+    : findNearestStationOnLine(end, lastLine);
+
+  if (!startFallback || !endFallback) {
+    return strictRoute;
+  }
+
+  const metroRoute = calculatePlayerRoute(
+    startFallback.station,
+    endFallback.station,
+    playerLines
+  );
+
+  if (!metroRoute.possible) {
+    return strictRoute;
+  }
+
+  const totalWalkingTime =
+    startFallback.walkingTime + endFallback.walkingTime;
+
+  const mapSteps = [];
+
+  if (startFallback.station !== start) {
+    const from = getStationCoordinates(start);
+    const to = getStationCoordinates(startFallback.station);
+
+    if (from && to) {
+      mapSteps.push({
+        line: "walk",
+        fromLat: from.lat,
+        fromLon: from.lon,
+        toLat: to.lat,
+        toLon: to.lon,
+      });
+    }
+  }
+
+  mapSteps.push(...metroRoute.mapSteps);
+
+  if (endFallback.station !== end) {
+    const from = getStationCoordinates(endFallback.station);
+    const to = getStationCoordinates(end);
+
+    if (from && to) {
+      mapSteps.push({
+        line: "walk",
+        fromLat: from.lat,
+        fromLon: from.lon,
+        toLat: to.lat,
+        toLon: to.lon,
+      });
+    }
+  }
+
+  return {
+    possible: true,
+    usedWalkingFallback: true,
+    totalTime: metroRoute.totalTime + totalWalkingTime,
+    rideTime: metroRoute.rideTime,
+    transferTime: metroRoute.transferTime,
+    walkingTime: totalWalkingTime,
+    path: [
+      start,
+      ...(startFallback.station !== start ? [startFallback.station] : []),
+      ...metroRoute.path.slice(1),
+      ...(endFallback.station !== end ? [end] : []),
+    ],
+    lines: [
+      ...(startFallback.station !== start ? ["walk"] : []),
+      ...metroRoute.lines,
+      ...(endFallback.station !== end ? ["walk"] : []),
+    ],
+    transfers: metroRoute.transfers,
+    mapSteps,
+  };
+}
+
 
   function makeKey(station, lineIndex) {
     return JSON.stringify([station, lineIndex]);
@@ -794,6 +1003,7 @@ function getLineColor(line) {
     "c": "#F7C600",
     "d": "#008B5A",
     "e": "#C43C95",
+    walk: "#111827",
   };
 
   return colors[normalizeLine(line)] || "#111827";
@@ -1297,7 +1507,11 @@ clearInterval(timerId);
   const playerAnswer = selectedLines;
 
   const optimalLines = normalizeLines(optimal.lines);
-  const playerRoute = calculatePlayerRoute(start, end, playerAnswer);
+  const playerRoute = calculatePlayerRouteWithWalkingFallback(
+  start,
+  end,
+  playerAnswer
+);
 
   if (optimal.totalTime === Infinity) {
     document.querySelector("#result").innerHTML =
