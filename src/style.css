@@ -1013,9 +1013,9 @@ h1 {
 .route-line-map-icon {
   width: 28px;
   height: 28px;
-  background: white;
-  border-radius: 999px;
-  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.22);
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1023,9 +1023,10 @@ h1 {
 }
 
 .route-line-map-icon img {
-  width: 24px;
-  height: 24px;
+  width: 26px;
+  height: 26px;
   object-fit: contain;
+  display: block;
 }
 
 @keyframes lineIconPop {
