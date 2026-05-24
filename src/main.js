@@ -961,6 +961,20 @@ function drawRouteOnMap(map, route, initialDelay = 0, onComplete = null) {
     if (onComplete) onComplete();
     return;
   }
+const routePoints = validSteps.flatMap((step) => [
+  [step.fromLat, step.fromLon],
+  [step.toLat, step.toLon],
+]);
+
+const routeBounds = L.latLngBounds(routePoints);
+
+if (!map.getBounds().contains(routeBounds)) {
+  map.fitBounds(routeBounds, {
+    padding: [24, 24],
+    maxZoom: 12,
+  });
+}
+
 
   const sections = buildRouteSections(validSteps);
 
