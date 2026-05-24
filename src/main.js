@@ -887,8 +887,14 @@ function addTransferMarker(map, point, delay) {
 }
 
 function addLineIconMarker(map, section, delay) {
+  if (!section || !section.points || section.points.length === 0) return;
+
   const middleIndex = Math.floor(section.points.length / 2);
   const point = section.points[middleIndex];
+
+  if (!point || !Number.isFinite(point[0]) || !Number.isFinite(point[1])) {
+    return;
+  }
 
   setTimeout(() => {
     const icon = L.divIcon({
