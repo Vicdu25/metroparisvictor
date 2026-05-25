@@ -97,6 +97,7 @@ function formatStationName(station) {
   }
 
   return `${station} (${match[0]}e)`;
+}
 
 function getRandomStation() {
   const stations = Object.keys(graph);
