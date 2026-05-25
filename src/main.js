@@ -113,7 +113,8 @@ function startGame() {
 function startRound() {
   selectedLines = [];
 
-  start = getRandomStation();
+  start = "Père Lachaise";
+
   end = getRandomStation();
 
   while (end === start) {
@@ -1140,7 +1141,7 @@ function addLineIconMarker(map, section, delay) {
       interactive: false,
     }).addTo(map);
   }, delay);
-}
+}s
 
 function animateSection(map, section, delay) {
   const color = getLineColor(section.line);
