@@ -2,6 +2,16 @@ import "./style.css";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import transferTimes from "../public/transferTimes.json";
+import * as turf from "@turf/turf";
+
+let arrondissementGeoJson = null;
+
+fetch("/paris_arrondissements.geojson")
+  .then((res) => res.json())
+  .then((data) => {
+    arrondissementGeoJson = data;
+  });
+
 let graph = {};
 let start;
 let end;
@@ -55,6 +65,33 @@ fetch("/metroGraph.json")
     initGame();
   });
 
+function getStationDistrict(stationName) {
+  if (!arrondissementGeoJson) return null;
+
+  const coords = getStationCoordinates(stationName);
+
+  if (!coords) return null;
+
+  const point = turf.point([coords.lon, coords.lat]);
+
+  for (const feature of arrondissementGeoJson.features) {
+    if (turf.booleanPointInPolygon(point, feature)) {
+      return feature.properties.l_ar;
+    }
+  }
+
+  return null;
+}
+
+function formatStationName(station) {
+  const district = getStationDistrict(station);
+
+  if (!district) {
+    return station;
+  }
+
+  return `${station} (${district}e)`;
+}
 
 function getRandomStation() {
   const stations = Object.keys(graph);
@@ -290,11 +327,11 @@ function render() {
         <div class="stations">
           <div class="station">
             <span>Départ</span>
-            <strong>${start}</strong>
+            <strong>${formatStationName(start)}</strong>
           </div>
           <div class="station">
             <span>Arrivée</span>
-            <strong>${end}</strong>
+            <strong>${formatStationName(end)}</strong>
           </div>
         </div>
 
