@@ -350,18 +350,25 @@ function renderStartScreen() {
         </div>
 
         <div id="easy-start-zone" class="easy-start-zone" style="display:none;">
-          <p class="section-title">Choisis ta station de départ</p>
-          <input
-            id="start-station-input"
-            class="answer-input"
-            type="text"
-            placeholder="Ex : Père Lachaise"
-          />
-          <button id="start-easy-game" class="primary-button start-button">
-            Lancer une partie
-          </button>
-          <p id="start-station-error" class="station-error"></p>
-        </div>
+  <p class="section-title">Choisis ta station de départ</p>
+
+  <div class="station-search">
+    <input
+      id="start-station-input"
+      class="station-search-input"
+      type="text"
+      placeholder="Tape une station..."
+      autocomplete="off"
+    />
+    <div id="station-suggestions" class="station-suggestions"></div>
+  </div>
+
+  <button id="start-easy-game" class="primary-button start-button" disabled>
+    Lancer une partie
+  </button>
+
+  <p id="start-station-error" class="station-error"></p>
+</div>
       </section>
     </main>
   `;
@@ -377,20 +384,70 @@ function renderStartScreen() {
     startGame();
   });
 
-  document.querySelector("#start-easy-game").addEventListener("click", () => {
-    const input = document.querySelector("#start-station-input").value.trim();
-    const matches = findStation(input);
+  let selectedStartStation = null;
 
-    if (!input || matches.length === 0) {
-      document.querySelector("#start-station-error").textContent =
-        "Station introuvable.";
-      return;
-    }
+const input = document.querySelector("#start-station-input");
+const suggestions = document.querySelector("#station-suggestions");
+const startButton = document.querySelector("#start-easy-game");
+const error = document.querySelector("#start-station-error");
 
-    fixedStartStation = matches[0];
-    startGame();
+input.addEventListener("input", () => {
+  const value = input.value.trim().toLowerCase();
+  selectedStartStation = null;
+  startButton.disabled = true;
+  error.textContent = "";
+
+  if (value.length < 2) {
+    suggestions.innerHTML = "";
+    suggestions.style.display = "none";
+    return;
+  }
+
+  const matches = Object.keys(graph)
+    .filter((station) => station.toLowerCase().includes(value))
+    .slice(0, 8);
+
+  if (matches.length === 0) {
+    suggestions.innerHTML = `
+      <div class="station-suggestion-empty">Aucune station trouvée</div>
+    `;
+    suggestions.style.display = "block";
+    return;
+  }
+
+  suggestions.innerHTML = matches
+    .map(
+      (station) => `
+        <button class="station-suggestion" data-station="${station}">
+          ${formatStationName(station)}
+        </button>
+      `
+    )
+    .join("");
+
+  suggestions.style.display = "block";
+
+  document.querySelectorAll(".station-suggestion").forEach((button) => {
+    button.addEventListener("click", () => {
+      selectedStartStation = button.dataset.station;
+      input.value = formatStationName(selectedStartStation);
+      suggestions.innerHTML = "";
+      suggestions.style.display = "none";
+      startButton.disabled = false;
+    });
   });
-}
+});
+
+startButton.addEventListener("click", () => {
+  if (!selectedStartStation) {
+    error.textContent = "Sélectionne une station dans la liste.";
+    return;
+  }
+
+  fixedStartStation = selectedStartStation;
+  startGame();
+});
+  }
 
 function render() {
   document.querySelector("#app").innerHTML = `
