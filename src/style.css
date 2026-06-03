@@ -1040,3 +1040,26 @@ h1 {
     transform: scale(1);
   }
 }
+
+.mode-selection {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin: 24px 0;
+}
+
+.easy-start-zone {
+  margin-top: 20px;
+}
+
+.station-error {
+  color: #dc2626;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+@media (max-width: 700px) {
+  .mode-selection {
+    flex-direction: column;
+  }
+}

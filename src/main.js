@@ -25,7 +25,8 @@ const MAX_WALKING_MINUTES = 15;
 let timeLeft = ROUND_DURATION;
 let timerId = null;
 let roundEnded = false;
-
+let gameMode = null; // "easy" ou "hard"
+let fixedStartStation = null;
 let selectedLines = [];
 
 const TOTAL_ROUNDS = 5;
@@ -156,13 +157,18 @@ function startGame() {
 function startRound() {
   selectedLines = [];
 
-  start = "Père Lachaise";
+  if (gameMode === "easy" && fixedStartStation) {
+    start = fixedStartStation;
+  } else {
+    start = getRandomStation();
+  }
 
   end = getRandomStation();
 
   while (end === start) {
     end = getRandomStation();
   }
+
   startTime = Date.now();
   startTimer();
   render();
@@ -202,17 +208,50 @@ function startTimer() {
 
 function handleTimeout() {
   const optimal = shortestPath(start, end);
+  const playerRoute = {
+    possible: false,
+    totalTime: Infinity,
+    rideTime: 0,
+    transferTime: 0,
+    walkingTime: 0,
+    path: [],
+    lines: selectedLines,
+    transfers: [],
+    mapSteps: [],
+  };
+
+  const score = {
+    total: 0,
+    routeScore: 0,
+    speedScore: 0,
+    gap: null,
+    ratio: null,
+  };
+
   const optimalLines = normalizeLines(optimal.lines);
+
+  roundScores.push({
+    round: currentRound,
+    score: 0,
+    start,
+    end,
+    playerLines: selectedLines.join(" / ") || "Aucune",
+    optimalLines: optimalLines.join(" / "),
+    playerTime: null,
+    optimalTime: optimal.totalTime,
+  });
 
   document.querySelector("#result").innerHTML = `
     <strong>Temps écoulé.</strong><br>
-    <strong>Score :</strong> 0 / 100<br><br>
-
-    <strong>Solution optimale</strong><br>
-    <strong>Temps total optimal :</strong> ${Math.round(optimal.totalTime)} min<br>
-    <strong>Lignes optimales :</strong> ${optimalLines.join(" / ")}<br>
-    <strong>Chemin optimal :</strong> ${optimal.path.join(" → ")}
+    <strong>Score :</strong> 0 / 100
   `;
+
+  openRouteOverlay(
+    playerRoute,
+    optimal,
+    score,
+    currentRound >= TOTAL_ROUNDS
+  );
 }
 
 function addSelectedLine(line) {
@@ -297,20 +336,60 @@ function renderStartScreen() {
   document.querySelector("#app").innerHTML = `
     <main class="page">
       <section class="game-card start-card">
-        <p class="eyebrow">Metro Game TEEEEST</p>
+        <p class="eyebrow">Metro Game</p>
         <h1>5 manches pour trouver les meilleurs trajets</h1>
-        <p class="start-description">
-          Sélectionne les lignes à emprunter dans le bon ordre. Chaque manche est notée sur 100 points.
-        </p>
 
-        <button id="start-game" class="primary-button start-button">
-          Lancer une partie
-        </button>
+        <div class="mode-selection">
+          <button id="easy-mode" class="primary-button">
+            Mode facile
+          </button>
+
+          <button id="hard-mode" class="secondary-button">
+            Mode difficile
+          </button>
+        </div>
+
+        <div id="easy-start-zone" class="easy-start-zone" style="display:none;">
+          <p class="section-title">Choisis ta station de départ</p>
+          <input
+            id="start-station-input"
+            class="answer-input"
+            type="text"
+            placeholder="Ex : Père Lachaise"
+          />
+          <button id="start-easy-game" class="primary-button start-button">
+            Lancer une partie
+          </button>
+          <p id="start-station-error" class="station-error"></p>
+        </div>
       </section>
     </main>
   `;
 
-  document.querySelector("#start-game").addEventListener("click", startGame);
+  document.querySelector("#easy-mode").addEventListener("click", () => {
+    gameMode = "easy";
+    document.querySelector("#easy-start-zone").style.display = "block";
+  });
+
+  document.querySelector("#hard-mode").addEventListener("click", () => {
+    gameMode = "hard";
+    fixedStartStation = null;
+    startGame();
+  });
+
+  document.querySelector("#start-easy-game").addEventListener("click", () => {
+    const input = document.querySelector("#start-station-input").value.trim();
+    const matches = findStation(input);
+
+    if (!input || matches.length === 0) {
+      document.querySelector("#start-station-error").textContent =
+        "Station introuvable.";
+      return;
+    }
+
+    fixedStartStation = matches[0];
+    startGame();
+  });
 }
 
 function render() {
